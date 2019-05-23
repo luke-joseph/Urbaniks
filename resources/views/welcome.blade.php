@@ -62,6 +62,7 @@
                 margin-bottom: 30px;
             }
         </style>
+        <link rel="stylesheet" type="text/css" href="/css/app.css" />
     </head>
     <body>
         <div class="flex-center position-ref full-height">
