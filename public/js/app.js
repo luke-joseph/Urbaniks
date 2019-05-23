@@ -1787,6 +1787,114 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTable.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TimeTable.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      allClasses: {
+        Breakdance: {
+          Monday: [{
+            time: '18:00 - 1920',
+            teacher: 'Paul Joseph',
+            lessonName: 'Breakdance - Elders 16+',
+            difficulty: 'medium',
+            description: 'Old School to the new school acrobatic techniques'
+          }, {
+            time: '17:00 - 1820',
+            teacher: 'Paul Joseph',
+            lessonName: 'Breakdance - Jnrs 11-15',
+            difficulty: 'medium',
+            description: 'Old School to the new school acrobatic techniques'
+          }],
+          Tuesday: [{
+            time: '13:00 - 1420',
+            teacher: 'Pauline Joseph',
+            lessonName: 'Breakdance - Elders 21+',
+            difficulty: 'medium',
+            description: 'Old School to the new school acrobatic techniques'
+          }, {
+            time: '14:00 - 1920',
+            teacher: 'Pauline Joseph',
+            lessonName: 'Breakdance - Elders 40+',
+            difficulty: 'medium',
+            description: 'Old School to the new school acrobatic techniques'
+          }]
+        },
+        HipHop: {
+          Monday: [{
+            time: '18:00 - 1920',
+            teacher: 'Paul Joseph',
+            lessonName: 'Breakdance - Elders 16+',
+            difficulty: 'medium',
+            description: 'Old School to the new school acrobatic techniques'
+          }],
+          Tuesday: [{
+            time: '13:00 - 1420',
+            teacher: 'Pauline Joseph',
+            lessonName: 'Breakdance - Elders 21+',
+            difficulty: 'medium',
+            description: 'Old School to the new school acrobatic techniques'
+          }, {
+            time: '14:00 - 1920',
+            teacher: 'Pauline Joseph',
+            lessonName: 'Breakdance - Elders 40+',
+            difficulty: 'medium',
+            description: 'Old School to the new school acrobatic techniques'
+          }]
+        }
+      },
+      selectedClass: 'Breakdance'
+    };
+  },
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/is-buffer/index.js":
 /*!*****************************************!*\
   !*** ./node_modules/is-buffer/index.js ***!
@@ -22063,6 +22171,128 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "mb-24 mt-16 w-10/12 mx-auto h-128" },
+    [
+      _c(
+        "div",
+        { staticClass: "flex justify-between py-4 px-8 bg-gray-900 rounded" },
+        [
+          _c(
+            "label",
+            { staticClass: "text-white uppercase", attrs: { for: "classes" } },
+            [_vm._v("Choose Class")]
+          ),
+          _vm._v(" "),
+          _c(
+            "select",
+            {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.selectedClass,
+                  expression: "selectedClass"
+                }
+              ],
+              staticClass: "rounded",
+              attrs: { name: "classes" },
+              on: {
+                change: function($event) {
+                  var $$selectedVal = Array.prototype.filter
+                    .call($event.target.options, function(o) {
+                      return o.selected
+                    })
+                    .map(function(o) {
+                      var val = "_value" in o ? o._value : o.value
+                      return val
+                    })
+                  _vm.selectedClass = $event.target.multiple
+                    ? $$selectedVal
+                    : $$selectedVal[0]
+                }
+              }
+            },
+            [
+              _c("option", { attrs: { value: "Breakdance" } }, [
+                _vm._v("Breakdance")
+              ]),
+              _vm._v(" "),
+              _c("option", { attrs: { value: "HipHop" } }, [_vm._v("Hip Hop")]),
+              _vm._v(" "),
+              _c("option", { attrs: { value: "Contempary" } }, [
+                _vm._v("Contempary")
+              ]),
+              _vm._v(" "),
+              _c("option", { attrs: { value: "Ballet" } }, [_vm._v("Ballet")])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _vm._l(_vm.allClasses[_vm.selectedClass], function(value, name, index) {
+        return _c(
+          "div",
+          { staticClass: "flex flex-col border border-orange-600 text-white" },
+          [
+            _c("h3", { staticClass: "px-8 py-4 border-b" }, [
+              _vm._v(_vm._s(name))
+            ]),
+            _vm._v(" "),
+            _vm._l(_vm.allClasses[_vm.selectedClass][name], function(lesson) {
+              return _c("div", { staticClass: "flex border-b py-2" }, [
+                _c("div", { staticClass: "flex flex-col w-1/3 pl-8" }, [
+                  _c("p", { staticClass: "mb-0 py-1" }, [
+                    _vm._v(" " + _vm._s(lesson.time))
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "mb-0 py-1" }, [
+                    _vm._v(" " + _vm._s(lesson.teacher))
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flex flex-col w-2/3" }, [
+                  _c("p", { staticClass: "mb-0 py-1" }, [
+                    _vm._v(" " + _vm._s(lesson.lessonName))
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "mb-0 py-1" }, [
+                    _vm._v(" " + _vm._s(lesson.difficulty))
+                  ])
+                ])
+              ])
+            })
+          ],
+          2
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -34225,6 +34455,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component('time-table', __webpack_require__(/*! ./components/TimeTable.vue */ "./resources/js/components/TimeTable.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -34357,6 +34588,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/TimeTable.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/TimeTable.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TimeTable_vue_vue_type_template_id_303bf2a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true& */ "./resources/js/components/TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true&");
+/* harmony import */ var _TimeTable_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TimeTable.vue?vue&type=script&lang=js& */ "./resources/js/components/TimeTable.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TimeTable_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TimeTable_vue_vue_type_template_id_303bf2a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TimeTable_vue_vue_type_template_id_303bf2a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "303bf2a6",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/TimeTable.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/TimeTable.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/TimeTable.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTable_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./TimeTable.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTable.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTable_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTable_vue_vue_type_template_id_303bf2a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTable_vue_vue_type_template_id_303bf2a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTable_vue_vue_type_template_id_303bf2a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
