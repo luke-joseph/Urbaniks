@@ -8,6 +8,10 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import Lightbox from 'vue-easy-lightbox';
+
+Vue.use(Lightbox);
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -21,6 +25,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('time-table', require('./components/TimeTable.vue').default);
+Vue.component('gallery-component', require('./components/GalleryComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

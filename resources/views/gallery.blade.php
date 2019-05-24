@@ -17,7 +17,9 @@
 
   <div class="flex flex-col w-10/12 mx-auto mt-16 mb-24">
 
-
+    <div id="app">
+      <gallery-component></gallery-component>
+    </div>
 
   </div>
 
