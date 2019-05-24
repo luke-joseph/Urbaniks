@@ -22,3 +22,15 @@ Route::get('/classes', function () {
 Route::get('/merchandise', function () {
     return view('merchandise');
 });
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/registration', function () {
+    return view('registration');
+});
