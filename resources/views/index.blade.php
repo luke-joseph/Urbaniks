@@ -14,8 +14,15 @@
    </div>
   </div>
 
+  <div id="awards-container" class="flex px-3 mt-4">
+    <div class="h-32 bg-blue-200 w-full mx-auto">
+      <p class="text-4xl">Winners Banners with logo's</p>
+    </div>
+
+  </div>
+
   <div class="flex flex-col">
-    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-24 mb-8">What Our Pupils Say</h2>
+    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-8 mb-8">What Our Pupils Say</h2>
 
     <div id="testimonial-container" class="flex w-4/6 mx-auto items-center">
       <div id="testimonial1" class="w-1/2 p-8">

@@ -19,6 +19,33 @@
 
   </div>
 
+  <div class="mb-1">
+
+    <div class="mx-auto relative p-8 w-1/2 bg-grey-100 rounded-b-lg">
+      <form id="subscription-form" action="/contact" method="POST">
+        @csrf
+      <div class="flex flex-wrap items-stretch w-full mb-5 relative">
+        <div class="sm:w-1/2 flex flex-col">
+          <label class="mb-1 pl-1 text-white" for="name">Your Name *</label>
+          <input type="name" name="name" class="mr-4 leading-normal border h-10 border-grey-300 rounded px-3 relative focus:border-blue focus:shadow" placeholder="Name">
+        </div>
+        <div class="sm:w-1/2 flex flex-col mt-6 mb-2 sm:mt-0 sm:mb-0">
+          <label class="mb-1 pl-1 text-white" for="email">Your Email *</label>
+          <input type="email" name="email" class="leading-normal border h-10 border-grey-300 rounded px-3 relative focus:border-blue focus:shadow" placeholder="Email">
+       </div>
+      </div>
+
+      <div class="flex flex-col items-stretch w-full mb-3 relative">
+        <label class="mb-1 pl-1 text-white" for="message">Your Message *</label>
+        <textarea rows="6" cols="50" name="message" class="w-full leading-normal border border-grey-300 rounded p-3 relative focus:border-blue focus:shadow" placeholder="Type your message here..."></textarea>
+      </div>
+
+    <button type="submit" class="py-2 px-4 mt-3 bg-indigo-400 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto">Send Message</button>
+
+  </form>
+  </div>
+</div>
+
   <div class="flex flex-col w-10/12 mx-auto mt-16 mb-24">
 
 
