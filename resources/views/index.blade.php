@@ -15,7 +15,7 @@
   </div>
 
   <div class="flex flex-col">
-    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-8">What Our Pupils Say</h2>
+    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-24 mb-8">What Our Pupils Say</h2>
 
     <div id="testimonial-container" class="flex w-4/6 mx-auto items-center">
       <div id="testimonial1" class="w-1/2 p-8">
@@ -58,7 +58,7 @@
     </p>
   </div>
 
-  <div class="flex flex-col mt-16">
+  <div class="flex flex-col mt-24 mb-24">
     <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">The Original Street Skool Of Dance</h2>
     <div class="flex w-5/6 mx-auto">
 
@@ -77,7 +77,7 @@
     </div>
   </div>
 
-  <div class="flex w-full mt-16 py-8 bg-teal-200 mb-16">
+  <div class="flex w-full mt-24 py-8 bg-teal-200 mb-16">
     <div class="flex m-auto">
 
       <div class="mr-4">

@@ -1830,63 +1830,102 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      selectedClass: 'Breakdance',
       allClasses: {
         Breakdance: {
           Monday: [{
+            index: 0,
             time: '18:00 - 1920',
             teacher: 'Paul Joseph',
+            location: 'Balloch',
+            googleLocation: 'https://google.com',
             lessonName: 'Breakdance - Elders 16+',
-            difficulty: 'medium',
-            description: 'Old School to the new school acrobatic techniques'
+            difficulty: 'Medium',
+            description: 'Old School to the new school acrobatic techniques',
+            price: 5
           }, {
+            index: 1,
             time: '17:00 - 1820',
             teacher: 'Paul Joseph',
+            location: 'Milngavie sports club',
+            googleLocation: 'https://google.com',
             lessonName: 'Breakdance - Jnrs 11-15',
-            difficulty: 'medium',
-            description: 'Old School to the new school acrobatic techniques'
+            difficulty: 'Medium',
+            description: 'Old School to the new school acrobatic techniques',
+            price: 5
           }],
           Tuesday: [{
+            index: 0,
             time: '13:00 - 1420',
             teacher: 'Pauline Joseph',
+            location: 'Milngavie sports club',
+            googleLocation: 'https://google.com',
             lessonName: 'Breakdance - Elders 21+',
-            difficulty: 'medium',
-            description: 'Old School to the new school acrobatic techniques'
+            difficulty: 'Medium',
+            description: 'Old School to the new school acrobatic techniques',
+            price: 5
           }, {
+            index: 1,
             time: '14:00 - 1920',
             teacher: 'Pauline Joseph',
+            location: 'Milngavie sports club',
+            googleLocation: 'https://google.com',
             lessonName: 'Breakdance - Elders 40+',
-            difficulty: 'medium',
-            description: 'Old School to the new school acrobatic techniques'
+            difficulty: 'Medium',
+            description: 'Old School to the new school acrobatic techniques',
+            price: 5
           }]
         },
         HipHop: {
           Monday: [{
+            index: 0,
             time: '18:00 - 1920',
             teacher: 'Paul Joseph',
+            location: 'Milngavie sports club',
+            googleLocation: 'https://google.com',
             lessonName: 'Breakdance - Elders 16+',
-            difficulty: 'medium',
-            description: 'Old School to the new school acrobatic techniques'
+            difficulty: 'Medium',
+            description: 'Old School to the new school acrobatic techniques',
+            price: 5
           }],
           Tuesday: [{
+            index: 0,
             time: '13:00 - 1420',
             teacher: 'Pauline Joseph',
+            location: 'Milngavie sports club',
+            googleLocation: 'https://google.com',
             lessonName: 'Breakdance - Elders 21+',
-            difficulty: 'medium',
-            description: 'Old School to the new school acrobatic techniques'
+            difficulty: 'Medium',
+            description: 'Old School to the new school acrobatic techniques',
+            price: 5
           }, {
+            index: 1,
             time: '14:00 - 1920',
             teacher: 'Pauline Joseph',
+            location: 'Milngavie sports club',
+            googleLocation: 'https://google.com',
             lessonName: 'Breakdance - Elders 40+',
-            difficulty: 'medium',
-            description: 'Old School to the new school acrobatic techniques'
+            difficulty: 'Medium',
+            description: 'Old School to the new school acrobatic techniques',
+            price: 5
           }]
         }
-      },
-      selectedClass: 'Breakdance'
+      }
     };
+  },
+  computed: {},
+  methods: {
+    bgColor: function bgColor(index) {
+      return {
+        'bg-gray-800': index % 2 === 0,
+        'bg-gray-900': index % 2 === 1
+      };
+    }
   },
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -22188,15 +22227,18 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "mb-24 mt-16 w-10/12 mx-auto h-128" },
+    { staticClass: "mb-24 mt-16 w-10/12 mx-auto h-128 rounded-b" },
     [
       _c(
         "div",
-        { staticClass: "flex justify-between py-4 px-8 bg-gray-900 rounded" },
+        { staticClass: "flex justify-between py-4 px-8 bg-gray-900 rounded-t" },
         [
           _c(
             "label",
-            { staticClass: "text-white uppercase", attrs: { for: "classes" } },
+            {
+              staticClass: "text-white uppercase tracking-wider font-bold",
+              attrs: { for: "classes" }
+            },
             [_vm._v("Choose Class")]
           ),
           _vm._v(" "),
@@ -22246,37 +22288,51 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
-      _vm._l(_vm.allClasses[_vm.selectedClass], function(value, name, index) {
+      _vm._l(_vm.allClasses[_vm.selectedClass], function(value, name) {
         return _c(
           "div",
-          { staticClass: "flex flex-col border border-orange-600 text-white" },
+          { staticClass: "flex flex-col text-white" },
           [
-            _c("h3", { staticClass: "px-8 py-4 border-b" }, [
-              _vm._v(_vm._s(name))
-            ]),
+            _c(
+              "h3",
+              { staticClass: "px-8 py-4 bg-gray-600 font-bold tracking-wide" },
+              [_vm._v(_vm._s(name))]
+            ),
             _vm._v(" "),
             _vm._l(_vm.allClasses[_vm.selectedClass][name], function(lesson) {
-              return _c("div", { staticClass: "flex border-b py-2" }, [
-                _c("div", { staticClass: "flex flex-col w-1/3 pl-8" }, [
-                  _c("p", { staticClass: "mb-0 py-1" }, [
-                    _vm._v(" " + _vm._s(lesson.time))
+              return _c(
+                "div",
+                { staticClass: "flex py-2", class: _vm.bgColor(lesson.index) },
+                [
+                  _c("div", { staticClass: "flex flex-col w-1/3 pl-8" }, [
+                    _c("p", { staticClass: "mb-0 py-1" }, [
+                      _vm._v(" " + _vm._s(lesson.time))
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-0 py-1" }, [
+                      _vm._v(" " + _vm._s(lesson.teacher))
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-0 py-1" }, [
+                      _vm._v(" " + _vm._s(lesson.location))
+                    ])
                   ]),
                   _vm._v(" "),
-                  _c("p", { staticClass: "mb-0 py-1" }, [
-                    _vm._v(" " + _vm._s(lesson.teacher))
+                  _c("div", { staticClass: "flex flex-col w-2/3" }, [
+                    _c("p", { staticClass: "mb-0 py-1" }, [
+                      _vm._v(" " + _vm._s(lesson.lessonName))
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-0 py-1" }, [
+                      _vm._v(" " + _vm._s(lesson.difficulty))
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-0 py-1" }, [
+                      _vm._v(" £" + _vm._s(lesson.price))
+                    ])
                   ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "flex flex-col w-2/3" }, [
-                  _c("p", { staticClass: "mb-0 py-1" }, [
-                    _vm._v(" " + _vm._s(lesson.lessonName))
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "mb-0 py-1" }, [
-                    _vm._v(" " + _vm._s(lesson.difficulty))
-                  ])
-                ])
-              ])
+                ]
+              )
             })
           ],
           2

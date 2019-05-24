@@ -18,7 +18,7 @@
       <ul class="flex text-base mb-0 text-white justify-between flex-grow uppercase font-bold">
         <li class="tracking-widest"><a href="/" class="text-gray-100 hover:text-teal-200 hover:no-underline">home</a></li>
         <li class="tracking-widest"><a href="/classes" class="text-gray-100 hover:text-teal-200 hover:no-underline">classes</a></li>
-        <li class="tracking-widest"><a href="#" class="text-gray-100 hover:text-teal-200 hover:no-underline">merchandise</a></li>
+        <li class="tracking-widest"><a href="/merchandise" class="text-gray-100 hover:text-teal-200 hover:no-underline">merchandise</a></li>
         <li class="tracking-widest"><a href="#" class="text-gray-100 hover:text-teal-200 hover:no-underline">gallery</a></li>
         <li class="tracking-widest"><a href="#" class="text-gray-100 hover:text-teal-200 hover:no-underline">contact</a></li>
         <li class="tracking-widest"><a href="#" class="text-gray-100 hover:text-teal-200 hover:no-underline">registration</a></li>

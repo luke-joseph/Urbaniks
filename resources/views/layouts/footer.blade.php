@@ -25,9 +25,9 @@
     <div class="px-2 border? border-white? h-full w-1/4">
       <h4 class="text-white uppercase text-lg">Studio Locations</h4>
       <ul>
-        <li class="text-white mt-4">1 MILGARNVE Street, GLASGOW GL12 345</li>
-        <li class="text-white mt-4">1 Baloch Street, GLASGOW GL67 891</li>
-        <li class="text-white mt-4">1 Center Street, GLASGOW GL1 234</li>
+        <li class="text-white mt-4">Milngavie and Bearsden Sports Club, Auchenhowie Road, Milngavie, GLASGOW G62 6EJ</li>
+        <li class="text-white mt-4">Urbaniks Street Skool of Dance, The Lennox Hall, Main Street, Jamestown, Balloch, G83 8AZ</li>
+        <li class="text-white mt-4">SDTA, 101 Park Road, Glasgow, G4 9JE</li>
       </ul>
     </div>
     <div class="px-2 border? border-white? h-full w-1/4">
@@ -39,10 +39,21 @@
       </ul>
     </div>
  </div>
+
+</div>
+<div class="bg-grey-900 flex">
+  <p class="text-white w-11/12 mx-auto text-xs py-1">copyright 2019</p>
 </div>
 
 
 </div>{{-- end focus area --}}
+
 <script src="/js/app.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  var d = new Date();
+  var n = d.getFullYear();
+
+  document.querySelector('.currentYear').innerHTML = n;
+</script>
 </body>
 </html>

@@ -15,11 +15,11 @@
   </div>
 
   <div class="flex flex-col">
-    <h2 class="text-white uppercase tracking-wide text-center mt-16 mb-8">Here You Can Find Our Timetable</h2>
+    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-8">Here You Can Find Our Timetable</h2>
     <p class="text-center text-white w-4/6 mx-auto text-lg mb-4">
       To join a class you can register online, by calling or by email...
     </p>
-    <p class="text-center text-white w-4/6 mx-auto text-lg border-l-4 border-r-4 border-yellow-400 bg-gray-600 rounded py-2 mb-6">
+    <p class="text-center text-white w-1/2 mx-auto text-lg border-l-4 border-r-4 border-yellow-400 bg-gray-600 rounded py-2 mb-6">
     Our class slots can fill up quickly so please register now to avoid disappointment!
     </p>
 
@@ -30,6 +30,69 @@
 
   <div id="app">
     <time-table></time-table>
+  </div>
+
+  <div class="flex w-10/12 mx-auto mt-16 mb-24">
+
+  <div class="flex flex-col w-1/2">
+    <h2 class="text-3xl uppercase text-white tracking-wide mb-8">Our Calendar</h2>
+    <p class="text-white mx-auto text-lg mb-2">
+      We run classes all year round following the school schedule.
+    </p>
+    <p class="text-white mx-auto text-lg">
+      Please take note of our holiday periods where no classes take place:
+    </p>
+    <div class="flex">
+      <ul class="text-white text-lg mt-8 mb-24 p-8 rounded bg-gray-800">
+        <h4 class="mb-4 uppercase font-bold tracking-wider text-lg">Holidays</h4>
+        <li class="mb-2 text-base">Jan 1st - Jan 3rd</li>
+        <li class="mb-2 text-base">Mar 28th - Apr 14th</li>
+        <li class="mb-2 text-base">Jul 1st - Jul 14th</li>
+        <li class="text-base">Dec 21st - Dec 27th</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="flex flex-col w-1/2">
+    <h2 class="text-3xl uppercase text-white text-right tracking-wide mb-8 w-full">Our Dance Studios</h2>
+
+    <div class="flex flex-col studio-container mb-8">
+      <div class="ml-auto">
+        <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G83%208AZ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </div>
+      <ul class="text-right text-white mt-3">
+        <li>Urbaniks Street Skool of Dance, The Lennox Hall</li>
+        <li>Main Street, Jamestown</li>
+        <li>Ballock</li>
+        <li>G83 8AZ</li>
+      </ul>
+  </div>
+
+  <div class="flex flex-col studio-container mb-8">
+    <div class="ml-auto">
+      <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Auchenhowie%20Road%2C%20%20Milngavie%2C%20%20East%20Dunbartonshire%2C%20%20G62%206EJ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <ul class="text-right text-white mt-3">
+      <li>Milngavie and Bearsden Sports Club</li>
+      <li>Auchenhowie Road</li>
+      <li>Milngavie, East Dunbartonshire</li>
+      <li>G62 6EJ</li>
+    </ul>
+</div>
+
+<div class="flex flex-col studio-container">
+  <div class="ml-auto">
+    <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=SDTA%20101%20Park%20Road%2C%20%20Glasgow%2C%20%20G4%209JE&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+  <ul class="text-right text-white mt-3">
+    <li>Scottish Dance Teachers Association</li>
+    <li>101 Park Road</li>
+    <li>Glasgow</li>
+    <li>G4 9JE</li>
+  </ul>
+</div>
+  </div>
+
   </div>
 
 @endsection
