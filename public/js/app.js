@@ -1838,6 +1838,62 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -1858,7 +1914,7 @@ __webpack_require__.r(__webpack_exports__);
       this.show();
     },
     showMultiple: function showMultiple(index) {
-      this.imgs = ['/img/gallery/10954771.jpg', '/img/gallery/handstand-stage.png', '/img/gallery/10954773.jpg'];
+      this.imgs = ['/img/gallery/10954771.jpg', '/img/gallery/handstand-stage.png', '/img/gallery/10954773.jpg', '/img/gallery/10954759.jpg', '/img/gallery/10954762.jpg', '/img/gallery/10954765.jpg', '/img/gallery/10954766.jpg', '/img/gallery/10954767.jpg', '/img/gallery/10954775.jpg', '/img/gallery/10989230.jpg', '/img/gallery/10986121.jpg', '/img/gallery/10989228.jpg'];
       this.index = index; // index of imgList
 
       this.show();
@@ -25147,7 +25203,7 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("div", { staticClass: "flex w-10/12 mx-auto" }, [
+      _c("div", { staticClass: "flex flex-wrap w-10/12 mx-auto" }, [
         _c("div", { staticClass: "w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
@@ -25184,6 +25240,132 @@ var render = function() {
               on: {
                 click: function($event) {
                   return _vm.showMultiple(2)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10954759.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(3)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10954762.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(4)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10954765.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(5)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10954766.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(6)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10954767.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(7)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10954775.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(8)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10989230.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(9)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10986121.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(10)
+                }
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3" }, [
+          _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
+            _c("img", {
+              staticClass: "cursor-pointer w-full gallery-image",
+              attrs: { src: "/img/gallery/10989228.jpg", alt: "" },
+              on: {
+                click: function($event) {
+                  return _vm.showMultiple(11)
                 }
               }
             })

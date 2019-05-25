@@ -46,10 +46,58 @@
   </div>
 </div>
 
-  <div class="flex flex-col w-10/12 mx-auto mt-16 mb-24">
+<div class="flex w-10/12 mx-auto mt-16 mb-24">
 
-
-
+<div class="flex flex-col w-1/2">
+  <h2 class="text-3xl uppercase text-white tracking-wide mb-4">Other Methods</h2>
+  <div class="flex">
+    <ul class="text-white text-lg mb-24 p-8 rounded bg-gray-800">
+      <li class="mb-2 text-base">PHONE 07780 992 295</li>
+      <li class="mb-2 text-base">EMAIL info@urbanikstreetdance-glasgow.co.uk</li>
+    </ul>
   </div>
+</div>
+
+<div class="flex flex-col w-1/2">
+  <h2 class="text-3xl uppercase text-white text-right tracking-wide mb-8 w-full">Our Dance Studios</h2>
+
+  <div class="flex flex-col studio-container mb-8">
+    <div class="ml-auto">
+      <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G83%208AZ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <ul class="text-right text-white mt-3">
+      <li>Urbaniks Street Skool of Dance, The Lennox Hall</li>
+      <li>Main Street, Jamestown</li>
+      <li>Ballock</li>
+      <li>G83 8AZ</li>
+    </ul>
+</div>
+
+<div class="flex flex-col studio-container mb-8">
+  <div class="ml-auto">
+    <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Auchenhowie%20Road%2C%20%20Milngavie%2C%20%20East%20Dunbartonshire%2C%20%20G62%206EJ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  </div>
+  <ul class="text-right text-white mt-3">
+    <li>Milngavie and Bearsden Sports Club</li>
+    <li>Auchenhowie Road</li>
+    <li>Milngavie, East Dunbartonshire</li>
+    <li>G62 6EJ</li>
+  </ul>
+</div>
+
+<div class="flex flex-col studio-container">
+<div class="ml-auto">
+  <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=SDTA%20101%20Park%20Road%2C%20%20Glasgow%2C%20%20G4%209JE&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  </div>
+<ul class="text-right text-white mt-3">
+  <li>Scottish Dance Teachers Association</li>
+  <li>101 Park Road</li>
+  <li>Glasgow</li>
+  <li>G4 9JE</li>
+</ul>
+</div>
+</div>
+
+</div>
 
 @endsection

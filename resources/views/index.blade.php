@@ -14,23 +14,43 @@
    </div>
   </div>
 
-  <div id="awards-container" class="flex px-3 mt-4">
-    <div class="h-32 bg-blue-200 w-full mx-auto">
-      <p class="text-4xl">Winners Banners with logo's</p>
+  <div id="awards-container" class="flex w-10/12 mx-auto">
+    <div class="flex h-32 w-full mx-auto">
+      <div class="w-1/6 h-full">
+        <img src="/img/logos/udo_logo.png" alt="udo logo" class="w-full h-full object-contain">
+      </div>
+      <div class="w-1/6 h-full">
+        <img src="/img/logos/euro_champions_logo.png" alt="" class="w-full h-full object-contain p-4 opacity-75?">
+      </div>
+      <div class="flex w-1/6 h-full">
+        <img src="/img/logos/bbc-logo.png" alt="" class="w-full h-full object-contain p-4 opacity-75">
+      </div>
+      <div class="w-1/6 h-full">
+        <img src="/img/logos/commonwealth_games.png" alt="" class="w-full h-full object-contain p-4 opacity-75?">
+      </div>
+      <div class="w-1/6 h-full">
+        <img src="/img/logos/xm_logo.png" alt="" class="w-full h-full object-contain p-4 opacity-75?">
+      </div>
+      <div class="w-1/6 h-full">
+        <img src="/img/logos/cbbc-logo.png" alt="" class="w-full h-full object-contain opacity-75?">
+      </div>
     </div>
 
   </div>
 
   <div class="flex flex-col">
-    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-8 mb-8">What Our Pupils Say</h2>
+    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-8 mb-10">What Our Pupils Say</h2>
 
     <div id="testimonial-container" class="flex w-4/6 mx-auto items-center">
       <div id="testimonial1" class="w-1/2 p-8">
+        <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
+
+        </div>
         <div class="flex flex-col">
-          <p class="text-white italic mb-4">I love this skool I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
+          <p class="text-white italic mb-6 z-10">I love this skool I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
           <div id="pupil-container1" class="flex">
-            <div class="w-10 h-10 bg-white rounded-full">
-              {{-- <img src="" alt=""> --}}
+            <div class="w-10 h-10">
+              <img src="/img/testimonials/testimonial4.jpg" alt="" class="w-full h-full rounded-full">
             </div>
             <div class="flex flex-col ml-2 text-xs text-white">
               <p class="mb-0">Pupil One</p>
@@ -40,11 +60,14 @@
         </div>
       </div>
       <div id="testimonial2" class="w-1/2 p-8">
+        <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
+
+        </div>
         <div class="flex flex-col">
-          <p class="text-white italic mb-4">I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
+          <p class="text-white italic mb-6 z-10">I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
             <div id="pupil-container2" class="flex">
-              <div class="w-10 h-10 bg-white rounded-full">
-                {{-- <img src="" alt=""> --}}
+              <div class="w-10 h-10">
+                <img src="/img/testimonials/testimonial5.jpg" alt="" class="w-full h-full rounded-full">
               </div>
               <div class="flex flex-col ml-2 text-xs text-white">
                 <p class="mb-0">Pupil Two</p>
