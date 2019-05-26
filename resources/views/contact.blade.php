@@ -4,7 +4,7 @@
     <div class="bg-cover" style="background-image: url('/img/coffee-contact.png'); max-width: 100%; height: 500px; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
-          <h1 class="text-4xl px-2 text-center mb-4" style="background-color: rgba(239,12,91,0.4);">Contact Us</h1>
+          <h1 class="text-4xl px-2 text-center mb-4" style="background-color: rgba(129,222,253,0.4);">Contact Us</h1>
           <p class="text-center italic text-2xl mx-auto px-2" style="background-color: rgba(49,49,67,0.4);">We'll Be Glad To Hear From You</p>
         </div>
       </div>
@@ -52,8 +52,14 @@
   <h2 class="text-3xl uppercase text-white tracking-wide mb-4">Other Methods</h2>
   <div class="flex">
     <ul class="text-white text-lg mb-24 p-8 rounded bg-gray-800">
-      <li class="mb-2 text-base">PHONE 07780 992 295</li>
-      <li class="mb-2 text-base">EMAIL info@urbanikstreetdance-glasgow.co.uk</li>
+      <li class="flex mb-2 text-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-phone-ring w-8 h-8 mr-4"><path class="primary" d="M4 2h4a1 1 0 0 1 .98.8l1 5a1 1 0 0 1-.27.9l-2.52 2.52a12.05 12.05 0 0 0 5.59 5.59l2.51-2.52a1 1 0 0 1 .9-.27l5 1c.47.1.81.5.81.98v4a2 2 0 0 1-2 2h-2A16 16 0 0 1 2 6V4c0-1.1.9-2 2-2z"/><path class="secondary" d="M22 10a1 1 0 0 1-2 0 6 6 0 0 0-6-6 1 1 0 0 1 0-2 8 8 0 0 1 8 8zm-4 0a1 1 0 0 1-2 0 2 2 0 0 0-2-2 1 1 0 0 1 0-2 4 4 0 0 1 4 4z"/></svg>
+        07780 992 295
+      </li>
+      <li class="flex mb-2 text-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-mail w-8 h-8 mr-4"><path class="primary" d="M22 8.62V18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.62l9.55 4.77a1 1 0 0 0 .9 0L22 8.62z"/><path class="secondary" d="M12 11.38l-10-5V6c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v.38l-10 5z"/></svg>
+         info@urbanikstreetdance-glasgow.co.uk
+      </li>
     </ul>
   </div>
 </div>

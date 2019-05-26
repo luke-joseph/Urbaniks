@@ -4,7 +4,7 @@
     <div class="bg-cover" style="background-image: url('/img/dancers.png'); max-width: 100%; height: 500px; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
-          <h1 class="text-4xl px-2 text-center mb-4" style="background-color: rgba(239,12,91,0.4);">Our Classes</h1>
+          <h1 class="text-4xl px-2 text-center mb-4" style="background-color: rgba(129,222,253,0.4);">Our Classes</h1>
           <p class="text-center italic text-2xl mx-auto px-2" style="background-color: rgba(49,49,67,0.4);">Something for everyone</p>
           {{-- <a href="/register" class="mx-auto">
             <button class="py-2 px-4 bg-indigo-400 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register today</button>
@@ -15,16 +15,16 @@
   </div>
 
   <div class="flex flex-col">
-    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-8">Here You Can Find Our Timetable</h2>
-    <p class="text-center text-white w-4/6 mx-auto text-lg mb-4">
+    <h2 class="text-3xl text-gray-100 uppercase tracking-wide text-center mt-16 mb-8">Here You Can Find Our Timetable</h2>
+    <p class="text-center text-gray-300 w-4/6 mx-auto text-lg mb-4">
       To join a class you can register online, by calling or by email...
     </p>
-    <p class="text-center text-white w-1/2 mx-auto text-lg border-l-4 border-r-4 border-yellow-400 bg-gray-600 rounded py-2 mb-6">
+    <p class="text-center text-lightblue-900 font-semibold w-1/2 mx-auto text-lg border-l-4 border-r-4 border-blue-400 bg-gray-200 rounded py-4 px-10 mb-6">
     Our class slots can fill up quickly so please register now to avoid disappointment!
     </p>
 
     <a href="/register" class="mx-auto mt-4">
-      <button class="py-2 px-4 bg-indigo-400 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto mb-8" type="button">register now online</button>
+      <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register now online</button>
     </a>
   </div>
 
@@ -43,13 +43,28 @@
       Please take note of our holiday periods where no classes take place:
     </p>
     <div class="flex">
-      <ul class="text-white text-lg mt-8 mb-24 p-8 rounded bg-gray-800">
+      <ul class="text-white text-lg mt-8 mb-12 p-8 rounded bg-gray-800 w-1/2">
         <h4 class="mb-4 uppercase font-bold tracking-wider text-lg">Holidays</h4>
         <li class="mb-2 text-base">Jan 1st - Jan 3rd</li>
         <li class="mb-2 text-base">Mar 28th - Apr 14th</li>
         <li class="mb-2 text-base">Jul 1st - Jul 14th</li>
         <li class="text-base">Dec 21st - Dec 27th</li>
       </ul>
+    </div>
+
+    <div class="flex flex-col">
+      <div class="">
+      <img src="/img/icons/bboy-freeze-small.png" alt="">
+      </div>
+      <div class="px-4 py-6 flex flex-col bg-gray-800 rounded w-1/2">
+        <div class="text-white mb-4">
+          <h4 class="uppercase font-bold tracking-wide mb-2">Start Learning Street Dance Today</h4>
+          <p class="">We are World Street Dance Championships qualifiers in 2012, 2013, 2014, 2015, 2016, 2017 and 2018.</p>
+        </div>
+        <a href="/registration" class="mr-auto">
+          <button class="py-2 px-4 bg-red-400 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register today</button>
+        </a>
+      </div>
     </div>
   </div>
 
