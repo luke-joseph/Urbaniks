@@ -17,14 +17,14 @@
 
       <div class="flex py-2" v-for="lesson in allClasses[selectedClass][name]" :class="bgColor(lesson.index)">
         <div class="flex flex-col w-1/3 pl-8">
-          <p class="mb-0 py-1"> {{ lesson.time }}</p>
-          <p class="mb-0 py-1"> {{ lesson.teacher }}</p>
-          <p class="mb-0 py-1"> {{ lesson.location }}</p>
+          <p class="mb-0 py-1 font-semibold"> {{ lesson.time }}</p>
+          <p class="mb-0 py-1 text-gray-300"> {{ lesson.teacher }}</p>
+          <p class="mb-0 py-1 text-gray-200"> {{ lesson.location }}</p>
         </div>
         <div class="flex flex-col w-2/3">
           <p class="mb-0 py-1"> {{ lesson.lessonName }}</p>
-          <p class="mb-0 py-1"> {{ lesson.difficulty }}</p>
-          <p class="mb-0 py-1"> £{{ lesson.price }}</p>
+          <p class="mb-0 py-1 text-gray-200"> {{ lesson.difficulty }}</p>
+          <p class="mb-0 py-1 text-gray-300"> £{{ lesson.price }}</p>
         </div>
       </div>
     </div>

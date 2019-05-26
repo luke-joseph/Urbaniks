@@ -25483,15 +25483,15 @@ var render = function() {
                 { staticClass: "flex py-2", class: _vm.bgColor(lesson.index) },
                 [
                   _c("div", { staticClass: "flex flex-col w-1/3 pl-8" }, [
-                    _c("p", { staticClass: "mb-0 py-1" }, [
+                    _c("p", { staticClass: "mb-0 py-1 font-semibold" }, [
                       _vm._v(" " + _vm._s(lesson.time))
                     ]),
                     _vm._v(" "),
-                    _c("p", { staticClass: "mb-0 py-1" }, [
+                    _c("p", { staticClass: "mb-0 py-1 text-gray-300" }, [
                       _vm._v(" " + _vm._s(lesson.teacher))
                     ]),
                     _vm._v(" "),
-                    _c("p", { staticClass: "mb-0 py-1" }, [
+                    _c("p", { staticClass: "mb-0 py-1 text-gray-200" }, [
                       _vm._v(" " + _vm._s(lesson.location))
                     ])
                   ]),
@@ -25501,11 +25501,11 @@ var render = function() {
                       _vm._v(" " + _vm._s(lesson.lessonName))
                     ]),
                     _vm._v(" "),
-                    _c("p", { staticClass: "mb-0 py-1" }, [
+                    _c("p", { staticClass: "mb-0 py-1 text-gray-200" }, [
                       _vm._v(" " + _vm._s(lesson.difficulty))
                     ]),
                     _vm._v(" "),
-                    _c("p", { staticClass: "mb-0 py-1" }, [
+                    _c("p", { staticClass: "mb-0 py-1 text-gray-300" }, [
                       _vm._v(" £" + _vm._s(lesson.price))
                     ])
                   ])

@@ -13,7 +13,7 @@
 
   <div class="flex flex-col">
     <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-8">New Styles for <span class="currentYear"></span>!  </h2>
-    <p class="text-center text-white w-4/6 mx-auto text-lg mb-4">
+    <p class="text-center text-gray-300 w-4/6 mx-auto text-lg mb-4">
       To purchase, download and fill an order form for your selected items...
     </p>
 
@@ -28,10 +28,10 @@
       <div class="item-details border? w-2/3">
         <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
           <div class="flex flex-col">
-              <h4 class="text-white text-2xl uppercase">Urbaniks super fresh T Shirt</h4>
-              <p class="text-white mt-8">XS - XXL</p>
-              <p class="text-white mt-2">Black, Green, Blue and Red</p>
-              <p class="text-white w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
+              <h4 class="text-2xl uppercase text-white">Urbaniks super fresh T Shirt</h4>
+              <p class="mt-8 text-gray-300">XS - XXL</p>
+              <p class="mt-2 text-gray-300">Black, Green, Blue and Red</p>
+              <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
             <a href="/register" class="mt-auto? mb-4?">
@@ -49,10 +49,10 @@
       <div class="item-details border? w-2/3">
         <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
           <div class="flex flex-col">
-              <h4 class="text-white text-2xl uppercase">Urbaniks Varsity Shirt</h4>
-              <p class="text-white mt-8">XS - XXL</p>
-              <p class="text-white mt-2">Black, Green, Blue and Red</p>
-              <p class="text-white w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
+              <h4 class="text-2xl uppercase text-white">Urbaniks Varsity Shirt</h4>
+              <p class="mt-8 text-gray-300">XS - XXL</p>
+              <p class="mt-2 text-gray-300">Black, Green, Blue and Red</p>
+              <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
             <a href="/register" class="mt-auto? mb-4?">
@@ -70,10 +70,10 @@
       <div class="item-details border? w-2/3">
         <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
           <div class="flex flex-col">
-              <h4 class="text-white text-2xl uppercase">Urbaniks Hoodie</h4>
-              <p class="text-white mt-8">XS - XXL</p>
-              <p class="text-white mt-2">Black, Green, Blue and Red</p>
-              <p class="text-white w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
+              <h4 class="text-2xl uppercase text-white">Urbaniks Hoodie</h4>
+              <p class="mt-8 text-gray-300">XS - XXL</p>
+              <p class="mt-2 text-gray-300">Black, Green, Blue and Red</p>
+              <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
             <a href="/register" class="mt-auto? mb-4?">
@@ -91,10 +91,10 @@
       <div class="item-details border? w-2/3">
         <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
           <div class="flex flex-col">
-              <h4 class="text-white text-2xl uppercase">Urbaniks Sweatpants</h4>
-              <p class="text-white mt-8">XS - XXL</p>
-              <p class="text-white mt-2">Black, Green, Blue and Red</p>
-              <p class="text-white w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
+              <h4 class="text-2xl uppercase text-white">Urbaniks Sweatpants</h4>
+              <p class="mt-8 text-gray-300">XS - XXL</p>
+              <p class="mt-2 text-gray-300">Black, Green, Blue and Red</p>
+              <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
             <a href="/register" class="mt-auto? mb-4?">
@@ -112,10 +112,10 @@
       <div class="item-details border? w-2/3">
         <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
           <div class="flex flex-col">
-              <h4 class="text-white text-2xl uppercase">Urbaniks Leggings</h4>
-              <p class="text-white mt-8">XS - XXL</p>
-              <p class="text-white mt-2">Black, Green, Blue and Red</p>
-              <p class="text-white w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
+              <h4 class="text-2xl uppercase text-white">Urbaniks Leggings</h4>
+              <p class="mt-8 text-gray-300">XS - XXL</p>
+              <p class="mt-2 text-gray-300">Black, Green, Blue and Red</p>
+              <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
             <a href="/register" class="mt-auto? mb-4?">
@@ -133,10 +133,10 @@
     <div class="item-details border? w-2/3">
       <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
         <div class="flex flex-col">
-            <h4 class="text-white text-2xl uppercase">Urbaniks Target Shirt</h4>
-            <p class="text-white mt-8">XS - XXL</p>
-            <p class="text-white mt-2">Black, Green, Blue and Red</p>
-            <p class="text-white w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
+            <h4 class="text-2xl uppercase text-white">Urbaniks Target Shirt</h4>
+            <p class="text-gray-300 mt-8">XS - XXL</p>
+            <p class="text-gray-300 mt-2">Black, Green, Blue and Red</p>
+            <p class="text-gray-200 italic w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
         </div>
         <div class="mb-4">
           <a href="/register" class="mt-auto? mb-4?">

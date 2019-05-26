@@ -2,11 +2,11 @@
 <div id="focus-area" class="xl:w-10/12 mx-auto bg-gray-1000 min-h-screen">
   <div id="navigation" class="mb-8 border-t-4 border-lightblue-300 px-16">
     <div id="contact-details" class="flex justify-between pt-3 text-xs">
-      <div id="quick-contact" class="text-white">
-        07780 992 295 <span class="pl-3 text-grey-100">|</span>   <a href="mailto:info@urbanikstreetdance-glasgow.co.uk?Subject=Hello" class="pl-3 text-white">info@urbanikstreetdance-glasgow.co.uk</a>
+      <div id="quick-contact" class="text-gray-200">
+        07780 992 295 <span class="pl-3 text-gray-200">|</span>   <a href="mailto:info@urbanikstreetdance-glasgow.co.uk?Subject=Hello" class="pl-3 text-gray-200">info@urbanikstreetdance-glasgow.co.uk</a>
       </div>
       <div id="contact-socials" class="flex text-white items-center">
-        <div class="mr-2"><p class="mb-0">GLASGOW - MILGARNVE | EAST SIDE | WEST SIDE</p> </div>
+        <div class="mr-2"><p class="mb-0 text-gray-200">GLASGOW - MILGAVIE | BALLOCH | CENTRAL</p> </div>
         <img src="/img/facebook.png" alt="facebook logo" class="h-6">
       </div>
     </div>
