@@ -62,6 +62,7 @@
       </li>
     </ul>
   </div>
+  
 </div>
 
 <div class="flex flex-col w-1/2">

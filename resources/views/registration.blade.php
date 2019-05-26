@@ -13,15 +13,15 @@
 
   <div class="flex flex-col">
     <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-8">Registration Is Easy </h2>
-    <p class="text-center text-white w-10/12 mx-auto text-lg mb-4">
+    <p class="text-center text-gray-200 w-10/12 mx-auto text-lg mb-4">
       You can register to one of our classes by filling the form below.
     </p>
-    <p class="text-center text-white w-10/12 mx-auto text-lg mb-4">
+    <p class="text-center text-gray-200 w-10/12 mx-auto text-lg mb-4">
       We will call you back to finalise the registration.
     </p>
 
-    <p class="text-center text-white w-10/12 mx-auto text-lg mb-16">
-      If you prefer you can call us directly to register. 07780 992 295
+    <p class="text-center text-gray-200 w-10/12 mx-auto text-lg mb-16">
+      If you prefer you can call us directly to register. <span class="font-semibold text-lightblue-300">07780 992 295</span>
     </p>
 
   </div>
@@ -32,33 +32,33 @@
 
   <div class="flex flex-col sm:flex-row py-4 rounded border-b border-t border-gray-500 w-10/12 mx-auto mb-2">
     <div class="flex flex-col sm:w-1/3 px-8">
-      <p class="mb-2 text-white text-xl">
+      <p class="mb-2 text-white text-xl tracking-wide">
         PUPIL DETAILS
       </p>
-      <p class="text-white text-sm bg-black p-4 rounded">
+      <p class="text-lightblue-300 font-semibold text-sm bg-black p-4 rounded">
         If you are under the age of 13 you need a guardian to help you register.
         </p>
       </div>
       <div class="flex flex-col w-2/3 mx-auto mt-8 sm:mt-0 mb-4 sm:mb-0 sm:mx-0 sm:pl-24">
         <div class="flex mb-4">
           <div>
-            <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-white">Pupil Name*</legend>
+            <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Pupil Name*</legend>
             <input id="artist_name" class="bg-grey-200 pl-2 py-4 h-6 border border-grey-300 rounded" placeholder="Name">
           </div>
           <div class="ml-6">
-            <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-white">Pupil Age*</legend>
+            <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Pupil Age*</legend>
             <input id="artist_name" class="bg-grey-200 pl-2 py-4 h-6 border border-grey-300 rounded" placeholder="Age">
           </div>
         </div>
         <div class="flex mb-4">
           <div>
-            <legend for="city" class="text-sm font-semibold mb-2 uppercase text-white">Guardian Name</legend>
+            <legend for="city" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Guardian Name</legend>
             <input id="city" name="city" class="bg-grey-200 pl-2 py-4 h-6 border border-grey-300 rounded" placeholder="Guardian Name">
           </div>
         </div>
         <div class="mb-4">
           <div class="form-group">
-            <legend for="city" class="text-sm font-semibold mb-2 uppercase text-white">I want to register to class*</legend>
+            <legend for="city" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">I want to register to class*</legend>
             <select id="country" name="country" class="bg-grey-200 pl-2 h-8 border border-grey-300 rounded">
               <option value="Australia">Breakdance - s5 +</option>
               <option value="Austria">Hip Hop - s1 - s3</option>
@@ -72,21 +72,21 @@
 
     <div class="flex flex-col sm:flex-row pb-4 rounded w-10/12 mx-auto mb-24 pt-4">
       <div class="flex flex-col sm:w-1/3 px-8">
-        <p class="mb-2 text-white text-xl">
+        <p class="mb-2 text-white text-xl tracking-wide">
           YOUR CONTACT DETAILS
         </p>
-        <p class="text-white text-sm">
+        <p class="text-gray-300 text-sm">
           This information we will use to contact you and go over all the details you need to know and confirm your registration.
           </p>
         </div>
         <div class="flex flex-col w-2/3 mx-auto mt-8 sm:mt-0 mb-4 sm:mb-0 sm:mx-0 sm:pl-24">
           <div class="flex flex-wrap mb-4">
             <div>
-              <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-white">Contact Number*</legend>
+              <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Contact Number*</legend>
               <input id="artist_name" class="bg-grey-200 pl-2 py-4 h-6 border border-grey-300 rounded" placeholder="07...">
             </div>
             <div class="ml-6">
-              <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-white">Preferred Contact Time</legend>
+              <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Preferred Contact Time</legend>
               <input id="artist_name" class="bg-grey-200 pl-2 py-4 h-6 border border-grey-300 rounded" placeholder="eg. After 6pm">
             </div>
             <div class="flex flex-col items-stretch w-full mb-3 relative mt-4">
@@ -95,7 +95,7 @@
             </div>
           </div>
           <a href="/register" class="">
-            <button class="py-2 px-4 bg-indigo-400 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register now</button>
+            <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register now</button>
           </a>
         </div>
       </div>

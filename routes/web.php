@@ -11,26 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/classes', function () {
-    return view('classes');
-});
-
-Route::get('/merchandise', function () {
-    return view('merchandise');
-});
-
-Route::get('/gallery', function () {
-    return view('gallery');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/registration', function () {
-    return view('registration');
-});
+Route::get('/', 'PagesController@index');
+Route::get('/classes', 'PagesController@classes');
+Route::get('/merchandise', 'PagesController@merchandise');
+Route::get('/gallery', 'PagesController@gallery');
+Route::get('/contact', 'PagesController@contact');
+Route::get('/registration', 'PagesController@registration');
