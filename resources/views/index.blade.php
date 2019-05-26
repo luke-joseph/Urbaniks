@@ -47,7 +47,7 @@
 
         </div>
         <div class="flex flex-col">
-          <p class="text-gray-300 italic mb-6 z-10">I love this skool I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
+          <p class="text-gray-200 italic mb-6 z-10">I love this skool I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
           <div id="pupil-container1" class="flex">
             <div class="w-10 h-10">
               <img src="/img/testimonials/testimonial4.jpg" alt="" class="w-full h-full rounded-full">
@@ -64,7 +64,7 @@
 
         </div>
         <div class="flex flex-col">
-          <p class="text-gray-300 italic mb-6 z-10">I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
+          <p class="text-gray-200 italic mb-6 z-10">I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
             <div id="pupil-container2" class="flex">
               <div class="w-10 h-10">
                 <img src="/img/testimonials/testimonial5.jpg" alt="" class="w-full h-full rounded-full">
@@ -85,7 +85,7 @@
       <img src="/img/icons/Break_dance.svg" alt="">
     </div>
     <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
-    <p class="text-center text-gray-300 w-4/6 mx-auto text-lg">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
+    <p class="text-center text-gray-200 w-4/6 mx-auto text-lg">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
       of dance, develop confidence and life long friendships. We bring a togetherness and community with lots of interaction through dance.
 
     </p>
@@ -100,13 +100,13 @@
 
       <div class="w-1/2 p-4">
         <h3 class="text-2xl text-gray-100 mb-4">Est. Since 2001</h3>
-        <p class="mb-0 text-gray-300">We are one of the first schools that appeared on the scene all the way back from 2001. We have
+        <p class="mb-0 text-gray-200">We are one of the first schools that appeared on the scene all the way back from 2001. We have
         successfully taught over 200 pupils from all backgrounds, ages and skill level</p>
       </div>
 
       <div class="w-1/2 p-4">
         <h3 class="text-2xl text-gray-100 mb-4">Our Experience</h3>
-        <p class="mb-0 text-gray-300">
+        <p class="mb-0 text-gray-200">
           We have over 30 years professional dancing experience. Study at College of London Dance. Teaching experience of over 20 years!
         </p>
       </div>
