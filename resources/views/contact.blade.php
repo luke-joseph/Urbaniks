@@ -52,17 +52,17 @@
   <h2 class="text-3xl uppercase text-white tracking-wide mb-4">Other Methods</h2>
   <div class="flex">
     <ul class="text-white text-lg mb-24 p-8 rounded bg-gray-800">
-      <li class="flex mb-2 text-lg">
+      <li class="flex mb-4 text-lg">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-phone-ring w-8 h-8 mr-4"><path class="primary" d="M4 2h4a1 1 0 0 1 .98.8l1 5a1 1 0 0 1-.27.9l-2.52 2.52a12.05 12.05 0 0 0 5.59 5.59l2.51-2.52a1 1 0 0 1 .9-.27l5 1c.47.1.81.5.81.98v4a2 2 0 0 1-2 2h-2A16 16 0 0 1 2 6V4c0-1.1.9-2 2-2z"/><path class="secondary" d="M22 10a1 1 0 0 1-2 0 6 6 0 0 0-6-6 1 1 0 0 1 0-2 8 8 0 0 1 8 8zm-4 0a1 1 0 0 1-2 0 2 2 0 0 0-2-2 1 1 0 0 1 0-2 4 4 0 0 1 4 4z"/></svg>
         07780 992 295
       </li>
       <li class="flex mb-2 text-lg">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-mail w-8 h-8 mr-4"><path class="primary" d="M22 8.62V18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.62l9.55 4.77a1 1 0 0 0 .9 0L22 8.62z"/><path class="secondary" d="M12 11.38l-10-5V6c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v.38l-10 5z"/></svg>
-         info@urbanikstreetdance-glasgow.co.uk
+         <a href="mailto:info@urbanikstreetdance-glasgow.co.uk?Subject=Hello" class="text-gray-100">info@urbanikstreetdance-glasgow.co.uk</a>
       </li>
     </ul>
   </div>
-  
+
 </div>
 
 <div class="flex flex-col w-1/2">

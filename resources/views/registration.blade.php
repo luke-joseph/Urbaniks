@@ -20,7 +20,7 @@
       We will call you back to finalise the registration.
     </p>
 
-    <p class="text-center text-gray-200 w-10/12 mx-auto text-lg mb-16">
+    <p class="text-center text-gray-200 w-10/12 mx-auto text-lg mb-24">
       If you prefer you can call us directly to register. <span class="font-semibold text-lightblue-300">07780 992 295</span>
     </p>
 
@@ -30,7 +30,7 @@
   <p class="pl-4 mb-4 font-bold tracking-wider">ONLINE REGISTRATION FORM</p>
   </div>
 
-  <div class="flex flex-col sm:flex-row py-4 rounded border-b border-t border-gray-500 w-10/12 mx-auto mb-2">
+  <div class="flex flex-col sm:flex-row py-8 rounded border-b border-t border-gray-600 w-10/12 mx-auto">
     <div class="flex flex-col sm:w-1/3 px-8">
       <p class="mb-2 text-white text-xl tracking-wide">
         PUPIL DETAILS
@@ -70,7 +70,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col sm:flex-row pb-4 rounded w-10/12 mx-auto mb-24 pt-4">
+    <div class="flex flex-col sm:flex-row pb-4 rounded w-10/12 mx-auto mb-24 pt-8">
       <div class="flex flex-col sm:w-1/3 px-8">
         <p class="mb-2 text-white text-xl tracking-wide">
           YOUR CONTACT DETAILS

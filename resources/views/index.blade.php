@@ -39,7 +39,7 @@
   </div>
 
   <div class="flex flex-col">
-    <h2 class="text-3xl text-gray-100 uppercase tracking-wide text-center mt-16 mb-10">What Our Pupils Say</h2>
+    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-10">What Our Pupils Say</h2>
 
     <div id="testimonial-container" class="flex w-4/6 mx-auto items-center">
       <div id="testimonial1" class="w-1/2 p-8">
@@ -84,7 +84,7 @@
     <div class="w-32 mx-auto mb-4">
       <img src="/img/icons/Break_dance.svg" alt="">
     </div>
-    <h2 class="text-3xl text-center uppercase text-gray-100 tracking-wide mb-8">Our Mission</h2>
+    <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
     <p class="text-center text-gray-300 w-4/6 mx-auto text-lg">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
       of dance, develop confidence and life long friendships. We bring a togetherness and community with lots of interaction through dance.
 
@@ -95,7 +95,7 @@
     <div class="w-1/2 mx-auto mb-4">
       {{-- <img src="/img/logos/urbanikslogobuildings-white.png" alt=""> --}}
     </div>
-    <h2 class="text-3xl text-center uppercase text-gray-100 tracking-wide mb-8">The Original Street Skool Of Dance</h2>
+    <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">The Original Street Skool Of Dance</h2>
     <div class="flex w-5/6 mx-auto">
 
       <div class="w-1/2 p-4">
