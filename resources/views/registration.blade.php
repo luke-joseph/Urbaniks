@@ -30,6 +30,7 @@
   <p class="pl-4 mb-4 font-bold tracking-wider">ONLINE REGISTRATION FORM</p>
   </div>
 
+  <form method="POST" action="/registration">
   <div class="flex flex-col sm:flex-row py-8 rounded border-b border-t border-gray-600 w-10/12 mx-auto">
     <div class="flex flex-col sm:w-1/3 px-8">
       <p class="mb-4 text-white text-xl tracking-wide">
@@ -42,28 +43,28 @@
       <div class="flex flex-col w-2/3 mx-auto mt-8 sm:mt-0 mb-4 sm:mb-0 sm:mx-0 sm:pl-24">
         <div class="flex mb-4">
           <div>
-            <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Pupil Name*</legend>
-            <input id="artist_name" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Name">
+            <legend for="pupil_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Pupil Name*</legend>
+            <input id="pupil_name" name="pupil_name" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Name" required>
           </div>
           <div class="ml-6">
-            <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Pupil Age*</legend>
-            <input id="artist_name" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Age">
+            <legend for="pupil_age" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Pupil Age*</legend>
+            <input id="pupil_age" name="pupil_age" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Age" required>
           </div>
         </div>
         <div class="flex mb-4">
           <div>
-            <legend for="city" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Guardian Name</legend>
-            <input id="city" name="city" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Guardian Name">
+            <legend for="guardian_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Guardian Name</legend>
+            <input id="guardian_name" name="guardian_name" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Guardian Name">
           </div>
         </div>
         <div class="mb-4">
           <div class="form-group">
-            <legend for="city" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">I want to register to class*</legend>
-            <select id="country" name="country" class="bg-gray-100 pl-2 h-8 border border-gray-300 rounded">
-              <option value="Australia">Breakdance - s5 +</option>
-              <option value="Austria">Hip Hop - s1 - s3</option>
-              <option value="Belgium">Contemporary - y1 - 5</option>
-              <option value="Belgium">I'm not sure</option>
+            <legend for="class" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">I want to register to class*</legend>
+            <select id="class" name="class" class="bg-gray-100 pl-2 h-8 border border-gray-300 rounded">
+              <option value="Breakdance - s5 +">Breakdance - s5 +</option>
+              <option value="Hip Hop - s1 - s3">Hip Hop - s1 - s3</option>
+              <option value="Contemporary - y1 - 5">Contemporary - y1 - 5</option>
+              <option value="I'm not sure">I'm not sure</option>
             </select>
           </div> <!---->
         </div>
@@ -71,6 +72,7 @@
     </div>
 
     <div class="flex flex-col sm:flex-row pb-4 rounded w-10/12 mx-auto mb-24 pt-8">
+      @csrf
       <div class="flex flex-col sm:w-1/3 px-8">
         <p class="mb-2 text-white text-xl tracking-wide">
           YOUR CONTACT DETAILS
@@ -82,22 +84,25 @@
         <div class="flex flex-col w-2/3 mx-auto mt-8 sm:mt-0 mb-4 sm:mb-0 sm:mx-0 sm:pl-24">
           <div class="flex flex-wrap mb-4">
             <div>
-              <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Contact Number*</legend>
-              <input id="artist_name" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="07...">
+              <legend for="phone" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Contact Number*</legend>
+              <input id="phone" name="phone_number" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="07..." required>
             </div>
             <div class="ml-6">
-              <legend for="artist_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Preferred Contact Time</legend>
-              <input id="artist_name" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="eg. After 6pm">
+              <legend for="contact_time" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Preferred Contact Time</legend>
+              <input id="contact_time" name="contact_time" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="eg. After 6pm">
+            </div>
+            <div class="flex flex-col mb-3 mt-4">
+              <label class="mb-1 pl-1 text-white" for="email">Email*</label>
+              <input id="email" name="email" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Email Address" required>
             </div>
             <div class="flex flex-col items-stretch w-full mb-3 relative mt-4">
               <label class="mb-1 pl-1 text-white" for="message">Additional Message</label>
               <textarea rows="4" cols="50" name="message" class="bg-gray-100 w-2/3 leading-normal border border-gray-300 rounded p-3 relative focus:border-blue focus:shadow" placeholder="Want to leave an additional message? [optional]..."></textarea>
             </div>
           </div>
-          <a href="/register" class="">
-            <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register now</button>
-          </a>
+            <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="submit">register now</button>
         </div>
       </div>
+    </form>
 
 @endsection

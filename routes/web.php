@@ -17,3 +17,7 @@ Route::get('/merchandise', 'PagesController@merchandise');
 Route::get('/gallery', 'PagesController@gallery');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/registration', 'PagesController@registration');
+Route::get('/order-form', 'OrderFormsController@download');
+
+Route::post('/registration', 'PupilRegistrationsController@store');
+Route::post('/contact', 'ContactsController@store');

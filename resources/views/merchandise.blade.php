@@ -34,7 +34,7 @@
               <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
-            <a href="/register" class="mt-auto? mb-4?">
+            <a href="/order-form?form=urbaniks-t-shirt-order-form" class="mt-auto? mb-4?">
               <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">Download Order Form</button>
             </a>
           </div>
@@ -49,13 +49,13 @@
       <div class="item-details border? w-2/3">
         <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
           <div class="flex flex-col">
-              <h4 class="text-2xl uppercase text-white">Urbaniks Varsity Shirt</h4>
+              <h4 class="text-2xl uppercase text-white">Urbaniks Varsity Hoodie</h4>
               <p class="mt-8 text-gray-300">XS - XXL</p>
               <p class="mt-2 text-gray-300">Black, Green, Blue and Red</p>
               <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
-            <a href="/register" class="mt-auto? mb-4?">
+            <a href="/order-form?form=urbaniks-varsity-hoodie-order-form" class="mt-auto? mb-4?">
               <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">Download Order Form</button>
             </a>
           </div>
@@ -76,7 +76,7 @@
               <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
-            <a href="/register" class="mt-auto? mb-4?">
+            <a href="/order-form?form=urbaniks-hoodie-order-form" class="mt-auto? mb-4?">
               <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">Download Order Form</button>
             </a>
           </div>
@@ -86,7 +86,7 @@
 
     <div class="shop-item flex w-full mt-12">
       <div class="item-image border? w-1/3">
-        <img src="/img/sweatpants.jpg" alt="urbaniks t-shirt" class="w-full" style="height: 294px;">
+        <img src="/img/sweatpants.jpg" alt="urbaniks sweatpants" class="w-full" style="height: 294px;">
       </div>
       <div class="item-details border? w-2/3">
         <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
@@ -97,7 +97,7 @@
               <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
-            <a href="/register" class="mt-auto? mb-4?">
+            <a href="/order-form?form=urbaniks-sweatpants-order-form" class="mt-auto? mb-4?">
               <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">Download Order Form</button>
             </a>
           </div>
@@ -118,7 +118,7 @@
               <p class="w-3/4 mt-2 text-gray-200 italic">Look fresh all seasons with the official urbaniks t shirt</p>
           </div>
           <div class="mb-4">
-            <a href="/register" class="mt-auto? mb-4?">
+            <a href="/order-form?form=urbaniks-leggings-order-form" class="mt-auto? mb-4?">
               <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">Download Order Form</button>
             </a>
           </div>
@@ -133,13 +133,55 @@
     <div class="item-details border? w-2/3">
       <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
         <div class="flex flex-col">
-            <h4 class="text-2xl uppercase text-white">Urbaniks Target Shirt</h4>
+            <h4 class="text-2xl uppercase text-white">Urbaniks Target Jumper</h4>
             <p class="text-gray-300 mt-8">XS - XXL</p>
             <p class="text-gray-300 mt-2">Black, Green, Blue and Red</p>
             <p class="text-gray-200 italic w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
         </div>
         <div class="mb-4">
-          <a href="/register" class="mt-auto? mb-4?">
+          <a href="/order-form?form=urbaniks-target-jumper-order-form" class="mt-auto? mb-4?">
+            <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">Download Order Form</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="shop-item flex w-full mt-12">
+    <div class="item-image border? w-1/3">
+      <img src="/img/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
+    </div>
+    <div class="item-details border? w-2/3">
+      <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
+        <div class="flex flex-col">
+            <h4 class="text-2xl uppercase text-white">Urbaniks Jackets</h4>
+            <p class="text-gray-300 mt-8">XS - XXL</p>
+            <p class="text-gray-300 mt-2">Black, Green, Blue and Red</p>
+            <p class="text-gray-200 italic w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
+        </div>
+        <div class="mb-4">
+          <a href="/order-form?form=urbaniks-jacket-order-form" class="mt-auto? mb-4?">
+            <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">Download Order Form</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="shop-item flex w-full mt-12">
+    <div class="item-image border? w-1/3">
+      <img src="/img/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
+    </div>
+    <div class="item-details border? w-2/3">
+      <div class="w-2/3 flex flex-col ml-auto h-full justify-between">
+        <div class="flex flex-col">
+            <h4 class="text-2xl uppercase text-white">Urbaniks Varsity Zip Hoodie</h4>
+            <p class="text-gray-300 mt-8">XS - XXL</p>
+            <p class="text-gray-300 mt-2">Black, Green, Blue and Red</p>
+            <p class="text-gray-200 italic w-3/4 mt-2">Look fresh all seasons with the official urbaniks t shirt</p>
+        </div>
+        <div class="mb-4">
+          <a href="/order-form?form=urbaniks-varsity-zip-order-form" class="mt-auto? mb-4?">
             <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">Download Order Form</button>
           </a>
         </div>
