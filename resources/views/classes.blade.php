@@ -15,11 +15,11 @@
   </div>
 
   <div class="flex flex-col">
-    <h2 class="text-3xl text-gray-100 uppercase tracking-wide text-center mt-16 mb-8">Here You Can Find Our Timetable</h2>
+    <h2 class="text-3xl text-gray-100 uppercase tracking-wide text-center mt-16 mb-8 px-3">Here You Can Find Our Timetable</h2>
     <p class="text-center text-gray-300 w-4/6 mx-auto text-lg mb-4">
       To join a class you can register online, by calling or by email...
     </p>
-    <p class="text-center text-lightblue-900 font-semibold w-1/2 mx-auto text-lg border-l-4 border-r-4 border-blue-400 bg-gray-200 rounded py-4 px-10 mb-6">
+    <p class="text-center text-lightblue-900 font-semibold w-11/12 sm:w-1/2 mx-auto text-lg border-l-4 border-r-4 border-blue-400 bg-gray-200 rounded py-4 px-10 mb-6">
     Our class slots can fill up quickly so please register now to avoid disappointment!
     </p>
 
@@ -32,18 +32,18 @@
     <time-table></time-table>
   </div>
 
-  <div class="flex w-10/12 mx-auto mt-16 mb-24">
+  <div class="flex flex-wrap w-11/12 mx-auto mt-16 mb-24">
 
-  <div class="flex flex-col w-1/2">
+  <div class="flex flex-col md:w-1/2 pl-4 sm:pl-0">
     <h2 class="text-3xl uppercase text-gray-100 tracking-wide mb-8">Our Calendar</h2>
-    <p class="text-gray-200 mx-auto text-lg mb-2">
+    <p class="text-gray-200 text-lg mb-2">
       We run classes all year round following the school schedule.
     </p>
-    <p class="text-gray-200 mx-auto text-lg">
+    <p class="text-gray-200 text-lg">
       Please take note of our holiday periods where no classes take place:
     </p>
     <div class="flex">
-      <ul class="text-white text-lg mt-8 mb-12 p-8 rounded bg-gray-800 w-1/2">
+      <ul class="text-white text-lg mt-8 mb-12 p-8 rounded bg-gray-800 sm:w-1/2">
         <h4 class="mb-4 uppercase font-bold tracking-wider text-lg text-gray-100">Holidays</h4>
         <li class="mb-2 text-base text-lightblue-200">Jan 1st - Jan 3rd</li>
         <li class="mb-2 text-base text-lightblue-200">Mar 28th - Apr 14th</li>
@@ -56,7 +56,7 @@
       <div class="">
       <img src="/img/icons/bboy-freeze-small.png" alt="">
       </div>
-      <div class="px-4 py-6 flex flex-col bg-gray-800 rounded w-1/2">
+      <div class="px-4 py-6 flex flex-col bg-gray-800 rounded sm:w-1/2">
         <div class="text-white mb-4">
           <h4 class="uppercase font-bold tracking-wide mb-2 text-gray-100">Start Learning Street Dance Today</h4>
           <p class="text-gray-300">We are World Street Dance Championships qualifiers in 2012, 2013, 2014, 2015, 2016, 2017 and 2018.</p>
@@ -68,8 +68,8 @@
     </div>
   </div>
 
-  <div class="flex flex-col w-1/2">
-    <h2 class="text-3xl uppercase text-gray-100 text-right tracking-wide mb-8 w-full">Our Dance Studios</h2>
+  <div class="flex flex-col md:w-1/2 mt-12 md:mt-0">
+    <h2 class="text-3xl uppercase text-gray-100 sm:text-right tracking-wide mb-8 w-full">Our Dance Studios</h2>
 
     <div class="flex flex-col studio-container mb-8">
       <div class="ml-auto">
