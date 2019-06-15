@@ -47,7 +47,21 @@
 
 
 </div>{{-- end focus area --}}
+<script type="text/javascript">
 
+  function addColorToPageNav(id){
+      //convert the value from the pages controller $page
+      let el = document.getElementById(id);
+      el.classList.remove('text-gray-100');
+      el.classList.add('text-lightblue-200');
+      console.log(id);
+  }
+  //convert the value from the pages controller $page
+  let page = @json($page);
+
+  addColorToPageNav(page);
+
+</script>
 <script src="/js/app.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
   var d = new Date();
@@ -56,10 +70,10 @@
   document.querySelector('.currentYear').innerHTML = n;
 
   function closeDiv(id){
-    console.log(id);
     let el = document.getElementById(id);
     el.style.display = "none";
   }
+
 </script>
 </body>
 </html>

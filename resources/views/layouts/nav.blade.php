@@ -18,12 +18,12 @@
         <img src="/img/urbaniks-plain-ws.png" alt="urbaniks street dance logo white" class="w-1/2">
       </div>
       <ul class="hidden lg:flex text-base mb-0 text-white justify-between flex-grow uppercase font-bold">
-        <li class="tracking-widest"><a href="/" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">home</a></li>
-        <li class="tracking-widest"><a href="/classes" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
-        <li class="tracking-widest"><a href="/merchandise" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">merchandise</a></li>
-        <li class="tracking-widest"><a href="/gallery" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
-        <li class="tracking-widest"><a href="/contact" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>
-        <li class="tracking-widest"><a href="/registration" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">registration</a></li>
+        <li class="tracking-widest"><a id="Home" href="/" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">home</a></li>
+        <li class="tracking-widest"><a id="Classes" href="/classes" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
+        <li class="tracking-widest"><a id="Merchandise" href="/merchandise" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">merchandise</a></li>
+        <li class="tracking-widest"><a id="Gallery" href="/gallery" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
+        <li class="tracking-widest"><a id="Contact" href="/contact" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>
+        <li class="tracking-widest"><a id="Registration" href="/registration" class="text-gray-100 hover:text-lightblue-200 hover:no-underline">registration</a></li>
       </ul>
     </div>
   </div>

@@ -8,26 +8,38 @@ class PagesController extends Controller
 {
     public function index()
     {
-      return view('index');
+      $page = 'Home';
+
+      return view('index', compact('page'));
     }
     public function contact()
     {
-      return view('contact');
+      $page = 'Contact';
+
+      return view('contact', compact('page'));
     }
     public function gallery()
     {
-      return view('gallery');
+      $page = 'Gallery';
+
+      return view('gallery', compact('page'));
     }
     public function merchandise()
     {
-      return view('merchandise');
+      $page = 'Merchandise';
+
+      return view('merchandise', compact('page'));
     }
     public function registration()
     {
-      return view('registration');
+      $page = 'Registration';
+
+      return view('registration', compact('page'));
     }
     public function classes()
     {
-      return view('classes');
+      $page = 'Classes';
+
+      return view('classes', compact('page'));
     }
 }
