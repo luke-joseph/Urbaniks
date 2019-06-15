@@ -1,0 +1,70 @@
+// small icons
+.primary {
+  fill: #edefe1;
+}
+
+.primary2 {
+  fill: #dba26d;
+}
+
+.primary3 {
+  fill: #fff;
+}
+
+.secondary {
+  fill: #D36E2D;
+}
+
+.primary-error{
+	fill: #f7baa5;
+}
+
+.secondary-error{
+	fill: #c03f21;
+}
+
+.primary-success {
+  fill: #c1eac5;
+}
+
+.secondary-success {
+  fill: #2f8132;
+}
+//larger icons
+
+$primary-color: #DB9553;
+// $outline-color: adjust-color($primary-color, $saturation: -75%, $lightness: -26%);
+$outline-color: #511D06;
+
+$fill-color: adjust-color($primary-color, $saturation: -82%, $lightness: 50%);
+//
+// .heroicon- {
+// 	&outline {
+// 		fill: $outline-color;
+// 	}
+//
+// 	&component- {
+// 		&fill {
+// 			fill: $fill-color;
+// 		}
+// 		&accent {
+// 			fill: $primary-color;
+// 		}
+// 	}
+//
+// 	&shadows {
+// 		fill: $outline-color; opacity: .4;
+// 	}
+// }
+.heroicon-outline {
+  fill: #474747; }
+
+.heroicon-component-fill {
+  fill: white; }
+
+.heroicon-component-accent {
+  fill: $primary-color; }
+
+.heroicon-shadows {
+  fill: #474747;
+  opacity: .4; }

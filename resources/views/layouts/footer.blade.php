@@ -54,6 +54,12 @@
   var n = d.getFullYear();
 
   document.querySelector('.currentYear').innerHTML = n;
+
+  function closeDiv(id){
+    console.log(id);
+    let el = document.getElementById(id);
+    el.style.display = "none";
+  }
 </script>
 </body>
 </html>
