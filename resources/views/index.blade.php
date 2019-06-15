@@ -15,23 +15,23 @@
   </div>
 
   <div id="awards-container" class="flex w-10/12 mx-auto">
-    <div class="flex h-32 w-full mx-auto">
-      <div class="w-1/6 h-full">
+    <div class="flex flex-wrap sm:h-32 h-full w-full mx-auto">
+      <div class="w-1/3 sm:w-1/6 h-full">
         <img src="/img/logos/udo_logo.png" alt="udo logo" class="w-full h-full object-contain">
       </div>
-      <div class="w-1/6 h-full">
+      <div class="w-1/3 sm:w-1/6 h-full">
         <img src="/img/logos/euro_champions_logo.png" alt="" class="w-full h-full object-contain p-4 opacity-75?">
       </div>
-      <div class="flex w-1/6 h-full">
+      <div class="flex w-1/3 sm:w-1/6 h-full">
         <img src="/img/logos/bbc-logo.png" alt="" class="w-full h-full object-contain p-4 opacity-75">
       </div>
-      <div class="w-1/6 h-full">
+      <div class="w-1/3 sm:w-1/6 h-full">
         <img src="/img/logos/commonwealth_games.png" alt="" class="w-full h-full object-contain p-4 opacity-75?">
       </div>
-      <div class="w-1/6 h-full">
+      <div class="w-1/3 sm:w-1/6 h-full">
         <img src="/img/logos/xm_logo.png" alt="" class="w-full h-full object-contain p-4 opacity-75?">
       </div>
-      <div class="w-1/6 h-full">
+      <div class="w-1/3 sm:w-1/6 h-full">
         <img src="/img/logos/cbbc-logo.png" alt="" class="w-full h-full object-contain opacity-75?">
       </div>
     </div>
@@ -41,8 +41,8 @@
   <div class="flex flex-col">
     <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-10">What Our Pupils Say</h2>
 
-    <div id="testimonial-container" class="flex w-4/6 mx-auto items-center">
-      <div id="testimonial1" class="w-1/2 p-8">
+    <div id="testimonial-container" class="flex flex-col md:flex-row w-4/6 mx-auto items-center">
+      <div id="testimonial1" class="md:w-1/2 p-8 mb-6 md:mb-0">
         <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
 
         </div>
@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-      <div id="testimonial2" class="w-1/2 p-8">
+      <div id="testimonial2" class="md:w-1/2 p-8">
         <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
 
         </div>
@@ -96,15 +96,15 @@
       {{-- <img src="/img/logos/urbanikslogobuildings-white.png" alt=""> --}}
     </div>
     <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">The Original Street Skool Of Dance</h2>
-    <div class="flex w-5/6 mx-auto">
+    <div class="flex flex-col md:flex-row w-5/6 mx-auto">
 
-      <div class="w-1/2 p-4">
+      <div class="md:w-1/2 p-4">
         <h3 class="text-2xl text-gray-100 mb-4">Est. Since 2001</h3>
         <p class="mb-0 text-gray-200">We are one of the first schools that appeared on the scene all the way back from 2001. We have
         successfully taught over 200 pupils from all backgrounds, ages and skill level</p>
       </div>
 
-      <div class="w-1/2 p-4">
+      <div class="md:w-1/2 p-4">
         <h3 class="text-2xl text-gray-100 mb-4">Our Experience</h3>
         <p class="mb-0 text-gray-200">
           We have over 30 years professional dancing experience. Study at College of London Dance. Teaching experience of over 20 years!
@@ -114,7 +114,7 @@
   </div>
 
   <div class="flex w-full mt-24 py-8 bg-gray-100 mb-16">
-    <div class="flex m-auto">
+    <div class="flex m-auto w-10/12 md:w-auto">
 
       <div class="mr-4">
         <p class="mb-0 text-2xl italic text-lightblue-1000">Ready To Learn Street Dance?</p>

@@ -25,7 +25,7 @@
     @include('layouts.status')
     @include('layouts.error-status')
 
-    <div class="mx-auto relative p-8 w-1/2 bg-grey-100 rounded-b-lg">
+    <div class="mx-auto relative p-8 w-1/2 bg-grey-100 rounded-b-lg z-30">
       <form id="subscription-form" action="/contact" method="POST">
         @csrf
       <div class="flex flex-wrap items-stretch w-full mb-5 relative">
