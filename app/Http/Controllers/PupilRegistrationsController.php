@@ -34,6 +34,6 @@ class PupilRegistrationsController extends Controller
 
       Mail::to(config('global.email'))->send(new PupilRegistration($data));
 
-      dd(request()->all());
+      return back()->with('status', 'We received your registration details. We will be in touch shortly!');
     }
 }

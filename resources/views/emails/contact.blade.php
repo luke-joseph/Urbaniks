@@ -1,12 +1,12 @@
 @component('mail::message')
-# Greetings Urbaniks,
+# Greetings Urbaniks Admin,
 
 You have a new message from somebody from your site...
 
 @component('mail::panel')
 Name: {{ $data['name'] }}
 
-Email: {{ $data['email'] }}
+Email: <a href="mailto:{{ $data['email'] }}">{{ $data['email'] }}</a>
 
 {{ $data['name'] }} said:
 

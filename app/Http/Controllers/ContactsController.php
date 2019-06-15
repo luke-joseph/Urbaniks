@@ -23,5 +23,7 @@ class ContactsController extends Controller
       ];
 
       Mail::to(config('global.email'))->send(new Contact($data));
+
+      return back()->with('status', 'We received your email!');
     }
 }

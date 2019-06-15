@@ -31,17 +31,17 @@
       <div class="flex flex-wrap items-stretch w-full mb-5 relative">
         <div class="sm:w-1/2 flex flex-col">
           <label class="mb-1 pl-1 text-white" for="name">Your Name *</label>
-          <input type="name" name="name" value="{{ old('name') }}" class="mr-4 leading-normal border h-10 border-gray-300 rounded bg-gray-100 px-3 relative focus:border-blue focus:shadow" placeholder="Name" style="">
+          <input type="name" name="name" value="{{ old('name') }}" class="mr-4 leading-normal border h-10 border-gray-300 rounded bg-gray-100 px-3 relative focus:border-blue focus:shadow" placeholder="Name">
         </div>
         <div class="sm:w-1/2 flex flex-col mt-6 mb-2 sm:mt-0 sm:mb-0">
           <label class="mb-1 pl-1 text-white" for="email">Your Email *</label>
-          <input type="email" name="email" value="{{ old('email') }}" class="leading-normal border h-10 border-gray-300 rounded px-3 bg-gray-100 relative focus:border-blue focus:shadow" placeholder="Email" style="">
+          <input type="email" name="email" value="{{ old('email') }}" class="leading-normal border h-10 border-gray-300 rounded px-3 bg-gray-100 relative focus:border-blue focus:shadow" placeholder="Email">
        </div>
       </div>
 
       <div class="flex flex-col items-stretch w-full mb-3 relative">
         <label class="mb-1 pl-1 text-white" for="message">Your Message *</label>
-        <textarea rows="6" cols="50" value="{{ old('message') }}" name="message" class="w-full leading-normal border border-gray-300 rounded p-3 bg-gray-100 relative focus:border-blue focus:shadow" placeholder="Type your message here..." style=""></textarea>
+        <textarea rows="6" cols="50" value="{{ old('message') }}" name="message" class="w-full leading-normal border border-gray-300 rounded p-3 bg-gray-100 relative focus:border-blue focus:shadow" placeholder="Type your message here..."></textarea>
       </div>
 
     <button type="submit" class="mt-4 py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto">Send Message</button>
