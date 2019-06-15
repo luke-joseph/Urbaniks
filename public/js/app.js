@@ -25204,7 +25204,7 @@ var render = function() {
     "div",
     [
       _c("div", { staticClass: "flex flex-wrap w-10/12 mx-auto" }, [
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25218,7 +25218,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25232,7 +25232,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25246,7 +25246,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25260,7 +25260,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25274,7 +25274,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25288,7 +25288,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25302,7 +25302,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25316,7 +25316,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25330,7 +25330,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25344,7 +25344,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
@@ -25358,7 +25358,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3" }, [
+        _c("div", { staticClass: "w-1/2 sm:w-1/3" }, [
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",

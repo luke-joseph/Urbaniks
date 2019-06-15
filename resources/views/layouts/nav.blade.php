@@ -11,10 +11,10 @@
     </div>
   </div>
 
-  <div id="navigation" class="pt-8 pb-12 bg-gray-1000 px-16 sticky top-0 z-50">
+  <div id="navigation" class="pt-8 pb-12 bg-gray-1000 px-4 sm:px-16 sticky top-0 z-50">
 
     <div id="main-nav" class="flex justify-between items-center">
-      <div id="urbaniks-logo" class="w-1/5">
+      <div id="urbaniks-logo" class="w-1/2 sm:w-1/5">
         <img src="/img/urbaniks-plain-ws.png" alt="urbaniks street dance logo white" class="w-1/2">
       </div>
       <ul class="hidden lg:flex text-base mb-0 text-white justify-between flex-grow uppercase font-bold">

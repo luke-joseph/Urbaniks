@@ -25,15 +25,15 @@
     @include('layouts.status')
     @include('layouts.error-status')
 
-    <div class="mx-auto relative p-8 w-1/2 bg-grey-100 rounded-b-lg z-30">
+    <div class="mx-auto relative p-8 sm:w-1/2 bg-grey-100 rounded-b-lg z-30">
       <form id="subscription-form" action="/contact" method="POST">
         @csrf
       <div class="flex flex-wrap items-stretch w-full mb-5 relative">
-        <div class="sm:w-1/2 flex flex-col">
+        <div class="w-full sm:w-1/2 flex flex-col">
           <label class="mb-1 pl-1 text-white" for="name">Your Name *</label>
-          <input type="name" name="name" value="{{ old('name') }}" class="mr-4 leading-normal border h-10 border-gray-300 rounded bg-gray-100 px-3 relative focus:border-blue focus:shadow" placeholder="Name">
+          <input type="name" name="name" value="{{ old('name') }}" class="sm:mr-4 leading-normal border h-10 border-gray-300 rounded bg-gray-100 px-3 relative focus:border-blue focus:shadow" placeholder="Name">
         </div>
-        <div class="sm:w-1/2 flex flex-col mt-6 mb-2 sm:mt-0 sm:mb-0">
+        <div class="w-full sm:w-1/2 flex flex-col mt-6 mb-2 sm:mt-0 sm:mb-0">
           <label class="mb-1 pl-1 text-white" for="email">Your Email *</label>
           <input type="email" name="email" value="{{ old('email') }}" class="leading-normal border h-10 border-gray-300 rounded px-3 bg-gray-100 relative focus:border-blue focus:shadow" placeholder="Email">
        </div>
@@ -50,9 +50,9 @@
   </div>
 </div>
 
-<div class="flex w-10/12 mx-auto mt-16 mb-24">
+<div class="flex flex-wrap w-11/12 sm:w-10/12 mx-auto mt-16 mb-24">
 
-<div class="flex flex-col w-1/2">
+<div class="flex flex-col sm:w-1/2">
   <h2 class="text-3xl uppercase text-white tracking-wide mb-4">Other Methods</h2>
   <div class="flex">
     <ul class="text-white text-lg mb-24 p-8 rounded bg-gray-800">
@@ -69,8 +69,8 @@
 
 </div>
 
-<div class="flex flex-col w-1/2">
-  <h2 class="text-3xl uppercase text-white text-right tracking-wide mb-8 w-full">Our Dance Studios</h2>
+<div class="flex flex-col sm:w-1/2">
+  <h2 class="text-3xl uppercase text-white sm:text-right tracking-wide mb-8 w-full">Our Dance Studios</h2>
 
   <div class="flex flex-col studio-container mb-8">
     <div class="ml-auto">

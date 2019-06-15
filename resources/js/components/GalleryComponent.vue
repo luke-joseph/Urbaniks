@@ -3,72 +3,72 @@
     <!-- <button @click="showSingle">Show single picture.</button>
     <button @click="showMultiple">Show a group of pictures.</button> -->
     <div class="flex flex-wrap w-10/12 mx-auto">
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(0)" src="/img/gallery/10954771.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(1)" src="/img/gallery/handstand-stage.png" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(2)" src="/img/gallery/10954773.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(3)" src="/img/gallery/10954759.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(4)" src="/img/gallery/10954762.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(5)" src="/img/gallery/10954765.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(6)" src="/img/gallery/10954766.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(7)" src="/img/gallery/10954767.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(8)" src="/img/gallery/10954775.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(9)" src="/img/gallery/10989230.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(10)" src="/img/gallery/10986121.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
           <img @click="showMultiple(11)" src="/img/gallery/10989228.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>

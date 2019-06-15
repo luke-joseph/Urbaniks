@@ -36,7 +36,7 @@
   </div>
 
   <form method="POST" action="/registration">
-  <div class="flex flex-col sm:flex-row py-8 rounded border-b border-t border-gray-600 w-10/12 mx-auto">
+  <div class="flex flex-col sm:flex-row py-8 rounded border-b border-t border-gray-600 sm:w-10/12 mx-auto">
     <div class="flex flex-col sm:w-1/3 px-8">
       <p class="mb-4 text-white text-xl tracking-wide">
         PUPIL DETAILS
@@ -46,12 +46,12 @@
         </p>
       </div>
       <div class="flex flex-col w-2/3 mx-auto mt-8 sm:mt-0 mb-4 sm:mb-0 sm:mx-0 sm:pl-24">
-        <div class="flex mb-4">
+        <div class="flex flex-wrap mb-4">
           <div>
             <legend for="pupil_name" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Pupil Name*</legend>
             <input id="pupil_name" name="pupil_name" value="{{ old('pupil_name') }}" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Name" required>
           </div>
-          <div class="ml-6">
+          <div class="sm:ml-6 mt-4 sm:mt-0">
             <legend for="pupil_age" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Pupil Age*</legend>
             <input id="pupil_age" name="pupil_age" value="{{ old('pupil_age') }}" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="Age" required>
           </div>
@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col sm:flex-row pb-4 rounded w-10/12 mx-auto mb-24 pt-8">
+    <div class="flex flex-col sm:flex-row pb-4 rounded sm:w-10/12 mx-auto mb-24 pt-8">
       @csrf
       <div class="flex flex-col sm:w-1/3 px-8">
         <p class="mb-2 text-white text-xl tracking-wide">
@@ -92,7 +92,7 @@
               <legend for="phone" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Contact Number*</legend>
               <input id="phone" name="phone_number" value="{{ old('phone_number') }}" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="07..." required>
             </div>
-            <div class="ml-6">
+            <div class="sm:ml-6 mt-4 sm:mt-0">
               <legend for="contact_time" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">Preferred Contact Time</legend>
               <input id="contact_time" name="contact_time" value="{{ old('contact_time') }}" class="bg-gray-100 pl-2 py-4 h-6 border border-gray-300 rounded" placeholder="eg. After 6pm">
             </div>
@@ -102,10 +102,10 @@
             </div>
             <div class="flex flex-col items-stretch w-full mb-3 relative mt-4">
               <label class="mb-1 pl-1 text-white" for="message">Additional Message</label>
-              <textarea rows="4" cols="50" name="message" value="{{ old('message') }}" class="bg-gray-100 w-2/3 leading-normal border border-gray-300 rounded p-3 relative focus:border-blue focus:shadow" placeholder="Want to leave an additional message? [optional]..."></textarea>
+              <textarea rows="4" cols="50" name="message" value="{{ old('message') }}" class="bg-gray-100 sm:w-2/3 leading-normal border border-gray-300 rounded p-3 relative focus:border-blue focus:shadow" placeholder="Want to leave an additional message? [optional]..."></textarea>
             </div>
           </div>
-            <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="submit">register now</button>
+            <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg sm:mr-auto" type="submit">register now</button>
         </div>
       </div>
     </form>
