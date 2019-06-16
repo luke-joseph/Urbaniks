@@ -704,6 +704,10 @@ video {
   }
 }
 
+#mobile-nav {
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
 .standard-link {
   color: #d6bcfa !important;
 }

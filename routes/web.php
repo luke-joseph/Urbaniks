@@ -21,3 +21,8 @@ Route::get('/order-form', 'OrderFormsController@download');
 
 Route::post('/registration', 'PupilRegistrationsController@store');
 Route::post('/contact', 'ContactsController@store');
+
+//legal
+Route::get('/privacy-policy', 'LegalController@privacy');
+Route::get('/cookie-policy', 'LegalController@cookies');
+Route::get('/terms', 'LegalController@terms');

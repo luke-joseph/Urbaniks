@@ -9,9 +9,9 @@
         <img src="/img/urbaniks-plain-ws.png" alt="urbaniks street dance logo white" class="w-1/3 md:w-1/2">
       </div>
       <ul class="mt-4 text-white">
-        <li class="text-gray-400 border-b border-gray-400 py-2">> FAQ</li>
-        <li class="text-gray-400 border-b border-gray-400 py-2">> Impressum</li>
-        <li class="text-gray-400 border-b border-gray-400 py-2">> Terms & Conditions</li>
+        <li class="text-gray-400 border-b border-gray-400 py-2"><a href="/privacy-policy">> Privacy</a></li>
+        <li class="text-gray-400 border-b border-gray-400 py-2"><a href="/cookie-policy">> Cookies</a></li>
+        <li class="text-gray-400 border-b border-gray-400 py-2"><a href="/terms">> Terms & Conditions</a></li>
       </ul>
     </div>
     <div class="px-2 border? border-white? md:w-1/4 mb-8 md:mb-0">
@@ -19,7 +19,7 @@
         <ul>
           <li class="text-gray-400 mt-4">Urbaniks</li>
           <li class="text-gray-400 mt-4">07780 992 295</li>
-          <li class="text-gray-400 mt-4">info@urbanikstreetdance-glasgow.co.uk</li>
+          <li class="text-gray-400 mt-4">info@urbaniks.co.uk</li>
         </ul>
     </div>
     <div class="px-2 border? border-white? md:w-1/4 mb-8 md:mb-0">
