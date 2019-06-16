@@ -1,5 +1,5 @@
 <body class="bg-gray-200">
-<div id="focus-area" class="xl:w-10/12 mx-auto bg-gray-1000 min-h-screen">
+<div id="focus-area" class="xl:w-10/12 mx-auto bg-gray-1000 min-h-screen" style="max-width: 1500px;">
 
   <div id="contact-details" class="flex justify-between pt-3 text-xs  border-t-4 border-lightblue-300 px-16">
     <div id="quick-contact" class="text-gray-200">

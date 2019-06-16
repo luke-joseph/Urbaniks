@@ -1,11 +1,11 @@
 @extends('layouts.master')
 @section('content')
   <div class="px-3">
-    <div class="bg-cover" style="background-image: url('/img/merch-test.png'); max-width: 100%; height: 500px; width: 100%;">
+    <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/merch-test.png'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
-          <h1 class="text-4xl px-2 text-center mb-4" style="background-color: rgba(129,222,253,0.4);">Our Merchandise</h1>
-          <p class="text-center italic text-2xl mx-auto px-2" style="background-color: rgba(49,49,67,0.4);">Look fresh in the latest urbaniks gear</p>
+          <h1 class="text-xl sm:text-2xl lg:text-5xl w-3/4 sm:w-full mx-auto  px-2" style="background-color: rgba(129,222,253,0.4);">Our Merchandise</h1>
+          <p class="hidden sm:flex text-center italic text-2xl mx-auto px-2" style="background-color: rgba(49,49,67,0.4);">Look fresh in the latest urbaniks gear</p>
         </div>
       </div>
    </div>

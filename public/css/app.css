@@ -676,6 +676,34 @@ video {
   opacity: 0.4;
 }
 
+#hero-image {
+  height: 200px;
+}
+
+@media (min-width: 640px) {
+  #hero-image {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero-image {
+    height: 360px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hero-image {
+    height: 490px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #hero-image {
+    height: 500px;
+  }
+}
+
 .standard-link {
   color: #d6bcfa !important;
 }
