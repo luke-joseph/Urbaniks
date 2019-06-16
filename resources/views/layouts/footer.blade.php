@@ -49,16 +49,21 @@
 </div>{{-- end focus area --}}
 <script type="text/javascript">
 
-  function addColorToPageNav(id){
-      //convert the value from the pages controller $page
-      let el = document.getElementById(id);
-      el.classList.remove('text-gray-100');
-      el.classList.add('text-lightblue-200');
-      console.log(id);
-  }
-  //convert the value from the pages controller $page
-  let page = @json($page);
+  let mobileNav = document.getElementById('mobile-nav');
 
+  function toggleNav(){
+    mobileNav.classList.toggle('hidden');
+  }
+
+  function addColorToPageNav(page){
+      let el = document.getElementsByClassName(page);
+      for (var i = 0; i < el.length; i++) {
+        el[i].classList.remove('text-gray-100');
+        el[i].classList.add('text-lightblue-200');
+      }
+  }
+
+  let page = @json($page);
   addColorToPageNav(page);
 
 </script>

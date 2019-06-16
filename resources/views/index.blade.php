@@ -85,7 +85,7 @@
       <img src="/img/icons/Break_dance.svg" alt="">
     </div>
     <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
-    <p class="text-center text-gray-200 w-4/6 mx-auto text-lg">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
+    <p class="sm:text-center text-gray-200 w-5/6 mx-auto text-lg">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
       of dance, develop confidence and life long friendships. We bring a togetherness and community with lots of interaction through dance.
 
     </p>
