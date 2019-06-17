@@ -2,13 +2,16 @@
 <div id="focus-area" class="xl:w-6/7 mx-auto bg-gray-1000 min-h-screen" style="max-width: 1500px;">
 
   <div id="contact-details" class="flex flex-wrap justify-between pt-3 text-xs  border-t-4 border-lightblue-300 px-16">
-    <div id="quick-contact" class="text-gray-200">
+
+    <div id="quick-contact" class="text-gray-200 mx-auto lg:mx-0">
       07780 992 295 <span class="pl-3 text-gray-200">|</span>   <a href="mailto:info@urbaniks.co.uk?Subject=Hello" class="pl-3 text-gray-200">info@urbaniks.co.uk</a>
     </div>
-    <div id="contact-socials" class="flex text-white items-center">
-      <div class="mr-2"><p class="mb-0 text-gray-200 text-center sm:text-justify">GLASGOW <span class="hidden sm:inline">- MILGAVIE | BALLOCH | CENTRAL</span></p> </div>
-      <img src="/img/facebook.png" alt="facebook logo" class="h-6">
+
+    <div id="contact-socials" class="flex text-white items-center w-full lg:w-auto">
+      <div class="mx-auto lg:mr-2"><p class="mb-0 text-gray-200 text-center sm:text-justify">GLASGOW <span class="hidden sm:inline">- MILGAVIE | BALLOCH | CENTRAL</span></p> </div>
+      <img src="/img/facebook.png" alt="facebook logo" class="h-6 hidden lg:flex">
     </div>
+
   </div>
 
   <div id="navigation" class="pt-8 pb-12 bg-gray-1000 px-4 sm:px-16 sticky top-0 z-50">
