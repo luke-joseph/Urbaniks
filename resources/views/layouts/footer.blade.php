@@ -59,7 +59,6 @@
   function togglePhoneModal(e){
     if (e.target.id == 'phone-modal' || e.target.id == 'close-target' || e.target.id == 'phone-social') {
       phoneModal.classList.toggle('hidden');
-      console.log('modal will be closed');
     }
   }
 
@@ -78,19 +77,18 @@
   let page = @json($page);
   addColorToPageNav(page);
 
+// set date
+var d = new Date();
+var n = d.getFullYear();
+
+document.querySelector('.currentYear').innerHTML = n;
+
+function closeDiv(id){
+  let el = document.getElementById(id);
+  el.style.display = "none";
+}
 </script>
+
 <script src="/js/app.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-  var d = new Date();
-  var n = d.getFullYear();
-
-  document.querySelector('.currentYear').innerHTML = n;
-
-  function closeDiv(id){
-    let el = document.getElementById(id);
-    el.style.display = "none";
-  }
-
-</script>
 </body>
 </html>

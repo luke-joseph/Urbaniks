@@ -5,9 +5,10 @@
       <img src="/img/icons/icon-close.svg" id="close-target" class="cursor-pointer ml-auto w-8 h-8">
     </div>
     <div class="flex flex-col mx-8 -mt-4 text-center">
-      <h4 class="text-xl font-semibold uppercase text-lightblue-900">Call us Today!</h4>
-      <p class="text-xl text-lightblue-800 italic font-semibold">Start Your Journey into Street Dance!</p>
-      <p class="text-3xl mb-4 text-center"><a href="tel:07780992295">> 07780992295 <</a></p>
+      <h4 class="text-4xl font-bold uppercase text-black">Call us Today!</h4>
+      <img src="/img/logos/urbanikslogobuildings-black.png" alt="Urbaniks Logo" class="w-1/2 max-w-lg mx-auto" style="width: 350px;">
+      <p class="text-xl text-lightblue-1000 italic font-semibold mb-8">Start Your Journey into Street Dance!</p>
+      <p class="text-5xl mb-4 text-center font-semibold bg-lightblue-200" style="background: rgba(99,179,237.0.4);">07780 992 295</p>
     </div>
   </div>
 
