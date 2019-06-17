@@ -4,6 +4,8 @@
 
 @include('layouts.socials')
 
+@include('layouts.phonemodal')
+
 @yield('content')
 
 @include('layouts.footer')

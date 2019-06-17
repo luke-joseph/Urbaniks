@@ -15,7 +15,7 @@
           <div class="invisible flex px-4 bg-blue-400 text-white rounded-l w-32 border-r">
             <p class="text-black font-semibold m-auto tracking-wider">07780992295</p>
           </div>
-          <div class="h-10 w-10 bg-blue-400">
+          <div id="phone-social" class="h-10 w-10 bg-blue-400" onclick=showPhoneModal()>
             <img src="/img/logos/phone.png" class="p-2 cursor-pointer" alt="phone logo">
           </div>
         </div>

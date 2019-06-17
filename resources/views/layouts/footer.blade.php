@@ -50,9 +50,21 @@
 <script type="text/javascript">
 
   let mobileNav = document.getElementById('mobile-nav');
+  let phoneModal = document.getElementById('phone-modal');
 
   function toggleNav(){
     mobileNav.classList.toggle('hidden');
+  }
+
+  function togglePhoneModal(e){
+    if (e.target.id == 'phone-modal' || e.target.id == 'close-target' || e.target.id == 'phone-social') {
+      phoneModal.classList.toggle('hidden');
+      console.log('modal will be closed');
+    }
+  }
+
+  function showPhoneModal() {
+    phoneModal.classList.toggle('hidden');
   }
 
   function addColorToPageNav(page){
