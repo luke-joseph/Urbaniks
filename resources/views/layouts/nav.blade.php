@@ -3,11 +3,11 @@
 
   <div id="contact-details" class="flex flex-wrap justify-between pt-3 text-xs  border-t-4 border-lightblue-300 px-16">
 
-    <div id="quick-contact" class="text-gray-200 mx-auto lg:mx-0">
+    <div id="quick-contact" class="text-gray-200 mx-auto lg:mx-0 lg:text-lg">
       07780 992 295 <span class="pl-3 text-gray-200">|</span>   <a href="mailto:info@urbaniks.co.uk?Subject=Hello" class="pl-3 text-gray-200">info@urbaniks.co.uk</a>
     </div>
 
-    <div id="contact-socials" class="flex text-white items-center w-full lg:w-auto">
+    <div id="contact-socials" class="flex text-white items-center w-full lg:w-auto lg:text-base">
       <div class="mx-auto lg:mr-2"><p class="mb-0 text-gray-200 text-center sm:text-justify">GLASGOW <span class="hidden sm:inline">- MILGAVIE | BALLOCH | CENTRAL</span></p> </div>
       <img src="/img/facebook.png" alt="facebook logo" class="h-6 hidden lg:flex">
     </div>
