@@ -5,13 +5,13 @@
       <label for="classes" class="text-white uppercase tracking-wider font-bold">Choose Class</label>
       <select class="rounded" name="classes" v-model="selectedClass">
 
-        <optgroup label="kids">
+        <optgroup label="kids" class="bg-gray-100">
           <option value="BOOGIE_BABEZ">BOOGIE BABEZ</option>
           <option value="KOOL_KIDZ">KOOL KIDZ</option>
           <option value="WEE_SKILLZ">WEE SKILLZ</option>
         </optgroup>
 
-        <optgroup label="juniors">
+        <optgroup label="juniors" class="bg-gray-200">
           <option value="JNR_CONTEMPORARY">JNR CONTEMPORARY</option>
           <option value="JNR_BOYZ">JNR BOYZ</option>
           <option value="JNR_GIRLS">JNR GIRLS</option>
@@ -19,7 +19,7 @@
           <option value="BEGINNERS_TAP">BEGINNERS TAP</option>
         </optgroup>
 
-        <optgroup label="senior">
+        <optgroup label="senior" class="bg-gray-100">
           <option value="GIRLS_YOUTH_CREW">GIRLS YOUTH CREW (GYC)</option>
           <option value="LAYDEEZ">LAYDEEZ</option>
           <option value="BALLET_BARRE_PRIVATES">BALLET BARRE PRIVATES</option>
@@ -27,7 +27,7 @@
           <option value="SNR_BOYS_STREET_SKILLZ">SNR BOYS STREET</option>
         </optgroup>
 
-        <optgroup label="competitive training">
+        <optgroup label="competitive training" class="bg-gray-200">
           <option value="COMPETITION_TEAM_DANCERS">COMPETITION TEAM DANCERS</option>
           <option value="HOODLUMZ_CHOREO">HOODLUMZ CHOREO</option>
           <option value="COMPETITIVE_TRAINING">COMPETITIVE TRAINING</option>
