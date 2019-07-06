@@ -23,7 +23,7 @@
     Our class slots can fill up quickly so please register now to avoid disappointment!
     </p>
 
-    <a href="/register" class="mx-auto mt-4">
+    <a href="/registration" class="mx-auto mt-4">
       <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register now online</button>
     </a>
   </div>
@@ -76,34 +76,33 @@
         <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G83%208AZ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
       </div>
       <ul class="text-right text-gray-300 mt-3">
-        <li>Urbaniks Street Skool of Dance, The Lennox Hall</li>
+        <li>The Lennox Hall</li>
         <li>Main Street, Jamestown</li>
-        <li>Ballock</li>
+        <li>Balloch</li>
         <li>G83 8AZ</li>
       </ul>
   </div>
 
   <div class="flex flex-col studio-container mb-8">
     <div class="ml-auto">
-      <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Auchenhowie%20Road%2C%20%20Milngavie%2C%20%20East%20Dunbartonshire%2C%20%20G62%206EJ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G62%206AQ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </div>
     <ul class="text-right text-gray-300 mt-3">
-      <li>Milngavie and Bearsden Sports Club</li>
-      <li>Auchenhowie Road</li>
+      <li>West Rugby Club, Glasgow Rd</li>
       <li>Milngavie, East Dunbartonshire</li>
-      <li>G62 6EJ</li>
+      <li>G62 6AQ</li>
     </ul>
 </div>
 
 <div class="flex flex-col studio-container">
   <div class="ml-auto">
-    <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=SDTA%20101%20Park%20Road%2C%20%20Glasgow%2C%20%20G4%209JE&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-    </div>
+    <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G61%203DF&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  </div>
   <ul class="text-right text-gray-300 mt-3">
-    <li>Scottish Dance Teachers Association</li>
-    <li>101 Park Road</li>
-    <li>Glasgow</li>
-    <li>G4 9JE</li>
+    <li>Allander Leisure Centre</li>
+    <li>Milngavie Rd</li>
+    <li>Milngavie, Glasgow</li>
+    <li>G61 3DF</li>
   </ul>
 </div>
   </div>

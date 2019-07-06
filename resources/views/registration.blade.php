@@ -66,9 +66,34 @@
           <div class="form-group">
             <legend for="class" class="text-sm font-semibold mb-2 uppercase text-gray-200 tracking-wide">I want to register to class*</legend>
             <select id="class" name="class" value="{{ old('class') }}" class="bg-gray-100 pl-2 h-8 border border-gray-300 rounded">
-              <option value="Breakdance - s5 +">Breakdance - s5 +</option>
-              <option value="Hip Hop - s1 - s3">Hip Hop - s1 - s3</option>
-              <option value="Contemporary - y1 - 5">Contemporary - y1 - 5</option>
+
+                      <optgroup label="kids">
+                        <option value="BOOGIE_BABEZ">BOOGIE BABEZ</option>
+                        <option value="KOOL_KIDZ">KOOL KIDZ</option>
+                        <option value="WEE_SKILLZ">WEE SKILLZ</option>
+                      </optgroup>
+
+                      <optgroup label="juniors">
+                        <option value="JNR_CONTEMPORARY">JNR CONTEMPORARY</option>
+                        <option value="JNR_BOYZ">JNR BOYZ</option>
+                        <option value="JNR_GIRLS">JNR GIRLS</option>
+                        <option value="BIGGIE_SMALLZ">BIGGIE SMALLZ</option>
+                        <option value="BEGINNERS_TAP">BEGINNERS TAP</option>
+                      </optgroup>
+
+                      <optgroup label="senior">
+                        <option value="GIRLS_YOUTH_CREW">GIRLS YOUTH CREW (GYC)</option>
+                        <option value="LAYDEEZ">LAYDEEZ</option>
+                        <option value="BALLET_BARRE_PRIVATES">BALLET BARRE PRIVATES</option>
+                        <option value="SNR_CREATIVE">SNR CREATIVE</option>
+                        <option value="SNR_BOYS_STREET_SKILLZ">SNR BOYS STREET</option>
+                      </optgroup>
+
+                      <optgroup label="competitive training">
+                        <option value="COMPETITION_TEAM_DANCERS">COMPETITION TEAM DANCERS</option>
+                        <option value="HOODLUMZ_CHOREO">HOODLUMZ CHOREO</option>
+                        <option value="COMPETITIVE_TRAINING">COMPETITIVE TRAINING</option>
+                      </optgroup>
               <option value="I'm not sure">I'm not sure</option>
             </select>
           </div> <!---->

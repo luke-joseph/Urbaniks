@@ -25,17 +25,17 @@
     <div class="px-2 border? border-white? md:w-1/4 mb-8 md:mb-0">
       <h4 class="text-lightblue-300 uppercase text-base font-bold tracking-wider">Studio Locations</h4>
       <ul>
-        <li class="text-gray-400 mt-4">Milngavie and Bearsden Sports Club, Auchenhowie Road, Milngavie, GLASGOW G62 6EJ</li>
-        <li class="text-gray-400 mt-4">Urbaniks Street Skool of Dance, The Lennox Hall, Main Street, Jamestown, Balloch, G83 8AZ</li>
-        <li class="text-gray-400 mt-4">SDTA, 101 Park Road, Glasgow, G4 9JE</li>
+        <li class="text-gray-400 mt-4">Milngavie - West Rugby Club, Glasgow Rd. G62 6AQ</li>
+        <li class="text-gray-400 mt-4">Balloch - The Lennox Hall, Main St. Jamestown, G83 8AZ</li>
+        <li class="text-gray-400 mt-4">Milngavie - Allander Leisure Centre, Milngavie RD. G61 3DF</li>
       </ul>
     </div>
     <div class="px-2 border? border-white? md:w-1/4">
       <h4 class="text-lightblue-300 uppercase text-base font-bold tracking-wider">Opening Hours</h4>
       <ul>
-        <li class="text-gray-400 mt-4">Mon, Tues, Fri : 0830 - 1630</li>
-        <li class="text-gray-400 mt-4">Wed, Thurs : 0830 - 1300</li>
-        <li class="text-gray-400 mt-4">Sat : 0830 - 1430</li>
+        <li class="text-gray-400 mt-4">Mon, Tues: 1530 - 2145</li>
+        <li class="text-gray-400 mt-4">Thurs, Friday: 1530 - 1830</li>
+        <li class="text-gray-400 mt-4">Sat : 0945 - 1530</li>
       </ul>
     </div>
  </div>
