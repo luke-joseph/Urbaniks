@@ -1939,6 +1939,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _src_danceclasses__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/danceclasses */ "./resources/js/components/src/danceclasses.js");
 //
 //
 //
@@ -1975,90 +1976,39 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      selectedClass: 'Breakdance',
-      allClasses: {
-        Breakdance: {
-          Monday: [{
-            index: 0,
-            time: '18:00 - 1920',
-            teacher: 'Paul Joseph',
-            location: 'Balloch',
-            googleLocation: 'https://google.com',
-            lessonName: 'Breakdance - Elders 16+',
-            difficulty: 'Medium',
-            description: 'Old School to the new school acrobatic techniques',
-            price: 5
-          }, {
-            index: 1,
-            time: '17:00 - 1820',
-            teacher: 'Paul Joseph',
-            location: 'Milngavie sports club',
-            googleLocation: 'https://google.com',
-            lessonName: 'Breakdance - Jnrs 11-15',
-            difficulty: 'Medium',
-            description: 'Old School to the new school acrobatic techniques',
-            price: 5
-          }],
-          Tuesday: [{
-            index: 0,
-            time: '13:00 - 1420',
-            teacher: 'Pauline Joseph',
-            location: 'Milngavie sports club',
-            googleLocation: 'https://google.com',
-            lessonName: 'Breakdance - Elders 21+',
-            difficulty: 'Medium',
-            description: 'Old School to the new school acrobatic techniques',
-            price: 5
-          }, {
-            index: 1,
-            time: '14:00 - 1920',
-            teacher: 'Pauline Joseph',
-            location: 'Milngavie sports club',
-            googleLocation: 'https://google.com',
-            lessonName: 'Breakdance - Elders 40+',
-            difficulty: 'Medium',
-            description: 'Old School to the new school acrobatic techniques',
-            price: 5
-          }]
-        },
-        HipHop: {
-          Monday: [{
-            index: 0,
-            time: '18:00 - 1920',
-            teacher: 'Paul Joseph',
-            location: 'Milngavie sports club',
-            googleLocation: 'https://google.com',
-            lessonName: 'Breakdance - Elders 16+',
-            difficulty: 'Medium',
-            description: 'Old School to the new school acrobatic techniques',
-            price: 5
-          }],
-          Tuesday: [{
-            index: 0,
-            time: '13:00 - 1420',
-            teacher: 'Pauline Joseph',
-            location: 'Milngavie sports club',
-            googleLocation: 'https://google.com',
-            lessonName: 'Breakdance - Elders 21+',
-            difficulty: 'Medium',
-            description: 'Old School to the new school acrobatic techniques',
-            price: 5
-          }, {
-            index: 1,
-            time: '14:00 - 1920',
-            teacher: 'Pauline Joseph',
-            location: 'Milngavie sports club',
-            googleLocation: 'https://google.com',
-            lessonName: 'Breakdance - Elders 40+',
-            difficulty: 'Medium',
-            description: 'Old School to the new school acrobatic techniques',
-            price: 5
-          }]
-        }
-      }
+      selectedClass: 'BOOGIE_BABEZ',
+      allClasses: _src_danceclasses__WEBPACK_IMPORTED_MODULE_0__["default"]
     };
   },
   computed: {},
@@ -2069,9 +2019,6 @@ __webpack_require__.r(__webpack_exports__);
         'bg-gray-900': index % 2 === 1
       };
     }
-  },
-  mounted: function mounted() {
-    console.log('Component mounted.');
   }
 });
 
@@ -25450,17 +25397,13 @@ var render = function() {
               }
             },
             [
-              _c("option", { attrs: { value: "Breakdance" } }, [
-                _vm._v("Breakdance")
-              ]),
+              _vm._m(0),
               _vm._v(" "),
-              _c("option", { attrs: { value: "HipHop" } }, [_vm._v("Hip Hop")]),
+              _vm._m(1),
               _vm._v(" "),
-              _c("option", { attrs: { value: "Contempary" } }, [
-                _vm._v("Contempary")
-              ]),
+              _vm._m(2),
               _vm._v(" "),
-              _c("option", { attrs: { value: "Ballet" } }, [_vm._v("Ballet")])
+              _vm._m(3)
             ]
           )
         ]
@@ -25491,9 +25434,15 @@ var render = function() {
                       _vm._v(" " + _vm._s(lesson.teacher))
                     ]),
                     _vm._v(" "),
-                    _c("p", { staticClass: "mb-0 py-1 text-gray-200" }, [
+                    _c("p", { staticClass: "mb-0 py-1 text-gray-200 w-4/5" }, [
                       _vm._v(" " + _vm._s(lesson.location))
-                    ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      { staticClass: "mb-0 py-1 text-gray-200 w-4/5 text-xs" },
+                      [_vm._v(" " + _vm._s(lesson.address))]
+                    )
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "flex flex-col w-2/3" }, [
@@ -25506,6 +25455,10 @@ var render = function() {
                     ]),
                     _vm._v(" "),
                     _c("p", { staticClass: "mb-0 py-1 text-gray-300" }, [
+                      _vm._v(" " + _vm._s(lesson.info))
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-0 py-1 text-gray-200" }, [
                       _vm._v(" £" + _vm._s(lesson.price))
                     ])
                   ])
@@ -25520,7 +25473,86 @@ var render = function() {
     2
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("optgroup", { attrs: { label: "kids" } }, [
+      _c("option", { attrs: { value: "BOOGIE_BABEZ" } }, [
+        _vm._v("BOOGIE BABEZ")
+      ]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "KOOL_KIDZ" } }, [_vm._v("KOOL KIDZ")]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "WEE_SKILLZ" } }, [_vm._v("WEE SKILLZ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("optgroup", { attrs: { label: "juniors" } }, [
+      _c("option", { attrs: { value: "JNR_CONTEMPORARY" } }, [
+        _vm._v("JNR CONTEMPORARY")
+      ]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "JNR_BOYZ" } }, [_vm._v("JNR BOYZ")]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "JNR_GIRLS" } }, [_vm._v("JNR GIRLS")]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "BIGGIE_SMALLZ" } }, [
+        _vm._v("BIGGIE SMALLZ")
+      ]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "BEGINNERS_TAP" } }, [
+        _vm._v("BEGINNERS TAP")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("optgroup", { attrs: { label: "senior" } }, [
+      _c("option", { attrs: { value: "GIRLS_YOUTH_CREW" } }, [
+        _vm._v("GIRLS YOUTH CREW (GYC)")
+      ]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "LAYDEEZ" } }, [_vm._v("LAYDEEZ")]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "BALLET_BARRE_PRIVATES" } }, [
+        _vm._v("BALLET BARRE PRIVATES")
+      ]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "SNR_CREATIVE" } }, [
+        _vm._v("SNR CREATIVE")
+      ]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "SNR_BOYS_STREET_SKILLZ" } }, [
+        _vm._v("SNR BOYS STREET")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("optgroup", { attrs: { label: "competitive training" } }, [
+      _c("option", { attrs: { value: "COMPETITION_TEAM_DANCERS" } }, [
+        _vm._v("COMPETITION TEAM DANCERS")
+      ]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "HOODLUMZ_CHOREO" } }, [
+        _vm._v("HOODLUMZ CHOREO")
+      ]),
+      _vm._v(" "),
+      _c("option", { attrs: { value: "COMPETITIVE_TRAINING" } }, [
+        _vm._v("COMPETITIVE TRAINING")
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -37986,6 +38018,305 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTable_vue_vue_type_template_id_303bf2a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/components/src/danceclasses.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/src/danceclasses.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var danceclasses = {
+  BOOGIE_BABEZ: {
+    Monday: [{
+      index: 0,
+      time: '15:30 - 1630',
+      teacher: 'Pauline Joseph',
+      location: 'Milngavie',
+      address: 'WEST RUGBY CLUB, GLASGOW RD. G62 6AQ',
+      googleLocation: 'https://google.com',
+      lessonName: 'BOOGIE BABEZ – Street',
+      difficulty: 'Beginners',
+      info: 'Ages 3 - P2’s | boys & girls',
+      price: 5
+    }],
+    Friday: [{
+      index: 0,
+      time: '15:30 - 1630',
+      teacher: 'Pauline Joseph',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'BOOGIE BABEZ – Street',
+      difficulty: 'Beginners',
+      info: 'Ages 3 - P2’s | boys & girls',
+      price: 5
+    }]
+  },
+  KOOL_KIDZ: {
+    Friday: [{
+      index: 0,
+      time: '16:30 - 17:30',
+      teacher: 'Pauline Joseph',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'KOOL KIDZ – Girls Street',
+      difficulty: 'Beginners',
+      info: 'Ages P3 - P7 | Girls',
+      price: 5
+    }]
+  },
+  WEE_SKILLZ: {
+    Tuesday: [{
+      index: 0,
+      time: '15:30 - 16:30',
+      teacher: 'Paul Joseph',
+      location: 'MILNGAVIE',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'WEE SKILLZ – Boys Street',
+      difficulty: 'Beginners',
+      info: 'Ages P2 - P4 | Boys',
+      price: 5
+    }]
+  },
+  JNR_CONTEMPORARY: {
+    Monday: [{
+      index: 0,
+      time: '17:45 - 18:45',
+      teacher: 'Pauline Joseph',
+      location: 'MILNGAVIE',
+      address: 'WEST RUGBY CLUB, GLASGOW RD. G62 6AQ',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR CONTEMPORARY – Contemporary',
+      difficulty: 'Beginners',
+      info: 'Ages P3 + | stretch, lyrical, creative | boys & girls',
+      price: 5
+    }],
+    Thursday: [{
+      index: 0,
+      time: '15:45 - 16:45',
+      teacher: 'Pauline Joseph',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR CONTEMPORARY – Contemporary',
+      difficulty: 'Beginners',
+      info: 'Ages P4 + | lyrical, gym, creative | boys & girls',
+      price: 5
+    }]
+  },
+  JNR_BOYZ: {
+    Tuesday: [{
+      index: 0,
+      time: '16:30 - 17:30',
+      teacher: 'Paul Joseph',
+      location: 'MILNGAVIE',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR BOYZ – Street',
+      difficulty: 'Beginners',
+      info: 'Ages P5 + | Boys',
+      price: 5
+    }],
+    Friday: [{
+      index: 0,
+      time: '17:30 - 18:30',
+      teacher: 'Paul Joseph',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR BOYZ – Boys Street',
+      difficulty: 'Beginners',
+      info: 'Ages P3 - 7 | Boys',
+      price: 5
+    }]
+  },
+  JNR_GIRLS: {
+    Tuesday: [{
+      index: 0,
+      time: '20:00 - 21:00',
+      teacher: 'Chloe',
+      location: 'MILNGAVIE',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR GIRLS – Street',
+      difficulty: 'Beginners',
+      info: 'Ages P7 - S3 | Girls',
+      price: 5
+    }],
+    Saturday: [{
+      index: 0,
+      time: '14:30 - 15:30',
+      teacher: 'Erin and Rachael',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR GIRLS - Street',
+      difficulty: 'Beginners',
+      info: 'Ages P7 - S3 | Girls',
+      price: 5
+    }]
+  },
+  BIGGIE_SMALLZ: {
+    Monday: [{
+      index: 0,
+      time: '16:45 - 17:45',
+      teacher: 'Pauline Joseph',
+      location: 'MILNGAVIE',
+      address: 'WEST RUGBY CLUB, GLASGOW RD. G62 6AQ',
+      googleLocation: 'https://google.com',
+      lessonName: 'BIGGIE SMALLZ – Girls Street',
+      difficulty: 'Beginners',
+      info: 'Ages P3 - P6 | Girls',
+      price: 5
+    }]
+  },
+  BEGINNERS_TAP: {
+    Saturday: [{
+      index: 0,
+      time: '12:45 - 13:30',
+      teacher: 'Pauline Joseph',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'BEGINNERS TAP',
+      difficulty: 'Beginners',
+      info: 'Ages 11+ | Mixed',
+      price: 5
+    }]
+  },
+  GIRLS_YOUTH_CREW: {
+    Tuesday: [{
+      index: 0,
+      time: '17:00 - 18:00',
+      teacher: 'Chloe & Pauline',
+      location: 'MILNGAVIE',
+      address: 'SCOUT HALL',
+      googleLocation: 'https://google.com',
+      lessonName: 'Girls Youth Crew',
+      difficulty: 'Intermediate',
+      info: 'Ages S3+ | Girls',
+      price: 5
+    }],
+    Saturday: [{
+      index: 0,
+      time: '12:30 - 13:30',
+      teacher: 'Erin & Rachel',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'GIRLS YOUTH CREW',
+      difficulty: 'Intermediate',
+      info: 'Ages s3+ | Girls',
+      price: 5
+    }]
+  },
+  LAYDEEZ: {
+    Tuesday: [{
+      index: 0,
+      time: '20:45 - 21:45',
+      teacher: 'Pauline',
+      location: 'MILNGAVIE',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'LAYDEEZ',
+      difficulty: 'Intermediate ',
+      info: 'adult street fitness | Women',
+      price: 5
+    }]
+  },
+  BALLET_BARRE_PRIVATES: {
+    Saturday: [{
+      index: 0,
+      time: '14:30 - 15:30',
+      teacher: 'Paul',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'Ballet Barre Privates',
+      difficulty: 'Intermediate',
+      info: 'Ballet',
+      price: 5
+    }]
+  },
+  SNR_CREATIVE: {
+    Saturday: [{
+      index: 0,
+      time: '09:45 - 11:00',
+      teacher: 'Paul & Pauline',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'SNR CREATIVE',
+      difficulty: 'Intermediate',
+      info: 'Creative dance | mixed',
+      price: 5
+    }]
+  },
+  HOODLUMZ_CHOREO: {
+    Saturday: [{
+      index: 0,
+      time: '09:45 - 11:00',
+      teacher: 'Erin & Rach',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'HOODLUMZ CHOREO',
+      difficulty: 'Intermediate',
+      info: 'Choreography class',
+      price: 5
+    }]
+  },
+  SNR_BOYS_STREET_SKILLZ: {
+    Thursday: [{
+      index: 0,
+      time: '16:45 - 17:45',
+      teacher: 'Paul',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'SNR BOYS STREET SKILLZ',
+      difficulty: 'Intermediate',
+      info: 'Ages s1 + | Boys',
+      price: 5
+    }]
+  },
+  COMPETITION_TEAM_DANCERS: {
+    Tuesday: [{
+      index: 0,
+      time: '18:00 - 19:15',
+      teacher: 'Paul & Pauline',
+      location: 'MILNGAVIE',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'COMPETITION TEAM DANCERS',
+      difficulty: 'Intermediate',
+      info: 'Competitive Dance | mixed',
+      price: 5
+    }]
+  },
+  COMPETITIVE_TRAINING: {
+    Saturday: [{
+      index: 0,
+      time: '11:00 - 12:10',
+      teacher: 'Paul & Pauline',
+      location: 'BALLOCH',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'COMPETITION TRAINING',
+      difficulty: 'Intermediate',
+      info: 'Competitive Dance | The Honeys\' / Hoodlums',
+      price: 5
+    }]
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (danceclasses);
 
 /***/ }),
 
