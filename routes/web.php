@@ -15,6 +15,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/classes', 'PagesController@classes');
 Route::get('/merchandise', 'PagesController@merchandise');
 Route::get('/gallery', 'PagesController@gallery');
+Route::get('/teachers', 'PagesController@teachers');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/registration', 'PagesController@registration');
 Route::get('/order-form', 'OrderFormsController@download');

@@ -53,6 +53,21 @@ class PageMetaData
 
     return $pageMeta;
   }
+  public static function teachers()
+  {
+    $pageMeta = [
+      "page_title" => 'Urbaniks Street Skool of Dance in Glasgow - Our Teachers',
+      "fb_image" => '',
+      "fb_url" => '',
+      "fb_title" => 'Urbaniks Street Skool of Dance in Glasgow',
+      "fb_description" => 'Learn Street Dance Today!',
+      "twitter_title" => 'Urbaniks Street Skool of Dance in Glasgow',
+      "twitter_description" => 'Learn Street Dance Today!',
+      "twitter_image" => '',
+    ];
+
+    return $pageMeta;
+  }
   public static function merchandise()
   {
     $pageMeta = [

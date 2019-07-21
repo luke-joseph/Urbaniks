@@ -85,8 +85,8 @@
       <img src="/img/icons/Break_dance.svg" alt="">
     </div>
     <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
-    <p class="sm:text-center text-gray-200 w-5/6 mx-auto text-lg">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
-      of dance, develop confidence and life long friendships. We bring a togetherness and community with lots of interaction through dance.
+    <p class="sm:text-center text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
+      of dance, develop confidence and life long friendships. We bring togetherness and community with lots of interaction through dance.
 
     </p>
   </div>
@@ -100,14 +100,19 @@
 
       <div class="md:w-1/2 p-4">
         <h3 class="text-2xl text-gray-100 mb-4">Est. Since 2001</h3>
-        <p class="mb-0 text-gray-200">We are one of the first schools that appeared on the scene all the way back from 2001. We have
-        successfully taught over 200 pupils from all backgrounds, ages and skill level</p>
+        <p class="mb-0 text-gray-200 mb-4 sm:w-11/12">We are one of the first schools that appeared on the scene all the way back from 2001. We have
+        successfully taught over 200 pupils from all backgrounds, ages and skill level.</p>
+        <p class="mb-0 text-gray-200 sm:w-11/12">
+          Dance is great way to stay healthy, build confidence & interact with peers while having fun in this growing digital age.
+        </p>
       </div>
 
       <div class="md:w-1/2 p-4">
         <h3 class="text-2xl text-gray-100 mb-4">Our Experience</h3>
         <p class="mb-0 text-gray-200">
-          We have over 30 years professional dancing experience. Study at College of London Dance. Teaching experience of over 20 years!
+          We have over 30 years experience as professional dancers, choreographers, directors, teachers, judges and lecturers in dance.
+          <span class="text-lightblue-600">To learn more about the teachers</span>
+           <a href="/teachers" class="bg-lightblue-300 text-black font-bold rounded px-2 text-xs">click here </a>
         </p>
       </div>
     </div>

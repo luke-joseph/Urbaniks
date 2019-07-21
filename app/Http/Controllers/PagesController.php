@@ -28,6 +28,13 @@ class PagesController extends Controller
 
       return view('gallery', compact('page', 'pageMeta'));
     }
+    public function teachers()
+    {
+      $page = 'Teachers';
+      $pageMeta = pageMetaData::teachers();
+
+      return view('teachers', compact('page', 'pageMeta'));
+    }
     public function merchandise()
     {
       $page = 'Merchandise';
