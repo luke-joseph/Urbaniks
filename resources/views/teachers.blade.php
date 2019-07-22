@@ -4,7 +4,7 @@
     <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/index-image.jpg'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
-          <h1 class="text-xl sm:text-2xl lg:text-5xl w-3/4 sm:w-full mx-auto text-center px-2" style="background-color: rgba(0,0,0,0.4);">Our Teachers</h1>
+          <h1 class="text-3xl lg:text-5xl text-center w-full mx-auto text-center px-2" style="background-color: rgba(0,0,0,0.4);">Our Teachers</h1>
           <p class="hidden sm:flex text-center italic text-2xl mx-auto px-2 mt-4" style="background-color: rgba(49,49,67,0.4);">highly experienced professionals</p>
         </div>
       </div>
@@ -16,7 +16,7 @@
     <div class="w-32 mx-auto mb-4">
       <img src="/img/pp.jpg" alt="paul and pauline urbaniks">
     </div>
-    <h2 class="w-5/6 mx-auto text-3xl text-center uppercase text-white tracking-wide mb-2">PAUL AND PAULINE JOSEPH</h2>
+    <h2 class="w-5/6 mx-auto text-xl lg:text-3xl text-center uppercase text-white tracking-wide mb-2">PAUL AND PAULINE JOSEPH</h2>
     <h3 class="w-5/6 mx-auto text-1xl text-lightblue-300 text-center uppercase text-white tracking-wide mb-8">Urbaniks Directors, Choreographers, Teachers</h3>
     <p class="sm:w-1/2 mb-4 text-gray-200 w-5/6 mx-auto text-lg">
       Paul and Pauline Joseph have over 30 years experience as professional dancers, choreographers, directors, teachers, judges and lecturers in dance.

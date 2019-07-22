@@ -4,7 +4,7 @@
     <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/urbaniks-stage.png'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
-          <h1 class="text-xl sm:text-2xl lg:text-5xl w-3/4 sm:w-full mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Register Today</h1>
+          <h1 class="text-3xl lg:text-5xl text-center mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Register Today</h1>
           <p class="hidden sm:flex text-center italic text-2xl mx-auto px-2 mt-4" style="background-color: rgba(49,49,67,0.4);">Let's start dancing</p>
         </div>
       </div>
@@ -12,7 +12,7 @@
   </div>
 
   <div class="flex flex-col">
-    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-8">Registration Is Easy </h2>
+    <h2 class="text-2xl lg:text-3xl text-white uppercase tracking-wide text-center mt-16 mb-8">Registration Is Easy </h2>
     <p class="text-center text-gray-200 w-10/12 mx-auto text-lg mb-4">
       You can register to one of our classes by filling the form below.
     </p>

@@ -38,6 +38,7 @@
     <ul id="mobile-nav" class="lg:hidden hidden flex text-center flex-col text-base mb-0 text-white uppercase font-bold mt-4">
       <li class="tracking-widest"><a href="/" class="Home text-gray-100 hover:text-lightblue-200 hover:no-underline">home</a></li>
       <li class="tracking-widest"><a href="/classes" class="Classes text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
+      <li class="tracking-widest"><a href="/teachers" class="Teachers text-gray-100 hover:text-lightblue-200 hover:no-underline">teachers</a></li>
       <li class="tracking-widest"><a href="/merchandise" class="Merchandise text-gray-100 hover:text-lightblue-200 hover:no-underline">merchandise</a></li>
       <li class="tracking-widest"><a href="/gallery" class="Gallery text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
       <li class="tracking-widest"><a href="/contact" class="Contact text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>

@@ -4,7 +4,7 @@
     <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/index-image.jpg'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
-          <h1 class="text-xl sm:text-2xl lg:text-5xl w-3/4 sm:w-full mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Urbaniks Street Skool Of Dance</h1>
+          <h1 class="text-3xl lg:text-5xl text-center w-full mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Urbaniks Street Skool Of Dance</h1>
           <p class="hidden sm:flex text-center italic text-2xl mx-auto px-2 mt-4" style="background-color: rgba(49,49,67,0.4);">creativity in movement</p>
           {{-- <a href="/register" class="mx-auto">
             <button class="py-2 px-4 bg-indigo-400 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register today</button>
@@ -14,7 +14,7 @@
    </div>
   </div>
 
-  <div id="awards-container" class="flex w-10/12 mx-auto">
+  <div id="awards-container" class="hidden sm:flex w-10/12 mx-auto">
     <div class="flex flex-wrap sm:h-32 h-full w-full mx-auto">
       <div class="w-1/3 sm:w-1/6 h-full">
         <img src="/img/logos/udo_logo.png" alt="udo logo" class="w-full h-full object-contain">
@@ -39,7 +39,7 @@
   </div>
 
   <div class="flex flex-col">
-    <h2 class="text-3xl text-white uppercase tracking-wide text-center mt-16 mb-10">What Our Pupils Say</h2>
+    <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-white uppercase tracking-wide text-center mt-16 mb-10">What Our Pupils Say</h2>
 
     <div id="testimonial-container" class="flex flex-col md:flex-row w-4/6 mx-auto items-center">
       <div id="testimonial1" class="md:w-1/2 p-8 mb-6 md:mb-0">
@@ -84,8 +84,8 @@
     <div class="w-32 mx-auto mb-4">
       <img src="/img/icons/Break_dance.svg" alt="">
     </div>
-    <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
-    <p class="sm:text-center text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
+    <h2 class="text-2xl lg:text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
+    <p class="sm:text-center text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg p-4">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
       of dance, develop confidence and life long friendships. We bring togetherness and community with lots of interaction through dance.
 
     </p>
@@ -95,7 +95,7 @@
     <div class="w-1/2 mx-auto mb-4">
       {{-- <img src="/img/logos/urbanikslogobuildings-white.png" alt=""> --}}
     </div>
-    <h2 class="text-3xl text-center uppercase text-white tracking-wide mb-8">The Original Street Skool Of Dance</h2>
+    <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-center uppercase text-white tracking-wide mb-8">The Original Street Skool Of Dance</h2>
     <div class="flex flex-col md:flex-row w-5/6 mx-auto">
 
       <div class="md:w-1/2 p-4">
