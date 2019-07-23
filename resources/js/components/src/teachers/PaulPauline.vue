@@ -2,7 +2,7 @@
   <div class="w-3/4 flex flex-col">
     <div class="w-5/6 mx-auto mb-4">
       <div class="flex">
-        <img src="/img/pp.jpg" class="ml-2 h-32 w-32 rounded my-auto" alt="paul and pauline urbaniks object-cover">
+        <img src="/img/pp.jpg" class="md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto" alt="paul and pauline urbaniks object-cover">
       </div>
     </div>
     <h2 class="w-5/6 mx-auto text-xl lg:text-3xl text-center sm:text-left uppercase text-white tracking-wide mb-2">PAUL AND PAULINE JOSEPH</h2>

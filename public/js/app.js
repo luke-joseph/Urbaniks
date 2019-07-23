@@ -25580,7 +25580,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "flex flex-wrap md:flex-col justify-between md:justify-start w-full md:w-1/4 mb-8",
+            "flex flex-wrap md:flex-col justify-between md:justify-start w-11/12 mx-auto md:mx-0 md:w-1/4 mb-8",
           attrs: { id: "teachers-controls-lg" }
         },
         [
@@ -25588,7 +25588,7 @@ var render = function() {
             "div",
             {
               staticClass:
-                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer md:rounded-t-lg",
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-tl-lg md:rounded-t-lg",
               class:
                 _vm.selected == "PaulPauline"
                   ? "bg-gray-300"
@@ -25614,7 +25614,7 @@ var render = function() {
             "div",
             {
               staticClass:
-                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer",
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-tr-lg md:rounded-tr-none",
               class:
                 _vm.selected == "Honey"
                   ? "bg-gray-300"
@@ -25643,7 +25643,7 @@ var render = function() {
             "div",
             {
               staticClass:
-                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer",
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-bl-lg md:rounded-bl-none",
               class:
                 _vm.selected == "ErinRach"
                   ? "bg-gray-300"
@@ -25672,7 +25672,7 @@ var render = function() {
             "div",
             {
               staticClass:
-                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer md:rounded-b-lg",
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-br-lg md:rounded-b-lg",
               class:
                 _vm.selected == "Chloe"
                   ? "bg-gray-300"
@@ -26054,7 +26054,8 @@ var staticRenderFns = [
       _c("div", { staticClass: "w-5/6 mx-auto mb-4" }, [
         _c("div", { staticClass: "flex" }, [
           _c("img", {
-            staticClass: "ml-2 h-32 w-32 rounded my-auto object-cover",
+            staticClass:
+              "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto object-cover",
             attrs: {
               src: "/img/testimonials/testimonial4.jpg",
               alt: "Chloe Mcgovern Urbaniks teacher"
@@ -26175,7 +26176,8 @@ var staticRenderFns = [
       _c("div", { staticClass: "w-5/6 mx-auto mb-4" }, [
         _c("div", { staticClass: "flex" }, [
           _c("img", {
-            staticClass: "ml-2 h-32 w-32 rounded my-auto object-cover",
+            staticClass:
+              "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto object-cover",
             attrs: {
               src: "/img/testimonials/testimonial5.jpg",
               alt: "Erin and Rachael Urbaniks"
@@ -26296,7 +26298,8 @@ var staticRenderFns = [
       _c("div", { staticClass: "w-5/6 mx-auto mb-4" }, [
         _c("div", { staticClass: "flex" }, [
           _c("img", {
-            staticClass: "ml-2 h-32 w-32 rounded my-auto object-cover",
+            staticClass:
+              "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto object-cover",
             attrs: {
               src: "/img/testimonials/testimonial7.jpg",
               alt: "Honey Joseph Urbaniks Teacher"
@@ -26407,7 +26410,8 @@ var staticRenderFns = [
       _c("div", { staticClass: "w-5/6 mx-auto mb-4" }, [
         _c("div", { staticClass: "flex" }, [
           _c("img", {
-            staticClass: "ml-2 h-32 w-32 rounded my-auto",
+            staticClass:
+              "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto",
             attrs: {
               src: "/img/pp.jpg",
               alt: "paul and pauline urbaniks object-cover"
