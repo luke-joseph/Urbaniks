@@ -25580,7 +25580,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "flex flex-wrap md:flex-col justify-between md:justify-start w-11/12 mx-auto md:mx-0 md:w-1/4 mb-8",
+            "flex flex-wrap md:flex-col justify-between md:justify-start w-11/12 mx-auto md:mx-0 md:w-1/4 mb-12",
           attrs: { id: "teachers-controls-lg" }
         },
         [
@@ -25588,11 +25588,11 @@ var render = function() {
             "div",
             {
               staticClass:
-                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-tl-lg md:rounded-t-lg",
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none md:rounded-t-lg",
               class:
                 _vm.selected == "PaulPauline"
                   ? "bg-gray-300"
-                  : "bg-gray-500 text-gray-900",
+                  : "md:bg-gray-500 text-gray-400 md:text-gray-900",
               on: {
                 click: function($event) {
                   return _vm.selectTeacher("PaulPauline")
@@ -25614,11 +25614,11 @@ var render = function() {
             "div",
             {
               staticClass:
-                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-tr-lg md:rounded-tr-none",
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none",
               class:
                 _vm.selected == "Honey"
                   ? "bg-gray-300"
-                  : "bg-gray-500 text-gray-900",
+                  : "md:bg-gray-500 text-gray-400 md:text-gray-900",
               on: {
                 click: function($event) {
                   return _vm.selectTeacher("Honey")
@@ -25643,11 +25643,11 @@ var render = function() {
             "div",
             {
               staticClass:
-                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-bl-lg md:rounded-bl-none",
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none",
               class:
                 _vm.selected == "ErinRach"
                   ? "bg-gray-300"
-                  : "bg-gray-500 text-gray-900",
+                  : "md:bg-gray-500 text-gray-400 md:text-gray-900",
               on: {
                 click: function($event) {
                   return _vm.selectTeacher("ErinRach")
@@ -25672,11 +25672,11 @@ var render = function() {
             "div",
             {
               staticClass:
-                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-br-lg md:rounded-b-lg",
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none md:rounded-b-lg",
               class:
                 _vm.selected == "Chloe"
                   ? "bg-gray-300"
-                  : "bg-gray-500 text-gray-900",
+                  : "md:bg-gray-500 text-gray-400 md:text-gray-900",
               on: {
                 click: function($event) {
                   return _vm.selectTeacher("Chloe")
