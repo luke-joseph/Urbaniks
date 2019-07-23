@@ -25,6 +25,7 @@ Vue.use(Lightbox);
 
 Vue.component('time-table', require('./components/TimeTable.vue').default);
 Vue.component('gallery-component', require('./components/GalleryComponent.vue').default);
+Vue.component('teachers-info', require('./components/TeachersInfo.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

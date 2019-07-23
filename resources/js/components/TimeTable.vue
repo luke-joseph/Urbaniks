@@ -5,7 +5,7 @@
       <label for="classes" class="mb-2 sm:mb-0 text-white uppercase tracking-wider font-bold">Choose Class</label>
       <select class="rounded" name="classes" v-model="selectedClass">
 
-        <optgroup label="kids" class="bg-gray-100">
+        <optgroup label="kids (3 yrs - p2)" class="bg-gray-100">
           <option value="BOOGIE_BABEZ">BOOGIE BABEZ</option>
           <option value="KOOL_KIDZ">KOOL KIDZ</option>
           <option value="WEE_SKILLZ">WEE SKILLZ</option>

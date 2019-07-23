@@ -1897,6 +1897,86 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TeachersInfo.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TeachersInfo.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _src_teachers_PaulPauline__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/teachers/PaulPauline */ "./resources/js/components/src/teachers/PaulPauline.vue");
+/* harmony import */ var _src_teachers_Honey__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/teachers/Honey */ "./resources/js/components/src/teachers/Honey.vue");
+/* harmony import */ var _src_teachers_ErinRach__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/teachers/ErinRach */ "./resources/js/components/src/teachers/ErinRach.vue");
+/* harmony import */ var _src_teachers_Chloe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/teachers/Chloe */ "./resources/js/components/src/teachers/Chloe.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    PaulPauline: _src_teachers_PaulPauline__WEBPACK_IMPORTED_MODULE_0__["default"],
+    Honey: _src_teachers_Honey__WEBPACK_IMPORTED_MODULE_1__["default"],
+    ErinRach: _src_teachers_ErinRach__WEBPACK_IMPORTED_MODULE_2__["default"],
+    Chloe: _src_teachers_Chloe__WEBPACK_IMPORTED_MODULE_3__["default"]
+  },
+  data: function data() {
+    return {
+      selected: 'PaulPauline'
+    };
+  },
+  methods: {
+    selectTeacher: function selectTeacher(name) {
+      this.selected = name;
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTable.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TimeTable.vue?vue&type=script&lang=js& ***!
@@ -1988,6 +2068,175 @@ __webpack_require__.r(__webpack_exports__);
     }
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Chloe.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/Chloe.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/ErinRach.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/ErinRach.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Honey.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/Honey.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/PaulPauline.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/PaulPauline.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -25304,6 +25553,182 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TeachersInfo.vue?vue&type=template&id=3677858a&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TeachersInfo.vue?vue&type=template&id=3677858a&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "flex w-10/12 mx-auto mt-16" },
+    [
+      _c(
+        "div",
+        {
+          staticClass: "flex flex-col w-1/4",
+          attrs: { id: "teachers-controls" }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "flex h-32 bg-gray-100 cursor-pointer",
+              on: {
+                click: function($event) {
+                  return _vm.selectTeacher("PaulPauline")
+                }
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "ml-2 h-16 w-16 rounded-full my-auto object-cover",
+                attrs: { src: "/img/pp.jpg", alt: "Paul and Pauline urbaniks" }
+              }),
+              _vm._v(" "),
+              _vm._m(0)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "flex h-32 bg-gray-400 cursor-pointer",
+              on: {
+                click: function($event) {
+                  return _vm.selectTeacher("Honey")
+                }
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "ml-2 h-16 w-16 rounded-full my-auto object-cover",
+                attrs: {
+                  src: "/img/testimonials/testimonial7.jpg",
+                  alt: "Honey Urbaniks"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(1)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "flex h-32 bg-gray-100 cursor-pointer",
+              on: {
+                click: function($event) {
+                  return _vm.selectTeacher("ErinRach")
+                }
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "ml-2 h-16 w-16 rounded-full my-auto object-cover",
+                attrs: {
+                  src: "/img/testimonials/testimonial5.jpg",
+                  alt: "Erin and Rach Urbaniks"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(2)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "flex h-32 bg-gray-400 cursor-pointer",
+              on: {
+                click: function($event) {
+                  return _vm.selectTeacher("Chloe")
+                }
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "ml-2 h-16 w-16 rounded-full my-auto object-cover",
+                attrs: {
+                  src: "/img/testimonials/testimonial4.jpg",
+                  alt: "Chloe Urbaniks"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(3)
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _vm.selected == "PaulPauline"
+        ? _c("PaulPauline", { staticClass: "w-3/4 flex flex-col" })
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.selected == "Honey"
+        ? _c("Honey", { staticClass: "w-3/4 flex flex-col" })
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.selected == "ErinRach"
+        ? _c("ErinRach", { staticClass: "w-3/4 flex flex-col" })
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.selected == "Chloe"
+        ? _c("Chloe", { staticClass: "w-3/4 flex flex-col" })
+        : _vm._e()
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "my-auto ml-2" }, [
+      _c("h4", { staticClass: "text-lg" }, [_vm._v("Paul & Pauline")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "my-auto ml-2" }, [
+      _c("h4", { staticClass: "text-lg" }, [_vm._v("Honey Joseph")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "my-auto ml-2" }, [
+      _c("h4", { staticClass: "text-lg" }, [_vm._v("Erin and Rach")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "my-auto ml-2" }, [
+      _c("h4", { staticClass: "text-lg" }, [_vm._v("Chloe Mcgovern")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true&":
 /*!************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TimeTable.vue?vue&type=template&id=303bf2a6&scoped=true& ***!
@@ -25471,7 +25896,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "optgroup",
-      { staticClass: "bg-gray-100", attrs: { label: "kids" } },
+      { staticClass: "bg-gray-100", attrs: { label: "kids (3 yrs - p2)" } },
       [
         _c("option", { attrs: { value: "BOOGIE_BABEZ" } }, [
           _vm._v("BOOGIE BABEZ")
@@ -25558,6 +25983,480 @@ var staticRenderFns = [
         ])
       ]
     )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Chloe.vue?vue&type=template&id=1037c416&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/Chloe.vue?vue&type=template&id=1037c416&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-3/4 flex flex-col" }, [
+      _c("div", { staticClass: "w-5/6 mx-auto mb-4" }, [
+        _c("div", { staticClass: "flex" }, [
+          _c("img", {
+            staticClass: "ml-2 h-32 w-32 rounded my-auto object-cover",
+            attrs: {
+              src: "/img/testimonials/testimonial4.jpg",
+              alt: "Chloe Mcgovern Urbaniks teacher"
+            }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "h2",
+        {
+          staticClass:
+            "w-5/6 mx-auto text-xl lg:text-3xl text-center sm:text-left uppercase text-white tracking-wide mb-2"
+        },
+        [_vm._v("CHLOE MCGOVERN")]
+      ),
+      _vm._v(" "),
+      _c(
+        "h3",
+        {
+          staticClass:
+            "w-5/6 mx-auto text-1xl text-lightblue-300 text-center sm:text-left uppercase text-white tracking-wide mb-8"
+        },
+        [_vm._v("TEACHER AT URBANIKS")]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Chloe has been training with Urbaniks for 13 years, and is an original member of Urbaniks top competitive team, THE HONEY’S.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    It is with The Honey’s that Chloe developed her performance skills, appearing with them in many music videos, theatre productions, festivals, charity events and are currently ranked 2nd in the world for team and are currently British Champions 2019.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    As a competitive dancer, Chloe has placed in finals at World Championships, 6 Nations, British, English and Scottish Championships in solo, duo and quad.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Chloe is the current Scottish Champion 2019 in quad and with her team.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    She has had the wonderful opportunity to go to LA, and train with the top choreographers in the industry, taking class at the best dance studios in the world.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Chloe is currently going into her 2nd year in full time professional dance training, now in HND at Dance Inc Studio Centre Scotland.\n  "
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/ErinRach.vue?vue&type=template&id=7d58a2fe&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/ErinRach.vue?vue&type=template&id=7d58a2fe&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-3/4 flex flex-col" }, [
+      _c("div", { staticClass: "w-5/6 mx-auto mb-4" }, [
+        _c("div", { staticClass: "flex" }, [
+          _c("img", {
+            staticClass: "ml-2 h-32 w-32 rounded my-auto object-cover",
+            attrs: {
+              src: "/img/testimonials/testimonial5.jpg",
+              alt: "Erin and Rachael Urbaniks"
+            }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "h2",
+        {
+          staticClass:
+            "w-5/6 mx-auto text-xl lg:text-3xl text-center sm:text-left uppercase text-white tracking-wide mb-2"
+        },
+        [_vm._v("Erin & Rachael Donnelly")]
+      ),
+      _vm._v(" "),
+      _c(
+        "h3",
+        {
+          staticClass:
+            "w-5/6 mx-auto text-1xl text-lightblue-300 text-center sm:text-left uppercase text-white tracking-wide mb-8"
+        },
+        [_vm._v("TEACHERS AND CHOREOGRAPHERS OF THE HOODLUMZ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Erin and Rachael started dancing at Urbaniks aged 5, and have trained there ever since.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    They are original members of Urbaniks top competitive team, THE HONEY’S, with whom they have performed in many music videos, theatre productions, festivals, charity events and are currently ranked 2nd in the world for team at The UDO WORLD STREET DANCE CHAMPIONSHIPS, and are THE 2019 BRITISH CHAMPIONS.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    As a competitive duo partnership, and as soloists, Erin and Rachael have achieved 1st place titles for Quads and Duos at World level, and are currently ‘6 Nations’ duo Champions, taking the coveted position of ‘Champion of Champions’ 2018.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    They are Advanced Scottish Champions in Solo, Duos and Quad 2019.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Their choreography on Urbaniks U14’s team, The Hoodlumz, came 2nd place at 2018 World Championships, and they are delighted to have qualified for 2019 Worlds, which they are currently choreographing new work for.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Erin and Rachael are now in professional fulltime dance training, doing an NC in dance at Clyde College, Glasgow.\n  "
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Honey.vue?vue&type=template&id=0e385973&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/Honey.vue?vue&type=template&id=0e385973&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-3/4 flex flex-col" }, [
+      _c("div", { staticClass: "w-5/6 mx-auto mb-4" }, [
+        _c("div", { staticClass: "flex" }, [
+          _c("img", {
+            staticClass: "ml-2 h-32 w-32 rounded my-auto object-cover",
+            attrs: {
+              src: "/img/testimonials/testimonial7.jpg",
+              alt: "Honey Joseph Urbaniks Teacher"
+            }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "h2",
+        {
+          staticClass:
+            "w-5/6 mx-auto text-xl lg:text-3xl text-center sm:text-left uppercase text-white tracking-wide mb-2"
+        },
+        [_vm._v("HONEY JOSEPH")]
+      ),
+      _vm._v(" "),
+      _c(
+        "h3",
+        {
+          staticClass:
+            "w-5/6 mx-auto text-1xl text-lightblue-300 text-center sm:text-left uppercase text-white tracking-wide mb-8"
+        },
+        [_vm._v("SENIOR COMPETITIVE TEAM CHOREOGRAPHER at URBANIKS")]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    With both parents being professional dancers, Honey was born into a world of dance, and was in the studio/on tour with them from infancy.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    By the age of 13, Honey was teaching for Urbaniks, and choreographing on her own competitive dance crew, THE HONEY’S.  And it was at this tender age that she was the only choreographer in Scotland to take part in the BBC TV dance series, Alesha’s Street Dance Stars, as well as choreograph and appear in other BBC series.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    As a dancer and choreographer, Honey and her team have been Champions from the first competition that they attended. Honey holds 1st place titles at World Championships, 6 Nations, British, English and Scottish Championships consistently over the past 7 years, in solo, duos, quads and team. Her choreography on The Honey’s is currently ranked 2nd in the World at the 2018 UDO World Championships.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    By 16, Honey was accepted into professional fulltime training at Clyde College, Glasgow. She was then headhunted by MGA, Edinburgh and offered a full scholarship to train with them, focusing more on singing and acting. This led to a lead part in BBC series ‘Logan High’, where she starred in 2 series of the teen drama, playing one of the lead characters ‘Saskia’. She went on to train in LA, with the industries top choreographers and by 19 she was awarded another full scholarship from Urdang in London, where she could develop all aspects of Dance and Musical Theatre to the highest level.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Honey is an experienced choreographer/dancer/ actress, having a worked from an early age in TV (BBC) Music Videos (latest - SNOW PATROL) Theatre Productions (latest - BUGSY MALONE, THEATRE ROYAL ) and Ceremony’s (GLASGOW COMMONWEALTH GAMES)\n  "
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/PaulPauline.vue?vue&type=template&id=a3a1d630&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/PaulPauline.vue?vue&type=template&id=a3a1d630&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-3/4 flex flex-col" }, [
+      _c("div", { staticClass: "w-5/6 mx-auto mb-4" }, [
+        _c("div", { staticClass: "flex" }, [
+          _c("img", {
+            staticClass: "ml-2 h-32 w-32 rounded my-auto",
+            attrs: {
+              src: "/img/pp.jpg",
+              alt: "paul and pauline urbaniks object-cover"
+            }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "h2",
+        {
+          staticClass:
+            "w-5/6 mx-auto text-xl lg:text-3xl text-center sm:text-left uppercase text-white tracking-wide mb-2"
+        },
+        [_vm._v("PAUL AND PAULINE JOSEPH")]
+      ),
+      _vm._v(" "),
+      _c(
+        "h3",
+        {
+          staticClass:
+            "w-5/6 mx-auto text-1xl text-lightblue-300 text-center sm:text-left uppercase text-white tracking-wide mb-8"
+        },
+        [_vm._v("Urbaniks Directors, Choreographers, Teachers")]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Paul and Pauline Joseph have over 30 years experience as professional dancers, choreographers, directors, teachers, judges and lecturers in dance.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    They met during their training at the world renowned London Contemporary Dance School in 1988. On graduating, they performed with various dance companies and choreographers, working in Europe and The UK.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    By the early 90’s they established their own dance company, Kultyer Dance Theatre, and were the first Scottish based artists to merge Street Dance with their contemporary training, leading the way north of the border in Street Dance fusion.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Having toured with Kultyer to Canada, America, Australia, and all over Europe, the couple decided to start their own dance school, Urbaniks – which is now in it’s 15th successful year. Over the last decade, Paul and Pauline have trained dancers to a World class level, currently ranked 2nd in the World at the 2018 UDO World Street Dance Championships, and 12 of their dancers are now in professional dance employment or training.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    They devised and created the Street Dance syllabus for Scottish Dance Teachers Alliance, examinations.\n  "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        { staticClass: "sm:w-1/2? mb-4 text-gray-200 w-5/6 mx-auto text-lg" },
+        [
+          _vm._v(
+            "\n    Experienced choreographers and performers in TV, Film, Theatre, Music Videos, festivals and Sports Ceremonies – Performance Captains at the Glasgow 2014 Commonwealth Games Closing Ceremony; Choreographed and provided dancers for The World Youth Netball Opening Ceremony and The 2018 European Sports Championships Opening and Closing Ceremonies.\n  "
+          )
+        ]
+      )
+    ])
   }
 ]
 render._withStripped = true
@@ -37735,6 +38634,7 @@ Vue.use(vue_easy_lightbox__WEBPACK_IMPORTED_MODULE_0___default.a);
 
 Vue.component('time-table', __webpack_require__(/*! ./components/TimeTable.vue */ "./resources/js/components/TimeTable.vue")["default"]);
 Vue.component('gallery-component', __webpack_require__(/*! ./components/GalleryComponent.vue */ "./resources/js/components/GalleryComponent.vue")["default"]);
+Vue.component('teachers-info', __webpack_require__(/*! ./components/TeachersInfo.vue */ "./resources/js/components/TeachersInfo.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -37884,6 +38784,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GalleryComponent_vue_vue_type_template_id_a13cd294_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GalleryComponent_vue_vue_type_template_id_a13cd294_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/TeachersInfo.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/components/TeachersInfo.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TeachersInfo_vue_vue_type_template_id_3677858a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TeachersInfo.vue?vue&type=template&id=3677858a&scoped=true& */ "./resources/js/components/TeachersInfo.vue?vue&type=template&id=3677858a&scoped=true&");
+/* harmony import */ var _TeachersInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TeachersInfo.vue?vue&type=script&lang=js& */ "./resources/js/components/TeachersInfo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TeachersInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TeachersInfo_vue_vue_type_template_id_3677858a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TeachersInfo_vue_vue_type_template_id_3677858a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "3677858a",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/TeachersInfo.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/TeachersInfo.vue?vue&type=script&lang=js&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/TeachersInfo.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TeachersInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./TeachersInfo.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TeachersInfo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TeachersInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/TeachersInfo.vue?vue&type=template&id=3677858a&scoped=true&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/TeachersInfo.vue?vue&type=template&id=3677858a&scoped=true& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TeachersInfo_vue_vue_type_template_id_3677858a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./TeachersInfo.vue?vue&type=template&id=3677858a&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TeachersInfo.vue?vue&type=template&id=3677858a&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TeachersInfo_vue_vue_type_template_id_3677858a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TeachersInfo_vue_vue_type_template_id_3677858a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -38272,6 +39241,282 @@ var danceclasses = {
   }
 };
 /* harmony default export */ __webpack_exports__["default"] = (danceclasses);
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/Chloe.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/src/teachers/Chloe.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Chloe_vue_vue_type_template_id_1037c416_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Chloe.vue?vue&type=template&id=1037c416&scoped=true& */ "./resources/js/components/src/teachers/Chloe.vue?vue&type=template&id=1037c416&scoped=true&");
+/* harmony import */ var _Chloe_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Chloe.vue?vue&type=script&lang=js& */ "./resources/js/components/src/teachers/Chloe.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Chloe_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Chloe_vue_vue_type_template_id_1037c416_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Chloe_vue_vue_type_template_id_1037c416_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "1037c416",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/src/teachers/Chloe.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/Chloe.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/src/teachers/Chloe.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Chloe_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Chloe.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Chloe.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Chloe_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/Chloe.vue?vue&type=template&id=1037c416&scoped=true&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/components/src/teachers/Chloe.vue?vue&type=template&id=1037c416&scoped=true& ***!
+  \***************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Chloe_vue_vue_type_template_id_1037c416_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Chloe.vue?vue&type=template&id=1037c416&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Chloe.vue?vue&type=template&id=1037c416&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Chloe_vue_vue_type_template_id_1037c416_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Chloe_vue_vue_type_template_id_1037c416_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/ErinRach.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/src/teachers/ErinRach.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ErinRach_vue_vue_type_template_id_7d58a2fe_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ErinRach.vue?vue&type=template&id=7d58a2fe&scoped=true& */ "./resources/js/components/src/teachers/ErinRach.vue?vue&type=template&id=7d58a2fe&scoped=true&");
+/* harmony import */ var _ErinRach_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ErinRach.vue?vue&type=script&lang=js& */ "./resources/js/components/src/teachers/ErinRach.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ErinRach_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ErinRach_vue_vue_type_template_id_7d58a2fe_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ErinRach_vue_vue_type_template_id_7d58a2fe_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "7d58a2fe",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/src/teachers/ErinRach.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/ErinRach.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/src/teachers/ErinRach.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ErinRach_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ErinRach.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/ErinRach.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ErinRach_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/ErinRach.vue?vue&type=template&id=7d58a2fe&scoped=true&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/components/src/teachers/ErinRach.vue?vue&type=template&id=7d58a2fe&scoped=true& ***!
+  \******************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ErinRach_vue_vue_type_template_id_7d58a2fe_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ErinRach.vue?vue&type=template&id=7d58a2fe&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/ErinRach.vue?vue&type=template&id=7d58a2fe&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ErinRach_vue_vue_type_template_id_7d58a2fe_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ErinRach_vue_vue_type_template_id_7d58a2fe_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/Honey.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/src/teachers/Honey.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Honey_vue_vue_type_template_id_0e385973_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Honey.vue?vue&type=template&id=0e385973&scoped=true& */ "./resources/js/components/src/teachers/Honey.vue?vue&type=template&id=0e385973&scoped=true&");
+/* harmony import */ var _Honey_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Honey.vue?vue&type=script&lang=js& */ "./resources/js/components/src/teachers/Honey.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Honey_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Honey_vue_vue_type_template_id_0e385973_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Honey_vue_vue_type_template_id_0e385973_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "0e385973",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/src/teachers/Honey.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/Honey.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/src/teachers/Honey.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Honey_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Honey.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Honey.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Honey_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/Honey.vue?vue&type=template&id=0e385973&scoped=true&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/components/src/teachers/Honey.vue?vue&type=template&id=0e385973&scoped=true& ***!
+  \***************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Honey_vue_vue_type_template_id_0e385973_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Honey.vue?vue&type=template&id=0e385973&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Honey.vue?vue&type=template&id=0e385973&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Honey_vue_vue_type_template_id_0e385973_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Honey_vue_vue_type_template_id_0e385973_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/PaulPauline.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/src/teachers/PaulPauline.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _PaulPauline_vue_vue_type_template_id_a3a1d630_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PaulPauline.vue?vue&type=template&id=a3a1d630&scoped=true& */ "./resources/js/components/src/teachers/PaulPauline.vue?vue&type=template&id=a3a1d630&scoped=true&");
+/* harmony import */ var _PaulPauline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PaulPauline.vue?vue&type=script&lang=js& */ "./resources/js/components/src/teachers/PaulPauline.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _PaulPauline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _PaulPauline_vue_vue_type_template_id_a3a1d630_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _PaulPauline_vue_vue_type_template_id_a3a1d630_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "a3a1d630",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/src/teachers/PaulPauline.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/PaulPauline.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/src/teachers/PaulPauline.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PaulPauline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./PaulPauline.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/PaulPauline.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PaulPauline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/src/teachers/PaulPauline.vue?vue&type=template&id=a3a1d630&scoped=true&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/components/src/teachers/PaulPauline.vue?vue&type=template&id=a3a1d630&scoped=true& ***!
+  \*********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PaulPauline_vue_vue_type_template_id_a3a1d630_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./PaulPauline.vue?vue&type=template&id=a3a1d630&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/PaulPauline.vue?vue&type=template&id=a3a1d630&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PaulPauline_vue_vue_type_template_id_a3a1d630_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PaulPauline_vue_vue_type_template_id_a3a1d630_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
