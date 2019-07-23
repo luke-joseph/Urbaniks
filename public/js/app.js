@@ -1952,6 +1952,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -25570,19 +25574,25 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "flex w-10/12 mx-auto mt-16" },
+    { staticClass: "flex flex-wrap w-11/12 md:w-10/12 mx-auto mt-16" },
     [
       _c(
         "div",
         {
-          staticClass: "flex flex-col w-1/4",
-          attrs: { id: "teachers-controls" }
+          staticClass:
+            "flex flex-wrap md:flex-col justify-between md:justify-start w-full md:w-1/4 mb-8",
+          attrs: { id: "teachers-controls-lg" }
         },
         [
           _c(
             "div",
             {
-              staticClass: "flex h-32 bg-gray-100 cursor-pointer",
+              staticClass:
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer md:rounded-t-lg",
+              class:
+                _vm.selected == "PaulPauline"
+                  ? "bg-gray-300"
+                  : "bg-gray-500 text-gray-900",
               on: {
                 click: function($event) {
                   return _vm.selectTeacher("PaulPauline")
@@ -25591,7 +25601,8 @@ var render = function() {
             },
             [
               _c("img", {
-                staticClass: "ml-2 h-16 w-16 rounded-full my-auto object-cover",
+                staticClass:
+                  "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
                 attrs: { src: "/img/pp.jpg", alt: "Paul and Pauline urbaniks" }
               }),
               _vm._v(" "),
@@ -25602,7 +25613,12 @@ var render = function() {
           _c(
             "div",
             {
-              staticClass: "flex h-32 bg-gray-400 cursor-pointer",
+              staticClass:
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer",
+              class:
+                _vm.selected == "Honey"
+                  ? "bg-gray-300"
+                  : "bg-gray-500 text-gray-900",
               on: {
                 click: function($event) {
                   return _vm.selectTeacher("Honey")
@@ -25611,7 +25627,8 @@ var render = function() {
             },
             [
               _c("img", {
-                staticClass: "ml-2 h-16 w-16 rounded-full my-auto object-cover",
+                staticClass:
+                  "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
                 attrs: {
                   src: "/img/testimonials/testimonial7.jpg",
                   alt: "Honey Urbaniks"
@@ -25625,7 +25642,12 @@ var render = function() {
           _c(
             "div",
             {
-              staticClass: "flex h-32 bg-gray-100 cursor-pointer",
+              staticClass:
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer",
+              class:
+                _vm.selected == "ErinRach"
+                  ? "bg-gray-300"
+                  : "bg-gray-500 text-gray-900",
               on: {
                 click: function($event) {
                   return _vm.selectTeacher("ErinRach")
@@ -25634,7 +25656,8 @@ var render = function() {
             },
             [
               _c("img", {
-                staticClass: "ml-2 h-16 w-16 rounded-full my-auto object-cover",
+                staticClass:
+                  "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
                 attrs: {
                   src: "/img/testimonials/testimonial5.jpg",
                   alt: "Erin and Rach Urbaniks"
@@ -25648,7 +25671,12 @@ var render = function() {
           _c(
             "div",
             {
-              staticClass: "flex h-32 bg-gray-400 cursor-pointer",
+              staticClass:
+                "flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer md:rounded-b-lg",
+              class:
+                _vm.selected == "Chloe"
+                  ? "bg-gray-300"
+                  : "bg-gray-500 text-gray-900",
               on: {
                 click: function($event) {
                   return _vm.selectTeacher("Chloe")
@@ -25657,7 +25685,8 @@ var render = function() {
             },
             [
               _c("img", {
-                staticClass: "ml-2 h-16 w-16 rounded-full my-auto object-cover",
+                staticClass:
+                  "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
                 attrs: {
                   src: "/img/testimonials/testimonial4.jpg",
                   alt: "Chloe Urbaniks"
@@ -25671,19 +25700,19 @@ var render = function() {
       ),
       _vm._v(" "),
       _vm.selected == "PaulPauline"
-        ? _c("PaulPauline", { staticClass: "w-3/4 flex flex-col" })
+        ? _c("PaulPauline", { staticClass: "w-full md:w-3/4 flex flex-col" })
         : _vm._e(),
       _vm._v(" "),
       _vm.selected == "Honey"
-        ? _c("Honey", { staticClass: "w-3/4 flex flex-col" })
+        ? _c("Honey", { staticClass: "w-full md:w-3/4 flex flex-col" })
         : _vm._e(),
       _vm._v(" "),
       _vm.selected == "ErinRach"
-        ? _c("ErinRach", { staticClass: "w-3/4 flex flex-col" })
+        ? _c("ErinRach", { staticClass: "w-full md:w-3/4 flex flex-col" })
         : _vm._e(),
       _vm._v(" "),
       _vm.selected == "Chloe"
-        ? _c("Chloe", { staticClass: "w-3/4 flex flex-col" })
+        ? _c("Chloe", { staticClass: "w-full md:w-3/4 flex flex-col" })
         : _vm._e()
     ],
     1
@@ -25695,7 +25724,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "my-auto ml-2" }, [
-      _c("h4", { staticClass: "text-lg" }, [_vm._v("Paul & Pauline")])
+      _c("h4", { staticClass: "text-lg? font-bold text-center md:text-left" }, [
+        _vm._v("Paul & Pauline")
+      ])
     ])
   },
   function() {
@@ -25703,7 +25734,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "my-auto ml-2" }, [
-      _c("h4", { staticClass: "text-lg" }, [_vm._v("Honey Joseph")])
+      _c("h4", { staticClass: "text-lg? font-bold text-center md:text-left" }, [
+        _vm._v("Honey Joseph")
+      ])
     ])
   },
   function() {
@@ -25711,7 +25744,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "my-auto ml-2" }, [
-      _c("h4", { staticClass: "text-lg" }, [_vm._v("Erin and Rach")])
+      _c("h4", { staticClass: "text-lg? font-bold text-center md:text-left" }, [
+        _vm._v("Erin and Rach")
+      ])
     ])
   },
   function() {
@@ -25719,7 +25754,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "my-auto ml-2" }, [
-      _c("h4", { staticClass: "text-lg" }, [_vm._v("Chloe Mcgovern")])
+      _c("h4", { staticClass: "text-lg? font-bold text-center md:text-left" }, [
+        _vm._v("Chloe Mcgovern")
+      ])
     ])
   }
 ]
