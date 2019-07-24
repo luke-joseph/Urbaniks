@@ -25603,7 +25603,10 @@ var render = function() {
               _c("img", {
                 staticClass:
                   "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
-                attrs: { src: "/img/pp.jpg", alt: "Paul and Pauline urbaniks" }
+                attrs: {
+                  src: "/img/testimonials/testimonial8.jpg",
+                  alt: "Paul and Pauline urbaniks"
+                }
               }),
               _vm._v(" "),
               _vm._m(0)
@@ -25789,7 +25792,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "flex flex-col sm:flex-row justify-between py-4 px-8 bg-gray-900 rounded-t"
+            "flex flex-col sm:flex-row justify-between py-4 px-8 bg-black rounded-t"
         },
         [
           _c(
@@ -25867,9 +25870,11 @@ var render = function() {
                     "div",
                     { staticClass: "flex flex-col w-1/3 pl-4 sm:pl-8" },
                     [
-                      _c("p", { staticClass: "mb-0 py-1 font-semibold" }, [
-                        _vm._v(" " + _vm._s(lesson.time))
-                      ]),
+                      _c(
+                        "p",
+                        { staticClass: "mb-0 py-1 font-bold tracking-wide" },
+                        [_vm._v(" " + _vm._s(lesson.time))]
+                      ),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-0 py-1 text-gray-300" }, [
                         _vm._v(" " + _vm._s(lesson.teacher))
@@ -25898,9 +25903,14 @@ var render = function() {
                     "div",
                     { staticClass: "pl-2 sm:pl-0 flex flex-col w-2/3" },
                     [
-                      _c("p", { staticClass: "lesson-name mb-0 py-1" }, [
-                        _vm._v(" " + _vm._s(lesson.lessonName))
-                      ]),
+                      _c(
+                        "p",
+                        {
+                          staticClass:
+                            "lesson-name mb-0 py-1 font-bold tracking-wide"
+                        },
+                        [_vm._v(" " + _vm._s(lesson.lessonName))]
+                      ),
                       _vm._v(" "),
                       _c("p", { staticClass: "mb-0 py-1 text-gray-200" }, [
                         _vm._v(" " + _vm._s(lesson.difficulty))
@@ -26413,7 +26423,7 @@ var staticRenderFns = [
             staticClass:
               "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto",
             attrs: {
-              src: "/img/pp.jpg",
+              src: "/img/testimonials/testimonial8.jpg",
               alt: "paul and pauline urbaniks object-cover"
             }
           })

@@ -11,6 +11,9 @@
    </div>
   </div>
 
+
+    <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl sm:text-3xl text-gray-400 uppercase tracking-wide text-center mt-16 mb-8 px-3">Click a teacher to read more</h2>
+
   <div id="app">
     <teachers-info></teachers-info>
   </div>
