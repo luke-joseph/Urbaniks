@@ -17,6 +17,7 @@
         <meta name="twitter:title" content="{{$pageMeta['twitter_title']}}" />
         <meta name="twitter:description" content="{{$pageMeta['twitter_description']}}" />
         <meta name="twitter:image" content="{{$pageMeta['twitter_image']}}" />
+
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/css/app.css" />
+        <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}" />
     </head>

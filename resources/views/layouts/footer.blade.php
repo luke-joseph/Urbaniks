@@ -89,6 +89,6 @@ function closeDiv(id){
 }
 </script>
 
-<script src="/js/app.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{ mix('js/app.js') }}" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
