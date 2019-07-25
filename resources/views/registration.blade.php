@@ -130,7 +130,8 @@
               <textarea rows="4" cols="50" name="message" value="{{ old('message') }}" class="bg-gray-100 sm:w-2/3 leading-normal border border-gray-300 rounded p-3 relative focus:border-blue focus:shadow" placeholder="Want to leave an additional message? [optional]..."></textarea>
             </div>
           </div>
-            <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg sm:mr-auto" type="submit">register now</button>
+          @captcha
+            <button type="submit" class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg sm:mr-auto">register now</button>
         </div>
       </div>
     </form>

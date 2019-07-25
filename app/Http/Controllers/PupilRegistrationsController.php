@@ -11,6 +11,7 @@ class PupilRegistrationsController extends Controller
     public function store()
     {
       request()->validate([
+        'g-recaptcha-response' => 'required|captcha',
         'pupil_name' => 'required',
         'pupil_age' => 'required',
         'guardian_name' => 'nullable',

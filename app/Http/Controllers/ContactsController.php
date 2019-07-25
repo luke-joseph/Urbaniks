@@ -11,6 +11,7 @@ class ContactsController extends Controller
     public function store()
     {
       request()->validate([
+        'g-recaptcha-response' => 'required|captcha',
         'name' => 'required',
         'email' => 'required|email',
         'message' => 'required',

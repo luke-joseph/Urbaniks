@@ -44,6 +44,8 @@
         <textarea rows="6" cols="50" value="{{ old('message') }}" name="message" class="w-full leading-normal border border-gray-300 rounded p-3 bg-gray-100 relative focus:border-blue focus:shadow" placeholder="Type your message here..."></textarea>
       </div>
 
+      @captcha
+
     <button type="submit" class="mt-4 py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto">Send Message</button>
 
   </form>
