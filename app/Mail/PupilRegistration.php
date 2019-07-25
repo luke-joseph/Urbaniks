@@ -30,6 +30,8 @@ class PupilRegistration extends Mailable
      */
     public function build()
     {
+        $this->replyTo($this->data['email']);
+        
         return $this->subject('New Online Registration from Urbaniks Website!')
         ->markdown('emails.pupilregistration');
     }

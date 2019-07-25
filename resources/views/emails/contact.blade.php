@@ -14,9 +14,7 @@ Email: <a href="mailto:{{ $data['email'] }}">{{ $data['email'] }}</a>
 
 @endcomponent
 
-Don't reply directly to this mail.
-
-Please copy their email address into a new message to reply.
+Reply directly to this email, continue the conversation with {{ $data['name'] }}.
 
 Thanks,<br>
 {{ config('app.name') }}

@@ -10,7 +10,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 class Contact extends Mailable
 {
     public $data;
-    
+
     use Queueable, SerializesModels;
 
     /**
@@ -30,6 +30,8 @@ class Contact extends Mailable
      */
     public function build()
     {
+        $this->replyTo($this->data['email']);
+
         return $this->subject('New Contact from Urbaniks Website')
         ->markdown('emails.contact');
 
