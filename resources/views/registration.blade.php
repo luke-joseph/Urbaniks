@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
   <div class="px-3">
-    <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/urbaniks-stage.png'); max-width: 100%; width: 100%;">
+    <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/hero-images/urbaniks-stage.jpg'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
           <h1 class="text-3xl lg:text-5xl text-center mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Register Today</h1>

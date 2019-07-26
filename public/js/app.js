@@ -1815,7 +1815,7 @@ __webpack_require__.r(__webpack_exports__);
       this.show();
     },
     showMultiple: function showMultiple(index) {
-      this.imgs = ['/img/gallery/10954771.jpg', '/img/gallery/handstand-stage.png', '/img/gallery/10954773.jpg', '/img/gallery/10954759.jpg', '/img/gallery/10954762.jpg', '/img/gallery/10954765.jpg', '/img/gallery/10954766.jpg', '/img/gallery/10954767.jpg', '/img/gallery/10954775.jpg', '/img/gallery/10989230.jpg', '/img/gallery/10986121.jpg', '/img/gallery/10989228.jpg'];
+      this.imgs = ['/img/gallery/10954771.jpg', '/img/gallery/handstand-stage.jpg', '/img/gallery/10954773.jpg', '/img/gallery/10954759.jpg', '/img/gallery/10954762.jpg', '/img/gallery/10954765.jpg', '/img/gallery/10954766.jpg', '/img/gallery/10954767.jpg', '/img/gallery/10954775.jpg', '/img/gallery/10989230.jpg', '/img/gallery/10986121.jpg', '/img/gallery/10989228.jpg'];
       this.index = index; // index of imgList
 
       this.show();
@@ -25320,7 +25320,7 @@ var render = function() {
           _c("div", { staticClass: "p-4 h-40 overflow-hidden" }, [
             _c("img", {
               staticClass: "cursor-pointer w-full gallery-image",
-              attrs: { src: "/img/gallery/handstand-stage.png", alt: "" },
+              attrs: { src: "/img/gallery/handstand-stage.jpg", alt: "" },
               on: {
                 click: function($event) {
                   return _vm.showMultiple(1)

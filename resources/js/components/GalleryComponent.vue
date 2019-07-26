@@ -10,7 +10,7 @@
       </div>
       <div class="w-1/2 sm:w-1/3">
         <div class="p-4 h-40 overflow-hidden">
-          <img @click="showMultiple(1)" src="/img/gallery/handstand-stage.png" alt="" class="cursor-pointer w-full gallery-image">
+          <img @click="showMultiple(1)" src="/img/gallery/handstand-stage.jpg" alt="" class="cursor-pointer w-full gallery-image">
         </div>
       </div>
       <div class="w-1/2 sm:w-1/3">
@@ -116,7 +116,7 @@ export default {
     showMultiple(index) {
       this.imgs = [
         '/img/gallery/10954771.jpg',
-        '/img/gallery/handstand-stage.png',
+        '/img/gallery/handstand-stage.jpg',
         '/img/gallery/10954773.jpg',
         '/img/gallery/10954759.jpg',
         '/img/gallery/10954762.jpg',
