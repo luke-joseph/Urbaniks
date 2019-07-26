@@ -2,6 +2,6 @@
 
 return [
 
-  'email' => 'kultyurhoni@hotmail.com'
+  'email' => env('OWNER_EMAIL'),
 
 ];
