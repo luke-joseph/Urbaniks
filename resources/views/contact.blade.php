@@ -64,7 +64,7 @@
       </li>
       <li class="flex mb-2 text-lg">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-mail w-8 h-8 mr-4"><path class="primary" d="M22 8.62V18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.62l9.55 4.77a1 1 0 0 0 .9 0L22 8.62z"/><path class="secondary" d="M12 11.38l-10-5V6c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v.38l-10 5z"/></svg>
-         <a href="mailto:info@urbanikstreetdance-glasgow.co.uk?Subject=Hello" class="text-gray-100">info@urbanikstreetdance-glasgow.co.uk</a>
+         <a href="mailto:info@urbaniks.co.uk?Subject=Hello" class="text-gray-100">info@urbaniks.co.uk</a>
       </li>
     </ul>
   </div>
