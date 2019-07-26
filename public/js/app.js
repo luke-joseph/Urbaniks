@@ -2209,7 +2209,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".weekday[data-v-303bf2a6] {\n  background-color: #232b2b;\n}\n.class-details-darker[data-v-303bf2a6]{\n  background-color: #3b444b;\n}\n.class-details-dark[data-v-303bf2a6]{\n  background-color: #414a4c;\n}\n@media (max-width: 640px) {\n.lesson-name[data-v-303bf2a6] {\n    height: 56px;\n}\n}\r\n", ""]);
+exports.push([module.i, ".weekday[data-v-303bf2a6] {\n  background-color: #1E2626;\n}\n.class-details-darker[data-v-303bf2a6]{\n  background-color: #3b444b;\n}\n.class-details-dark[data-v-303bf2a6]{\n  background-color: #414a4c;\n}\n@media (max-width: 640px) {\n.lesson-name[data-v-303bf2a6] {\n    height: 56px;\n}\n}\r\n", ""]);
 
 // exports
 

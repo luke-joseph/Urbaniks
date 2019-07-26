@@ -88,7 +88,7 @@ export default {
 <style lang="css" scoped>
 
 .weekday {
-  background-color: #232b2b;
+  background-color: #1E2626;
 }
 
 .class-details-darker{

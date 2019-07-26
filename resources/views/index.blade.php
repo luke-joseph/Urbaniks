@@ -82,7 +82,7 @@
 
   <div class="flex flex-col mt-16">
     <div class="w-32 mx-auto mb-4">
-      <img src="/img/icons/Break_dance.svg" alt="">
+      <img src="/img/icons/Break_dance_light.png" alt="">
     </div>
     <h2 class="text-2xl lg:text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
     <p class="sm:text-center text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg p-4">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art

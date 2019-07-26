@@ -23,7 +23,7 @@
 
     <div class="shop-item flex flex-wrap w-full">
       <div class="item-image  sm:w-1/3">
-        <img src="/img/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
+        <img src="/img/clothes/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
       </div>
       <div class="item-details sm:w-2/3">
         <div class="sm:w-2/3 flex flex-col ml-auto h-full justify-between">
@@ -44,7 +44,7 @@
 
     <div class="shop-item flex flex-wrap w-full mt-12">
       <div class="item-image  sm:w-1/3">
-        <img src="/img/varsity-zip-hoodie.jpg" alt="urbaniks t-shirt" class="w-full" >
+        <img src="/img/clothes/varsity-zip-hoodie.jpg" alt="urbaniks t-shirt" class="w-full" >
       </div>
       <div class="item-details sm:w-2/3">
         <div class="sm:w-2/3 flex flex-col ml-auto h-full justify-between">
@@ -65,7 +65,7 @@
 
     <div class="shop-item flex flex-wrap w-full mt-12">
       <div class="item-image  sm:w-1/3">
-        <img src="/img/hoodie.jpg" alt="urbaniks t-shirt" class="w-full" >
+        <img src="/img/clothes/hoodie.jpg" alt="urbaniks t-shirt" class="w-full" >
       </div>
       <div class="item-details sm:w-2/3">
         <div class="sm:w-2/3 flex flex-col ml-auto h-full justify-between">
@@ -86,7 +86,7 @@
 
     <div class="shop-item flex flex-wrap w-full mt-12">
       <div class="item-image  sm:w-1/3">
-        <img src="/img/sweatpants.jpg" alt="urbaniks sweatpants" class="w-full" >
+        <img src="/img/clothes/sweatpants.jpg" alt="urbaniks sweatpants" class="w-full" >
       </div>
       <div class="item-details sm:w-2/3">
         <div class="sm:w-2/3 flex flex-col ml-auto h-full justify-between">
@@ -107,7 +107,7 @@
 
     <div class="shop-item flex flex-wrap w-full mt-12">
       <div class="item-image  sm:w-1/3">
-        <img src="/img/leggings.jpg" alt="urbaniks t-shirt" class="w-full" >
+        <img src="/img/clothes/leggings.jpg" alt="urbaniks t-shirt" class="w-full" >
       </div>
       <div class="item-details sm:w-2/3">
         <div class="sm:w-2/3 flex flex-col ml-auto h-full justify-between">
@@ -128,7 +128,7 @@
 
   <div class="shop-item flex flex-wrap w-full mt-12">
     <div class="item-image  sm:w-1/3">
-      <img src="/img/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
+      <img src="/img/clothes/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
     </div>
     <div class="item-details sm:w-2/3">
       <div class="sm:w-2/3 flex flex-col ml-auto h-full justify-between">
@@ -149,7 +149,7 @@
 
   <div class="shop-item flex flex-wrap w-full mt-12">
     <div class="item-image  sm:w-1/3">
-      <img src="/img/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
+      <img src="/img/clothes/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
     </div>
     <div class="item-details sm:w-2/3">
       <div class="sm:w-2/3 flex flex-col ml-auto h-full justify-between">
@@ -170,7 +170,7 @@
 
   <div class="shop-item flex flex-wrap w-full mt-12">
     <div class="item-image  sm:w-1/3">
-      <img src="/img/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
+      <img src="/img/clothes/test-tshirt.jpg" alt="urbaniks t-shirt" class="w-full">
     </div>
     <div class="item-details sm:w-2/3">
       <div class="sm:w-2/3 flex flex-col ml-auto h-full justify-between">
