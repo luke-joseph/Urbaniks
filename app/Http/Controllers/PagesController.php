@@ -7,6 +7,18 @@ use App\Repositories\PageMetaData;
 
 class PagesController extends Controller
 {
+  public function comingsoonredirect()
+  {
+    return redirect()->route('coming-soon');
+  }
+
+  public function comingsoon()
+  {
+    $page = 'Home';
+    $pageMeta = pageMetaData::index();
+    return view('comingsoon', compact('page', 'pageMeta'));
+  }
+
     public function index()
     {
       $page = 'Home';

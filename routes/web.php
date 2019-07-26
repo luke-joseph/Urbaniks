@@ -11,15 +11,20 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
-Route::get('/classes', 'PagesController@classes');
-Route::get('/merchandise', 'PagesController@merchandise');
-Route::get('/gallery', 'PagesController@gallery');
-Route::get('/teachers', 'PagesController@teachers');
-Route::get('/contact', 'PagesController@contact');
-Route::get('/registration', 'PagesController@registration');
-Route::get('/order-form', 'OrderFormsController@download');
+//coming soon page
+Route::get('/', 'PagesController@comingsoonredirect');
+Route::get('/coming-soon', 'PagesController@comingsoon')->name('coming-soon');
 
+Route::get('/draft', 'PagesController@index');
+Route::get('/draft/classes', 'PagesController@classes');
+Route::get('/draft/merchandise', 'PagesController@merchandise');
+Route::get('/draft/gallery', 'PagesController@gallery');
+Route::get('/draft/teachers', 'PagesController@teachers');
+Route::get('/draft/contact', 'PagesController@contact');
+Route::get('/draft/registration', 'PagesController@registration');
+Route::get('/draft/order-form', 'OrderFormsController@download');
+
+//post routes
 Route::post('/registration', 'PupilRegistrationsController@store');
 Route::post('/contact', 'ContactsController@store');
 

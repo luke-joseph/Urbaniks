@@ -2,7 +2,7 @@
   <div class="w-3/4 flex flex-col">
     <div class="w-5/6 mx-auto mb-4">
       <div class="flex">
-        <img src="/img/testimonials/testimonial4.jpg" class="md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto object-cover" alt="Chloe Mcgovern Urbaniks teacher">
+        <img src="/img/testimonials/testimonial4.jpg" class="md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto object-cover" alt="">
       </div>
     </div>
     <h2 class="w-5/6 mx-auto text-xl lg:text-3xl text-center sm:text-left uppercase text-white tracking-wide mb-2">CHLOE MCGOVERN</h2>
