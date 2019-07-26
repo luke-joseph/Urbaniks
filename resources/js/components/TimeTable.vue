@@ -1,7 +1,7 @@
 <template>
   <div class="mb-8 mt-16 w-10/12 mx-auto h-128 rounded-b">
 
-    <div class="flex flex-col sm:flex-row justify-between py-4 px-8 bg-black rounded-t">
+    <div class="flex flex-col sm:flex-row justify-between py-4 px-8 rounded-t" style="background-color: #0e1111;">
       <label for="classes" class="mb-2 sm:mb-0 text-white uppercase tracking-wider font-bold">Choose Class</label>
       <select class="rounded" name="classes" v-model="selectedClass">
 
@@ -38,7 +38,7 @@
 
     <div class="flex flex-col text-white" v-for="(value, name) in allClasses[selectedClass]">
       <!-- show lessons by days in the week -->
-      <h3 class="pl-4 sm:px-8 py-4 bg-gray-600 font-bold tracking-wide">{{ name }}</h3>
+      <h3 class="weekday pl-4 sm:px-8 py-4 font-bold tracking-wide border-l-2 border-lightblue-300">{{ name }}</h3>
 
       <div class="flex py-2" v-for="lesson in allClasses[selectedClass][name]" :class="bgColor(lesson.index)">
         <div class="flex flex-col w-1/3 pl-4 sm:pl-8">
@@ -77,8 +77,8 @@ export default {
   methods:{
     bgColor: function(index){
       return {
-        'bg-gray-800' : index % 2 === 0,
-        'bg-gray-900' : index % 2 === 1,
+        'class-details-dark' : index % 2 === 0,
+        'class-details-darker' : index % 2 === 1,
       }
     },
   },
@@ -86,6 +86,19 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+.weekday {
+  background-color: #232b2b;
+}
+
+.class-details-darker{
+  background-color: #3b444b;
+}
+
+.class-details-dark{
+  background-color: #414a4c;
+}
+
 @media (max-width: 640px) {
 .lesson-name {
   height: 56px;

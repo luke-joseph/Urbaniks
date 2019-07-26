@@ -2000,8 +2000,8 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     bgColor: function bgColor(index) {
       return {
-        'bg-gray-800': index % 2 === 0,
-        'bg-gray-900': index % 2 === 1
+        'class-details-dark': index % 2 === 0,
+        'class-details-darker': index % 2 === 1
       };
     }
   }
@@ -2209,7 +2209,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "@media (max-width: 640px) {\n.lesson-name[data-v-303bf2a6] {\n    height: 56px;\n}\n}\r\n", ""]);
+exports.push([module.i, ".weekday[data-v-303bf2a6] {\n  background-color: #232b2b;\n}\n.class-details-darker[data-v-303bf2a6]{\n  background-color: #3b444b;\n}\n.class-details-dark[data-v-303bf2a6]{\n  background-color: #414a4c;\n}\n@media (max-width: 640px) {\n.lesson-name[data-v-303bf2a6] {\n    height: 56px;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -25721,7 +25721,8 @@ var render = function() {
         "div",
         {
           staticClass:
-            "flex flex-col sm:flex-row justify-between py-4 px-8 bg-black rounded-t"
+            "flex flex-col sm:flex-row justify-between py-4 px-8 rounded-t",
+          staticStyle: { "background-color": "#0e1111" }
         },
         [
           _c(
@@ -25785,7 +25786,7 @@ var render = function() {
               "h3",
               {
                 staticClass:
-                  "pl-4 sm:px-8 py-4 bg-gray-600 font-bold tracking-wide"
+                  "weekday pl-4 sm:px-8 py-4 font-bold tracking-wide border-l-2 border-lightblue-300"
               },
               [_vm._v(_vm._s(name))]
             ),
