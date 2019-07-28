@@ -7,7 +7,7 @@
         <title>{{$pageMeta['page_title']}}</title>
         {{-- SOCIAL --}}
         <meta property="og:image" content="{{$pageMeta['fb_image']}}" />
-        <meta property="og:site_name" content="trackwire" />
+        <meta property="og:site_name" content="Urbaniks" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="{{$pageMeta['fb_url']}}" />
         <meta property="og:title" content="{{$pageMeta['fb_title']}}" />
