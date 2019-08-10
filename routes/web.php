@@ -17,7 +17,7 @@ Route::get('/coming-soon', 'PagesController@comingsoon')->name('coming-soon');
 
 Route::get('/draft', 'PagesController@index');
 Route::get('/draft/classes', 'PagesController@classes');
-Route::get('/draft/merchandise', 'PagesController@merchandise');
+// Route::get('/draft/merchandise', 'PagesController@merchandise');
 Route::get('/draft/gallery', 'PagesController@gallery');
 Route::get('/draft/teachers', 'PagesController@teachers');
 Route::get('/draft/contact', 'PagesController@contact');

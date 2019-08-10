@@ -37,7 +37,7 @@
 
   </div>
 
-  <div class="flex flex-col mt-24 mb-24">
+  <div class="flex flex-col mt-16 mb-24">
     <div class="w-40 mx-auto mb-4">
       <img src="/img/teachers/paulandpaulineexperienced.jpg" alt="">
     </div>
@@ -76,14 +76,16 @@
   <div class="flex flex-col">
     <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-white uppercase tracking-wide text-center mt-16 mb-10">What Our Pupils Say</h2>
 
-    <div id="testimonial-container" class="flex flex-col md:flex-row w-4/6 mx-auto items-center">
+    <div id="testimonial-container" class="flex flex-col md:flex-row w-4/6 mx-auto items-center?">
       <div id="testimonial1" class="md:w-1/2 p-8 mb-6 md:mb-0">
         <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
 
         </div>
         <div class="flex flex-col">
-          <p class="text-gray-200 italic mb-6 z-10">I love this skool I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
-          <div id="pupil-container1" class="flex">
+          <p class="text-gray-200 italic mb-6 z-10">
+            Your show is SUCH a happy life enhancing afternoon.
+          </p>
+          {{-- <div id="pupil-container1" class="flex">
             <div class="w-10 h-10">
               <img src="/img/testimonials/testimonial4.jpg" alt="" class="w-full h-full rounded-full">
             </div>
@@ -91,7 +93,7 @@
               <p class="mb-0 text-gray-100">Pupil One</p>
               <p class="mb-0 text-lightblue-300">Hip Hop Dance</p>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
       <div id="testimonial2" class="md:w-1/2 p-8">
@@ -99,8 +101,10 @@
 
         </div>
         <div class="flex flex-col">
-          <p class="text-gray-200 italic mb-6 z-10">I find everything nice and I am very happy to be hear dancing and showing you how much I love it</p>
-            <div id="pupil-container2" class="flex">
+          <p class="text-gray-200 italic mb-6 z-10">
+            Thank you for letting us be part of such an AMAZING dance family!
+          </p>
+            {{-- <div id="pupil-container2" class="flex">
               <div class="w-10 h-10">
                 <img src="/img/testimonials/testimonial5.jpg" alt="" class="w-full h-full rounded-full">
               </div>
@@ -108,7 +112,45 @@
                 <p class="mb-0 text-gray-100">Pupil Two</p>
                 <p class="mb-0 text-lightblue-300">Hip Hop Dance</p>
               </div>
-            </div>
+            </div> --}}
+        </div>
+      </div>
+      <div id="testimonial3" class="md:w-1/2 p-8">
+        <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
+
+        </div>
+        <div class="flex flex-col">
+          <p class="text-gray-200 italic mb-6 z-10">
+            Can't wait to come back in Aug!
+          </p>
+            {{-- <div id="pupil-container2" class="flex">
+              <div class="w-10 h-10">
+                <img src="/img/testimonials/testimonial5.jpg" alt="" class="w-full h-full rounded-full">
+              </div>
+              <div class="flex flex-col ml-2 text-xs text-white">
+                <p class="mb-0 text-gray-100">Pupil Two</p>
+                <p class="mb-0 text-lightblue-300">Hip Hop Dance</p>
+              </div>
+            </div> --}}
+        </div>
+      </div>
+      <div id="testimonial4" class="md:w-1/2 p-8">
+        <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
+
+        </div>
+        <div class="flex flex-col">
+          <p class="text-gray-200 italic mb-6 z-10">
+            I think your work is amazing and you hold it all together so naturally, it really is truly excellent.
+          </p>
+            {{-- <div id="pupil-container2" class="flex">
+              <div class="w-10 h-10">
+                <img src="/img/testimonials/testimonial5.jpg" alt="" class="w-full h-full rounded-full">
+              </div>
+              <div class="flex flex-col ml-2 text-xs text-white">
+                <p class="mb-0 text-gray-100">Pupil Two</p>
+                <p class="mb-0 text-lightblue-300">Hip Hop Dance</p>
+              </div>
+            </div> --}}
         </div>
       </div>
     </div>

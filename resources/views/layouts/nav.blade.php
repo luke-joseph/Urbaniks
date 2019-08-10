@@ -26,7 +26,7 @@
         <li class="tracking-widest"><a href="/draft" class="Home text-gray-100 hover:text-lightblue-200 hover:no-underline">home</a></li>
         <li class="tracking-widest"><a href="/draft/classes" class="Classes text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
         <li class="tracking-widest"><a href="/draft/teachers" class="Teachers text-gray-100 hover:text-lightblue-200 hover:no-underline">teachers</a></li>
-        <li class="tracking-widest"><a href="/draft/merchandise" class="Merchandise text-gray-100 hover:text-lightblue-200 hover:no-underline">merch</a></li>
+        {{-- <li class="tracking-widest"><a href="/draft/merchandise" class="Merchandise text-gray-100 hover:text-lightblue-200 hover:no-underline">merch</a></li> --}}
         <li class="tracking-widest"><a href="/draft/gallery" class="Gallery text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
         <li class="tracking-widest"><a href="/draft/contact" class="Contact text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>
         <li class="tracking-widest"><a href="/draft/registration" class="Registration text-gray-100 hover:text-lightblue-200 hover:no-underline">registration</a></li>
