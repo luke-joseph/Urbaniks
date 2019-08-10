@@ -3,9 +3,9 @@
   <div class="px-3">
     <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/hero-images/index-image.jpg'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
-        <img src="/img/urbaniks-plain-ws-no-tm.png" alt="urbaniks logo" class="w-64 mx-auto mt-12">
+        <img src="/img/urbaniks-plain-ws-no-tm.png" alt="urbaniks logo" class="w-24 md:w-32 lg:w-64 mx-auto mt-12 opacity-75">
         <div class="mx-auto text-white uppercase flex flex-col">
-          <h1 class="text-xl lg:text-xl text-center w-full mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Street Skool Of Dance</h1>
+          <h1 class="hidden sm:flex text-sm md:text-xl lg:text-xl text-center w-full mx-auto  px-2 opacity-75" style="background-color: rgba(0,0,0,0.4);">Street Skool Of Dance</h1>
           {{-- <p class="hidden sm:flex text-center italic text-2xl mx-auto px-2 mt-4" style="background-color: rgba(49,49,67,0.4);">creativity in movement</p> --}}
 
         </div>
