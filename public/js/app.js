@@ -22915,7 +22915,7 @@ var render = function() {
                 staticClass:
                   "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
                 attrs: {
-                  src: "/img/testimonials/testimonial8.jpg",
+                  src: "/img/teachers/paulandpaulineexperienced.jpg",
                   alt: "Paul and Pauline urbaniks"
                 }
               }),
@@ -22943,10 +22943,7 @@ var render = function() {
               _c("img", {
                 staticClass:
                   "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
-                attrs: {
-                  src: "/img/testimonials/testimonial7.jpg",
-                  alt: "Honey Urbaniks"
-                }
+                attrs: { src: "/img/teachers/honey.jpg", alt: "Honey Urbaniks" }
               }),
               _vm._v(" "),
               _vm._m(1)
@@ -22973,7 +22970,7 @@ var render = function() {
                 staticClass:
                   "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
                 attrs: {
-                  src: "/img/testimonials/testimonial5.jpg",
+                  src: "/img/teachers/erinandrach.jpg",
                   alt: "Erin and Rach Urbaniks"
                 }
               }),
@@ -23001,10 +22998,7 @@ var render = function() {
               _c("img", {
                 staticClass:
                   "md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover",
-                attrs: {
-                  src: "/img/testimonials/testimonial4.jpg",
-                  alt: "Chloe Urbaniks"
-                }
+                attrs: { src: "/img/teachers/chloe.jpg", alt: "Chloe Urbaniks" }
               }),
               _vm._v(" "),
               _vm._m(3)
@@ -23378,7 +23372,7 @@ var staticRenderFns = [
           _c("img", {
             staticClass:
               "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto object-cover",
-            attrs: { src: "/img/testimonials/testimonial4.jpg", alt: "" }
+            attrs: { src: "/img/teachers/chloe.jpg", alt: "" }
           })
         ])
       ]),
@@ -23497,7 +23491,7 @@ var staticRenderFns = [
           _c("img", {
             staticClass:
               "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto object-cover",
-            attrs: { src: "/img/testimonials/testimonial5.jpg", alt: "" }
+            attrs: { src: "/img/teachers/erinandrach.jpg", alt: "" }
           })
         ])
       ]),
@@ -23616,7 +23610,7 @@ var staticRenderFns = [
           _c("img", {
             staticClass:
               "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto object-cover",
-            attrs: { src: "/img/testimonials/testimonial7.jpg", alt: "" }
+            attrs: { src: "/img/teachers/honey.jpg", alt: "" }
           })
         ])
       ]),
@@ -23725,7 +23719,10 @@ var staticRenderFns = [
           _c("img", {
             staticClass:
               "md:ml-2 mx-auto h-64 md:h-32 w-64 md:w-32 rounded my-auto",
-            attrs: { src: "/img/testimonials/testimonial8.jpg", alt: "" }
+            attrs: {
+              src: "/img/teachers/paulandpaulineexperienced.jpg",
+              alt: ""
+            }
           })
         ])
       ]),

@@ -5,7 +5,7 @@
 
       <div @click="selectTeacher('PaulPauline')" class="flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none md:rounded-t-lg"
       :class="selected == 'PaulPauline' ? 'bg-gray-300' : 'md:bg-gray-500 text-gray-400 md:text-gray-900'">
-        <img src="/img/testimonials/testimonial8.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Paul and Pauline urbaniks">
+        <img src="/img/teachers/paulandpaulineexperienced.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Paul and Pauline urbaniks">
         <div class="my-auto ml-2">
           <h4 class="text-lg? font-bold text-center md:text-left">Paul & Pauline</h4>
         </div>
@@ -13,7 +13,7 @@
 
       <div @click="selectTeacher('Honey')" class="flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none"
       :class="selected == 'Honey' ? 'bg-gray-300' : 'md:bg-gray-500 text-gray-400 md:text-gray-900'">
-        <img src="/img/testimonials/testimonial7.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Honey Urbaniks">
+        <img src="/img/teachers/honey.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Honey Urbaniks">
         <div class="my-auto ml-2">
           <h4 class="text-lg? font-bold text-center md:text-left">Honey Joseph</h4>
         </div>
@@ -21,7 +21,7 @@
 
       <div @click="selectTeacher('ErinRach')" class="flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none"
       :class="selected == 'ErinRach' ? 'bg-gray-300' : 'md:bg-gray-500 text-gray-400 md:text-gray-900'">
-        <img src="/img/testimonials/testimonial5.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Erin and Rach Urbaniks">
+        <img src="/img/teachers/erinandrach.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Erin and Rach Urbaniks">
         <div class="my-auto ml-2">
           <h4 class="text-lg? font-bold text-center md:text-left">Erin and Rach</h4>
         </div>
@@ -29,7 +29,7 @@
 
       <div @click="selectTeacher('Chloe')" class="flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none md:rounded-b-lg"
       :class="selected == 'Chloe' ? 'bg-gray-300' : 'md:bg-gray-500 text-gray-400 md:text-gray-900'">
-        <img src="/img/testimonials/testimonial4.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Chloe Urbaniks">
+        <img src="/img/teachers/chloe.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Chloe Urbaniks">
         <div class="my-auto ml-2">
           <h4 class="text-lg? font-bold text-center md:text-left">Chloe Mcgovern</h4>
         </div>
