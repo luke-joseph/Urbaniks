@@ -38,30 +38,28 @@
   </div>
 
   <div class="flex flex-col mt-24 mb-24">
-    <div class="w-1/2 mx-auto mb-4">
-      {{-- <img src="/img/logos/urbanikslogobuildings-white.png" alt=""> --}}
+    <div class="w-40 mx-auto mb-4">
+      <img src="/img/teachers/paulandpaulineexperienced.jpg" alt="">
     </div>
-    <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-center uppercase text-white tracking-wide mb-8">Our Experience</h2>
-    <div class="flex flex-col md:flex-row w-5/6 mx-auto">
+    <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-center uppercase text-white tracking-wide">Our Experience</h2>
 
-      <div class="md:w-1/2 p-4">
-        <h3 class="text-2xl text-gray-100 mb-4">Est. Since 2001</h3>
-        <p class="mb-0 text-gray-200 mb-4 sm:w-11/12">We are one of the first schools that appeared on the scene all the way back from 2001. We have
-        successfully taught over 200 pupils from all backgrounds, ages and skill level.</p>
-        <p class="mb-0 text-gray-200 sm:w-11/12">
-          Dance is great way to stay healthy, build confidence & interact with peers while having fun in this growing digital age.
-        </p>
-      </div>
+    <h4 class="text-lightblue-300 w-5/6 sm:w-2/3 mx-auto text-lg px-4 mb-6 text-center">
+    Directors, Paul and Pauline Joseph est. URBANIKS in 1999
+    </h4>
 
-      <div class="md:w-1/2 p-4">
-        <h3 class="text-2xl text-gray-100 mb-4">Our Experience</h3>
-        <p class="mb-0 text-gray-200">
-          We have over 30 years experience as professional dancers, choreographers, directors, teachers, judges and lecturers in dance.
-          <span class="text-lightblue-600">To learn more about the teachers</span>
-           <a href="/teachers" class="bg-lightblue-300 text-black font-bold rounded px-2 text-xs">click here </a>
-        </p>
-      </div>
-    </div>
+    <p class="text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg px-4 mb-4">
+    With over 30 years experience as professional dancers, choreographers, directors, teachers, and judges they bring a wealth of knowledge to all their pupils.
+    </p>
+
+    <p class="text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg px-4 mb-4">
+      They have worked for TV, Theatre, Film, Music Videos, Corporate clients as well as Opening and Closing Ceremonies including Glasgows Commonwealth Games, and The European Sports Championships.
+    </p>
+
+    <p class="text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg px-4">
+      They provide dance classes for boys and girls, aged 3 to adult, beginner to advanced and recreational to professional level.
+      <span class="text-lightblue-600?">To learn more about the teachers</span><a href="/teachers" target="_blank" class="bg-lightblue-300 text-black font-bold rounded px-2 text-xs ml-2">click here </a>
+    </p>
+
   </div>
 
   <div class="flex flex-col mt-16">
@@ -69,7 +67,7 @@
       <img src="/img/icons/Break_dance_light.png" alt="">
     </div>
     <h2 class="text-2xl lg:text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
-    <p class="sm:text-center text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg p-4">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
+    <p class="text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg p-4">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
       of dance, develop confidence and life long friendships. We bring togetherness and community with lots of interaction through dance.
 
     </p>
