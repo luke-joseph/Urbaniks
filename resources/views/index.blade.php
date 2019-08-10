@@ -3,12 +3,11 @@
   <div class="px-3">
     <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/hero-images/index-image.jpg'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
-        <div class="m-auto text-white uppercase flex flex-col">
-          <h1 class="text-3xl lg:text-5xl text-center w-full mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Urbaniks Street Skool Of Dance</h1>
-          <p class="hidden sm:flex text-center italic text-2xl mx-auto px-2 mt-4" style="background-color: rgba(49,49,67,0.4);">creativity in movement</p>
-          {{-- <a href="/register" class="mx-auto">
-            <button class="py-2 px-4 bg-indigo-400 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register today</button>
-          </a> --}}
+        <img src="/img/urbaniks-plain-ws-no-tm.png" alt="urbaniks logo" class="w-64 mx-auto mt-6">
+        <div class="mx-auto text-white uppercase flex flex-col">
+          <h1 class="text-xl lg:text-xl text-center w-full mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Street Skool Of Dance</h1>
+          {{-- <p class="hidden sm:flex text-center italic text-2xl mx-auto px-2 mt-4" style="background-color: rgba(49,49,67,0.4);">creativity in movement</p> --}}
+
         </div>
       </div>
    </div>
