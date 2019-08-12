@@ -9,7 +9,7 @@
 
     <div id="contact-socials" class="flex text-white items-center w-full lg:w-auto lg:text-base">
       <div class="mx-auto lg:mr-2"><p class="mb-0 text-gray-200 text-center sm:text-justify">GLASGOW <span class="hidden sm:inline">- MILGAVIE | BALLOCH</span></p> </div>
-      <a target="_blank" href="https://www.facebook.com/pages/Urbaniks-Street-skool-of-Dance/176039309115345" class="flex">
+      <a target="_blank" href="https://www.facebook.com/pauline.joseph.94" class="flex">
         <img src="/img/facebook.png" alt="facebook logo" class="h-6 hidden lg:flex">
       </a>
     </div>

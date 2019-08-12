@@ -1,7 +1,7 @@
   <div id="sticky-error-message" style="top: 240px;" class="hidden lg:flex fixed z-50 right-0">
     <ul>
       <li>
-        <a target="_blank" href="https://www.facebook.com/pages/Urbaniks-Street-skool-of-Dance/176039309115345" class="flex">
+        <a target="_blank" href="https://www.facebook.com/pauline.joseph.94" class="flex">
           <div class="invisible flex px-4 bg-blue-400 text-white rounded-l w-32 border-r">
             <p class="text-black font-semibold m-auto tracking-wider">facebook</p>
           </div>
@@ -38,7 +38,7 @@
 <div class="fixed z-50 inset-x-0 bottom-0 mb-4 w-full lg:hidden flex">
   <ul class="mx-auto flex flex-row">
     <li>
-      <a target="_blank" href="https://www.facebook.com/pages/Urbaniks-Street-skool-of-Dance/176039309115345" class="flex">
+      <a target="_blank" href="https://www.facebook.com/pauline.joseph.94" class="flex">
         <div class="h-10 w-10 bg-blue-400 rounded">
           <img src="/img/logos/facebook.png" class="p-1 cursor-pointer" alt="facebook logo">
         </div>
