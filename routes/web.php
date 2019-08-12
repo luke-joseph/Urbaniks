@@ -21,7 +21,7 @@ Route::get('/draft/classes', 'PagesController@classes');
 Route::get('/draft/gallery', 'PagesController@gallery');
 Route::get('/draft/teachers', 'PagesController@teachers');
 Route::get('/draft/contact', 'PagesController@contact');
-Route::get('/draft/registration', 'PagesController@registration');
+// Route::get('/draft/registration', 'PagesController@registration');
 Route::get('/draft/order-form', 'OrderFormsController@download');
 
 //post routes
