@@ -54,12 +54,19 @@ class PagesController extends Controller
 
       return view('merchandise', compact('page', 'pageMeta'));
     }
-    public function registration()
+    public function noticeboard()
     {
-      $page = 'Registration';
-      $pageMeta = pageMetaData::registration();
+      $page = 'Notices';
+      $pageMeta = pageMetaData::noticeboard();
 
-      return view('registration', compact('page', 'pageMeta'));
+      return view('noticeboard', compact('page', 'pageMeta'));
+    }
+    public function achievements()
+    {
+      $page = 'Achievements';
+      $pageMeta = pageMetaData::achievements();
+
+      return view('achievements', compact('page', 'pageMeta'));
     }
     public function classes()
     {

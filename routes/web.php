@@ -17,11 +17,11 @@ Route::get('/coming-soon', 'PagesController@comingsoon')->name('coming-soon');
 
 Route::get('/draft', 'PagesController@index');
 Route::get('/draft/classes', 'PagesController@classes');
-// Route::get('/draft/merchandise', 'PagesController@merchandise');
+Route::get('/draft/achievements', 'PagesController@achievements');
 Route::get('/draft/gallery', 'PagesController@gallery');
 Route::get('/draft/teachers', 'PagesController@teachers');
 Route::get('/draft/contact', 'PagesController@contact');
-// Route::get('/draft/registration', 'PagesController@registration');
+Route::get('/draft/notice-board', 'PagesController@noticeboard');
 Route::get('/draft/order-form', 'OrderFormsController@download');
 
 //post routes

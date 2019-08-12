@@ -33,22 +33,6 @@
   <div class="flex flex-wrap w-11/12 mx-auto mt-16 mb-24">
 
   <div class="flex flex-col md:w-1/2 pl-4 sm:pl-0">
-    <h2 class="text-2xl lg:text-3xl uppercase text-gray-100 tracking-wide mb-8">Our Calendar</h2>
-    <p class="text-gray-200 text-lg mb-2">
-      We run classes all year round following the school schedule.
-    </p>
-    <p class="text-gray-200 text-lg">
-      Please take note of our holiday periods where no classes take place:
-    </p>
-    <div class="flex">
-      <ul class="text-white text-lg mt-8 mb-12 p-8 rounded bg-gray-800 sm:w-1/2">
-        <h4 class="mb-4 uppercase font-bold tracking-wider text-lg text-gray-100">Holidays</h4>
-        <li class="mb-2 text-base text-lightblue-200">Jan 1st - Jan 3rd</li>
-        <li class="mb-2 text-base text-lightblue-200">Mar 28th - Apr 14th</li>
-        <li class="mb-2 text-base text-lightblue-200">Jul 1st - Jul 14th</li>
-        <li class="text-base text-lightblue-200">Dec 21st - Dec 27th</li>
-      </ul>
-    </div>
 
     <div class="flex flex-col">
       <div class="">
@@ -57,10 +41,10 @@
       <div class="px-4 py-6 flex flex-col bg-gray-800 rounded sm:w-1/2">
         <div class="text-white mb-4">
           <h4 class="uppercase font-bold tracking-wide mb-2 text-gray-100">Start Learning Street Dance Today</h4>
-          <p class="text-gray-300">We are World Street Dance Championships qualifiers in 2012, 2013, 2014, 2015, 2016, 2017 and 2018.</p>
+          <p class="text-gray-300">We are World Street Dance Championships qualifiers in 2012, 2013, 2014, 2015, 2016, 2017, 2018 and 2019.</p>
         </div>
-        <a href="/registration" class="mr-auto">
-          <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">register today</button>
+        <a href="/contact" class="mr-auto">
+          <button class="py-2 px-4 bg-lightblue-300 rounded-lg text-black uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">contact us today</button>
         </a>
       </div>
     </div>
