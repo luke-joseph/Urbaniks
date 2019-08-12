@@ -23,7 +23,7 @@
   </div>
 
   <div id="app">
-    <time-table></time-table>
+    <time-table-two></time-table-two>
   </div>
 
   <p class="text-center text-lightblue-900 italic font-semibold w-5/6 sm:w-1/2 mx-auto text-lg border-l-4 border-r-4 border-blue-400 bg-gray-200 rounded py-4 px-10 mb-32 mt-12">

@@ -2009,6 +2009,78 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTableTwo.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TimeTableTwo.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _src_danceclassesTwo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/danceclassesTwo */ "./resources/js/components/src/danceclassesTwo.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      selectedClass: 'KIDS',
+      allClasses: _src_danceclassesTwo__WEBPACK_IMPORTED_MODULE_0__["default"]
+    };
+  },
+  computed: {},
+  methods: {
+    bgColor: function bgColor(index) {
+      return {
+        'class-details-dark': index % 2 === 0,
+        'class-details-darker': index % 2 === 1
+      };
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/src/teachers/Chloe.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/src/teachers/Chloe.vue?vue&type=script&lang=js& ***!
@@ -2210,6 +2282,25 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 // module
 exports.push([module.i, ".weekday[data-v-303bf2a6] {\n  background-color: #1E2626;\n}\n.class-details-darker[data-v-303bf2a6]{\n  background-color: #3b444b;\n}\n.class-details-dark[data-v-303bf2a6]{\n  background-color: #414a4c;\n}\n@media (max-width: 640px) {\n.lesson-name[data-v-303bf2a6] {\n    height: 56px;\n}\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".weekday[data-v-28afb814] {\n  background-color: #1E2626;\n}\n.class-details-darker[data-v-28afb814]{\n  background-color: #3b444b;\n}\n.class-details-dark[data-v-28afb814]{\n  background-color: #414a4c;\n}\n@media (max-width: 640px) {\n.lesson-name[data-v-28afb814] {\n    height: 56px;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -19894,6 +19985,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
@@ -23338,6 +23459,189 @@ var staticRenderFns = [
     )
   }
 ]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTableTwo.vue?vue&type=template&id=28afb814&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TimeTableTwo.vue?vue&type=template&id=28afb814&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "mb-8 mt-16 w-10/12 mx-auto h-128 rounded-b" },
+    [
+      _c(
+        "div",
+        {
+          staticClass:
+            "flex flex-col sm:flex-row justify-between py-4 px-8 rounded-t",
+          staticStyle: { "background-color": "#0e1111" }
+        },
+        [
+          _c(
+            "label",
+            {
+              staticClass:
+                "mb-2 sm:mb-0 text-white uppercase tracking-wider font-bold",
+              attrs: { for: "classes" }
+            },
+            [_vm._v("Choose Class")]
+          ),
+          _vm._v(" "),
+          _c(
+            "select",
+            {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.selectedClass,
+                  expression: "selectedClass"
+                }
+              ],
+              staticClass: "rounded",
+              attrs: { name: "classes" },
+              on: {
+                change: function($event) {
+                  var $$selectedVal = Array.prototype.filter
+                    .call($event.target.options, function(o) {
+                      return o.selected
+                    })
+                    .map(function(o) {
+                      var val = "_value" in o ? o._value : o.value
+                      return val
+                    })
+                  _vm.selectedClass = $event.target.multiple
+                    ? $$selectedVal
+                    : $$selectedVal[0]
+                }
+              }
+            },
+            [
+              _c("option", { attrs: { value: "KIDS" } }, [_vm._v("KIDS")]),
+              _vm._v(" "),
+              _c("option", { attrs: { value: "JUNIORS" } }, [
+                _vm._v("JUNIORS")
+              ]),
+              _vm._v(" "),
+              _c("option", { attrs: { value: "SENIORS" } }, [
+                _vm._v("SENIORS")
+              ]),
+              _vm._v(" "),
+              _c("option", { attrs: { value: "COMPETITIVE" } }, [
+                _vm._v("COMPETITIVE")
+              ]),
+              _vm._v(" "),
+              _c("option", { attrs: { value: "PRIVATE" } }, [_vm._v("PRIVATE")])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _vm._l(_vm.allClasses[_vm.selectedClass], function(value, name) {
+        return _c(
+          "div",
+          { staticClass: "flex flex-col text-white" },
+          [
+            _c(
+              "h3",
+              {
+                staticClass:
+                  "weekday pl-4 sm:px-8 py-4 font-bold tracking-wide border-l-2 border-lightblue-300"
+              },
+              [_vm._v(_vm._s(name))]
+            ),
+            _vm._v(" "),
+            _vm._l(_vm.allClasses[_vm.selectedClass][name], function(lesson) {
+              return _c(
+                "div",
+                { staticClass: "flex py-2", class: _vm.bgColor(lesson.index) },
+                [
+                  _c(
+                    "div",
+                    { staticClass: "flex flex-col w-1/3 pl-4 sm:pl-8" },
+                    [
+                      _c(
+                        "p",
+                        { staticClass: "mb-0 py-1 font-bold tracking-wide" },
+                        [_vm._v(" " + _vm._s(lesson.time))]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-0 py-1 text-gray-300" }, [
+                        _vm._v(" " + _vm._s(lesson.teacher))
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          staticClass: "mt-auto mb-0 py-1 text-gray-200 w-4/5"
+                        },
+                        [_vm._v(" " + _vm._s(lesson.location))]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "p",
+                        {
+                          staticClass:
+                            "hidden sm:flex mb-0 py-1 text-gray-200 w-4/5 text-xs"
+                        },
+                        [_vm._v(" " + _vm._s(lesson.address))]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "pl-2 sm:pl-0 flex flex-col w-2/3" },
+                    [
+                      _c(
+                        "p",
+                        {
+                          staticClass:
+                            "lesson-name mb-0 py-1 font-bold tracking-wide"
+                        },
+                        [_vm._v(" " + _vm._s(lesson.lessonName))]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-0 py-1 text-gray-200" }, [
+                        _vm._v(" " + _vm._s(lesson.difficulty))
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-0 py-1 text-gray-300" }, [
+                        _vm._v(" " + _vm._s(lesson.info))
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "mb-0 py-1 text-gray-200" }, [
+                        _vm._v(" £" + _vm._s(lesson.price))
+                      ])
+                    ]
+                  )
+                ]
+              )
+            })
+          ],
+          2
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -35983,6 +36287,7 @@ Vue.use(vue_easy_lightbox__WEBPACK_IMPORTED_MODULE_0___default.a);
 Vue.component('time-table', __webpack_require__(/*! ./components/TimeTable.vue */ "./resources/js/components/TimeTable.vue")["default"]);
 Vue.component('gallery-component', __webpack_require__(/*! ./components/GalleryComponent.vue */ "./resources/js/components/GalleryComponent.vue")["default"]);
 Vue.component('teachers-info', __webpack_require__(/*! ./components/TeachersInfo.vue */ "./resources/js/components/TeachersInfo.vue")["default"]);
+Vue.component('time-table-two', __webpack_require__(/*! ./components/TimeTableTwo.vue */ "./resources/js/components/TimeTableTwo.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -36283,6 +36588,93 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/TimeTableTwo.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/components/TimeTableTwo.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TimeTableTwo_vue_vue_type_template_id_28afb814_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TimeTableTwo.vue?vue&type=template&id=28afb814&scoped=true& */ "./resources/js/components/TimeTableTwo.vue?vue&type=template&id=28afb814&scoped=true&");
+/* harmony import */ var _TimeTableTwo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TimeTableTwo.vue?vue&type=script&lang=js& */ "./resources/js/components/TimeTableTwo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _TimeTableTwo_vue_vue_type_style_index_0_id_28afb814_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true& */ "./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _TimeTableTwo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TimeTableTwo_vue_vue_type_template_id_28afb814_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TimeTableTwo_vue_vue_type_template_id_28afb814_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "28afb814",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/TimeTableTwo.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/TimeTableTwo.vue?vue&type=script&lang=js&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/TimeTableTwo.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./TimeTableTwo.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTableTwo.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true& ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_style_index_0_id_28afb814_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTableTwo.vue?vue&type=style&index=0&id=28afb814&lang=css&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_style_index_0_id_28afb814_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_style_index_0_id_28afb814_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_style_index_0_id_28afb814_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_style_index_0_id_28afb814_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_style_index_0_id_28afb814_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/TimeTableTwo.vue?vue&type=template&id=28afb814&scoped=true&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/TimeTableTwo.vue?vue&type=template&id=28afb814&scoped=true& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_template_id_28afb814_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./TimeTableTwo.vue?vue&type=template&id=28afb814&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TimeTableTwo.vue?vue&type=template&id=28afb814&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_template_id_28afb814_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TimeTableTwo_vue_vue_type_template_id_28afb814_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/src/danceclasses.js":
 /*!*****************************************************!*\
   !*** ./resources/js/components/src/danceclasses.js ***!
@@ -36575,6 +36967,234 @@ var danceclasses = {
       difficulty: 'Intermediate',
       info: 'Competitive Dance | The Honeys\' / Hoodlums',
       price: 5
+    }]
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (danceclasses);
+
+/***/ }),
+
+/***/ "./resources/js/components/src/danceclassesTwo.js":
+/*!********************************************************!*\
+  !*** ./resources/js/components/src/danceclassesTwo.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var danceclasses = {
+  KIDS: {
+    Monday: [{
+      index: 0,
+      time: '15:30 - 1630',
+      teacher: 'Pauline Joseph',
+      location: 'Milngavie',
+      address: 'WEST RUGBY CLUB, GLASGOW RD. G62 6AQ',
+      googleLocation: 'https://google.com',
+      lessonName: 'BOOGIE BABEZ – Street',
+      info: 'Ages 3 - P2’s | boys & girls'
+    }, {
+      index: 1,
+      time: '16:45 - 17:45',
+      teacher: 'Pauline Joseph',
+      location: 'Milngavie',
+      address: 'WEST RUGBY CLUB, GLASGOW RD. G62 6AQ',
+      googleLocation: 'https://google.com',
+      lessonName: 'BIGGIE SMALLZ – Girls Street',
+      info: 'Ages P3 - P6 | Girls'
+    }],
+    Tuesday: [{
+      index: 0,
+      time: '15:30 - 16:30',
+      teacher: 'Paul Joseph',
+      location: 'Milngavie',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'WEE SKILLZ – Boys Street',
+      info: 'Ages P2 - P4 | Boys'
+    }],
+    Friday: [{
+      index: 0,
+      time: '15:30 - 16:30',
+      teacher: 'Pauline Joseph',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'BOOGIE BABEZ – Street',
+      info: 'Ages 3 - P2’s | boys & girls'
+    }, {
+      index: 1,
+      time: '16:30 - 17:30',
+      teacher: 'Pauline Joseph',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'KOOL KIDZ – Girls Street',
+      info: 'Ages P3 - P7 | Girls'
+    }]
+  },
+  JUNIORS: {
+    Monday: [{
+      index: 0,
+      time: '17:45 - 18:45',
+      teacher: 'Pauline Joseph',
+      location: 'Milngavie',
+      address: 'WEST RUGBY CLUB, GLASGOW RD. G62 6AQ',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR CONTEMPORARY – Contemporary',
+      info: 'Ages P3 + | stretch, lyrical, creative | boys & girls'
+    }],
+    Tuesday: [{
+      index: 0,
+      time: '16:30 - 17:30',
+      teacher: 'Paul Joseph',
+      location: 'Milngavie',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR BOYZ – Street',
+      info: 'Ages P5 + | Boys'
+    }, {
+      index: 1,
+      time: '20:00 - 21:00',
+      teacher: 'Chloe',
+      location: 'Milngavie',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR GIRLS – Street',
+      info: 'Ages P7 - S3 | Girls'
+    }],
+    Thursday: [{
+      index: 0,
+      time: '15:45 - 16:45',
+      teacher: 'Pauline Joseph',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR CONTEMPORARY – Contemporary',
+      info: 'Ages P4 + | lyrical, gym, creative | boys & girls'
+    }],
+    Friday: [{
+      index: 0,
+      time: '17:30 - 18:30',
+      teacher: 'Paul Joseph',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR BOYZ – Boys Street',
+      info: 'Ages P3 - 7 | Boys'
+    }],
+    Saturday: [{
+      index: 0,
+      time: '12:45 - 13:30',
+      teacher: 'Pauline Joseph',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'BEGINNERS TAP',
+      info: 'Ages 11+ | Mixed'
+    }, {
+      index: 1,
+      time: '14:30 - 15:30',
+      teacher: 'Erin and Rachael',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'JNR GIRLS - Street',
+      info: 'Ages P7 - S3 | Girls'
+    }]
+  },
+  SENIORS: {
+    Tuesday: [{
+      index: 0,
+      time: '17:00 - 18:00',
+      teacher: 'Chloe & Pauline',
+      location: 'Milngavie',
+      address: 'SCOUT HALL',
+      googleLocation: 'https://google.com',
+      lessonName: 'Girls Youth Crew',
+      info: 'Ages S3+ | Girls'
+    }, {
+      index: 1,
+      time: '20:45 - 21:45',
+      teacher: 'Pauline',
+      location: 'Milngavie',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'LAYDEEZ',
+      info: 'adult street fitness | Women'
+    }],
+    Thursday: [{
+      index: 0,
+      time: '16:45 - 17:45',
+      teacher: 'Paul',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'SNR BOYS STREET SKILLZ',
+      info: 'Ages s1 + | Boys'
+    }],
+    Saturday: [{
+      index: 0,
+      time: '09:45 - 11:00',
+      teacher: 'Paul & Pauline',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'SNR CREATIVE',
+      info: 'Creative dance | mixed'
+    }, {
+      index: 1,
+      time: '12:30 - 13:30',
+      teacher: 'Erin & Rachel',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'GIRLS YOUTH CREW',
+      info: 'Ages s3+ | Girls'
+    }]
+  },
+  COMPETITIVE: {
+    Tuesday: [{
+      index: 0,
+      time: '18:00 - 19:15',
+      teacher: 'Paul & Pauline',
+      location: 'Milngavie',
+      address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
+      googleLocation: 'https://google.com',
+      lessonName: 'COMPETITION TEAM DANCERS',
+      info: 'Competitive Dance | mixed'
+    }],
+    Saturday: [{
+      index: 0,
+      time: '09:45 - 11:00',
+      teacher: 'Erin & Rach',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'HOODLUMZ CHOREO',
+      info: 'Choreography class'
+    }, {
+      index: 1,
+      time: '11:00 - 12:10',
+      teacher: 'Paul & Pauline',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'COMPETITION TRAINING',
+      info: 'Competitive Dance | The Honeys\' / Hoodlums'
+    }]
+  },
+  PRIVATE: {
+    Saturday: [{
+      index: 0,
+      time: '14:30 - 15:30',
+      teacher: 'Paul',
+      location: 'Balloch',
+      address: 'THE LENNOX HALL, MAIN ST. JAMESTOWN, BALLOCH G83 8AZ',
+      googleLocation: 'https://google.com',
+      lessonName: 'Ballet Barre Privates',
+      info: 'Ballet'
     }]
   }
 };
