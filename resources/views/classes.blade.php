@@ -34,6 +34,46 @@
 
   <div class="flex flex-col md:w-1/2 pl-4 sm:pl-0">
 
+    <div id="testimonial1" class="md:w-1/2 p-8 mb-6 md:mb-0">
+      <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('/img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
+
+      </div>
+      <div class="flex flex-col">
+        <p class="text-gray-200 italic mb-6 z-10">
+          Can you thank Paul - Markus is loving his class, and I am so proud of how confident he is now.
+        </p>
+        {{-- <div id="pupil-container1" class="flex">
+          <div class="w-10 h-10">
+            <img src="/img/testimonials/testimonial4.jpg" alt="" class="w-full h-full rounded-full">
+          </div>
+          <div class="flex flex-col ml-2 text-xs text-white">
+            <p class="mb-0 text-gray-100">Pupil One</p>
+            <p class="mb-0 text-lightblue-300">Hip Hop Dance</p>
+          </div>
+        </div> --}}
+      </div>
+    </div>
+
+    <div id="testimonial2" class="md:w-1/2 p-8 mb-6 md:mb-0">
+      <div style="opacity: 0.3; margin-top: -50px; margin-bottom: -50px; margin-left: -30px; height: 100px; width: 100px; background-image: url('/img/icons/quote-left-slant.png'); background-size: 100px 100px; background-repeat: no-repeat;" >
+
+      </div>
+      <div class="flex flex-col">
+        <p class="text-gray-200 italic mb-6 z-10">
+          ...really impressed with the level of talent.
+        </p>
+        {{-- <div id="pupil-container1" class="flex">
+          <div class="w-10 h-10">
+            <img src="/img/testimonials/testimonial4.jpg" alt="" class="w-full h-full rounded-full">
+          </div>
+          <div class="flex flex-col ml-2 text-xs text-white">
+            <p class="mb-0 text-gray-100">Pupil One</p>
+            <p class="mb-0 text-lightblue-300">Hip Hop Dance</p>
+          </div>
+        </div> --}}
+      </div>
+    </div>
+
     <div class="flex flex-col">
       <div class="">
       <img src="/img/icons/bboy-freeze-small.png" alt="">

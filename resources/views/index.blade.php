@@ -73,8 +73,11 @@
     </p>
   </div>
 
-  <div class="flex flex-col">
-    <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-white uppercase tracking-wide text-center mt-16 mb-10">What Our Pupils Say</h2>
+  <div class="flex flex-col mt-16">
+    <div class="w-40 mx-auto mb-4">
+      <img src="/img/testimonials/Balloch-parade.jpg" alt="">
+    </div>
+    <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-white uppercase tracking-wide text-center mb-10">What Our Pupils Say</h2>
 
     <div id="testimonial-container" class="flex flex-col md:flex-row w-4/6 mx-auto items-center?">
       <div id="testimonial1" class="md:w-1/2 p-8 mb-6 md:mb-0">
