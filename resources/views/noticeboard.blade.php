@@ -12,8 +12,9 @@
   </div>
 
   <div class="flex flex-col mb-24">
-    <h2 class="text-2xl lg:text-3xl text-white uppercase tracking-wide text-center mt-16 mb-8">KEEP UP TO DATE WITH US</h2>
+    <h2 class="text-2xl lg:text-3xl text-white uppercase tracking-wide text-center mt-16 mb-16">KEEP UP TO DATE WITH US</h2>
 
+    <h3 class="text-2xl lg:text-3xl text-lightblue-200 uppercase tracking-wide text-center mb-8">August 2019</h3>
     <div class="flex flex-wrap w-10/12 mx-auto">
       <div class="flex w-full sm:w-1/2 md:w-1/3 h-64? px-4 py-2 mb-4" style="min-height: 16rem;">
         <div class="flex flex-col rounded bg-gray-200 border-t-4 border-lightblue-500 h-full w-full border px-4 py-3">
