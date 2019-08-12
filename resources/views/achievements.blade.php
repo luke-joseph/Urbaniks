@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
   <div class="px-3">
-    <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/comps/1st place Honeys Perth.jpg'); max-width: 100%; width: 100%;">
+    <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/comps/1st-place-Honeys-Perth.jpg'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
           <h1 class="text-3xl sm:text-2xl lg:text-5xl  text-center mx-auto text-center px-2" style="background-color: rgba(0,0,0,0.4);">OUR ACHIEVEMENTS</h1>
@@ -20,7 +20,7 @@
   </div>
 
 
-<div class="flex flex-wrap w-11/12 sm:w-10/12 lg:w-2/5 mx-auto mt-16 mb-24">
+<div class="flex flex-wrap w-10/12 lg:w-2/5 mx-auto mt-16 mb-24">
   <h4 class="text-lightblue-500 text-4xl mb-4">2018</h4>
   <ul class="flex flex-col w-full">
     <li class="text-gray-200 w-4/6? text-lg mb-2">

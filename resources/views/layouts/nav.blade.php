@@ -40,7 +40,7 @@
       <li class="tracking-widest"><a href="/draft/classes" class="Classes text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
       <li class="tracking-widest"><a href="/draft/teachers" class="Teachers text-gray-100 hover:text-lightblue-200 hover:no-underline">teachers</a></li>
       <li class="tracking-widest"><a href="/draft/gallery" class="Gallery text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
-      <li class="tracking-widest"><a href="/draft/achievements" class="Merchandise text-gray-100 hover:text-lightblue-200 hover:no-underline">achievements</a></li>
+      <li class="tracking-widest"><a href="/draft/achievements" class="Achievements text-gray-100 hover:text-lightblue-200 hover:no-underline">achievements</a></li>
       <li class="tracking-widest"><a href="/draft/notice-board" class="Notices text-gray-100 hover:text-lightblue-200 hover:no-underline">notice board</a></li>
       <li class="tracking-widest"><a href="/draft/contact" class="Contact text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>
     </ul>
