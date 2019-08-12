@@ -2,36 +2,14 @@
   <div class="mb-8 mt-16 w-10/12 mx-auto h-128 rounded-b">
 
     <div class="flex flex-col sm:flex-row justify-between py-4 px-8 rounded-t" style="background-color: #0e1111;">
-      <label for="classes" class="mb-2 sm:mb-0 text-white uppercase tracking-wider font-bold">Choose Class</label>
+      <label for="classes" class="mb-2 sm:mb-0 text-white uppercase tracking-wider font-bold">Choose Age Range</label>
       <select class="rounded" name="classes" v-model="selectedClass">
 
-        <optgroup label="kids (3 yrs - p2)" class="bg-gray-100">
-          <option value="BOOGIE_BABEZ">BOOGIE BABEZ</option>
-          <option value="KOOL_KIDZ">KOOL KIDZ</option>
-          <option value="WEE_SKILLZ">WEE SKILLZ</option>
-        </optgroup>
-
-        <optgroup label="juniors" class="bg-gray-200">
-          <option value="JNR_CONTEMPORARY">JNR CONTEMPORARY</option>
-          <option value="JNR_BOYZ">JNR BOYZ</option>
-          <option value="JNR_GIRLS">JNR GIRLS</option>
-          <option value="BIGGIE_SMALLZ">BIGGIE SMALLZ</option>
-          <option value="BEGINNERS_TAP">BEGINNERS TAP</option>
-        </optgroup>
-
-        <optgroup label="senior" class="bg-gray-100">
-          <option value="GIRLS_YOUTH_CREW">GIRLS YOUTH CREW (GYC)</option>
-          <option value="LAYDEEZ">LAYDEEZ</option>
-          <option value="BALLET_BARRE_PRIVATES">BALLET BARRE PRIVATES</option>
-          <option value="SNR_CREATIVE">SNR CREATIVE</option>
-          <option value="SNR_BOYS_STREET_SKILLZ">SNR BOYS STREET</option>
-        </optgroup>
-
-        <optgroup label="competitive training" class="bg-gray-200">
-          <option value="COMPETITION_TEAM_DANCERS">COMPETITION TEAM DANCERS</option>
-          <option value="HOODLUMZ_CHOREO">HOODLUMZ CHOREO</option>
-          <option value="COMPETITIVE_TRAINING">COMPETITIVE TRAINING</option>
-        </optgroup>
+          <option value="KIDS">KIDS</option>
+          <option value="JUNIORS">JUNIORS</option>
+          <option value="SENIORS">SENIORS</option>
+          <option value="COMPETITIVE">COMPETITIVE</option>
+          <option value="PRIVATE">PRIVATE</option>
 
       </select>
     </div>
@@ -43,15 +21,14 @@
       <div class="flex py-2" v-for="lesson in allClasses[selectedClass][name]" :class="bgColor(lesson.index)">
         <div class="flex flex-col w-1/3 pl-4 sm:pl-8">
           <p class="mb-0 py-1 font-bold tracking-wide"> {{ lesson.time }}</p>
-          <p class="mb-0 py-1 text-gray-300"> {{ lesson.teacher }}</p>
           <p class="mt-auto mb-0 py-1 text-gray-200 w-4/5"> {{ lesson.location }}</p>
           <p class="hidden sm:flex mb-0 py-1 text-gray-200 w-4/5 text-xs"> {{ lesson.address }}</p>
         </div>
         <div class="pl-2 sm:pl-0 flex flex-col w-2/3">
-          <p class="lesson-name mb-0 py-1 font-bold tracking-wide"> {{ lesson.lessonName }}</p>
-          <p class="mb-0 py-1 text-gray-200"> {{ lesson.difficulty }}</p>
-          <p class="mb-0 py-1 text-gray-300"> {{ lesson.info }}</p>
-          <p class="mb-0 py-1 text-gray-200"> £{{ lesson.price }}</p>
+          <p class="lesson-name mb-0 py-1 font-bold tracking-wide"> {{ lesson.info }}</p>
+          <p class="mb-0 py-1 text-gray-200"> {{ lesson.sex }}</p>
+          <p class="mb-0 py-1 text-gray-200"> {{ lesson.lessonName }}</p>
+          <p class="mb-0 py-1 text-gray-300">with {{ lesson.teacher }}</p>
         </div>
       </div>
     </div>
@@ -67,7 +44,7 @@ import danceclasses from './src/danceclasses';
 export default {
   data(){
     return{
-      selectedClass: 'BOOGIE_BABEZ',
+      selectedClass: 'KIDS',
       allClasses: danceclasses,
     }
   },
