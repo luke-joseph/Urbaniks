@@ -76,7 +76,7 @@
 
       <div class="flex flex-col studio-container mb-8">
         <div class="ml-auto">
-          <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G83%208AZ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <iframe width="320" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G83%208AZ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
         <ul class="text-right text-gray-300 mt-3">
           <li>The Lennox Hall</li>
@@ -88,7 +88,7 @@
 
     <div class="flex flex-col studio-container mb-8">
       <div class="ml-auto">
-        <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G62%206AQ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <iframe width="320" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G62%206AQ&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
       </div>
       <ul class="text-right text-gray-300 mt-3">
         <li>West Rugby Club, Glasgow Rd</li>
@@ -97,15 +97,27 @@
       </ul>
   </div>
 
-  <div class="flex flex-col studio-container">
+  <div class="flex flex-col studio-container mb-8">
     <div class="ml-auto">
-      <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G61%203DF&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <iframe width="320" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=G61%203DF&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </div>
     <ul class="text-right text-gray-300 mt-3">
       <li>Allander Leisure Centre</li>
       <li>Milngavie Rd</li>
       <li>Milngavie, Glasgow</li>
       <li>G61 3DF</li>
+    </ul>
+  </div>
+
+  <div class="flex flex-col studio-container">
+    <div class="ml-auto">
+      <iframe width="320" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=THE%20SCOUT%20HALL%2C%20MAIN%20ST.%20MILNGAVIE%2C%20G62%206BX&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <ul class="text-right text-gray-300 mt-3">
+      <li>The Scout Hall</li>
+      <li>Main St.</li>
+      <li>Milngavie, Glasgow</li>
+      <li>G62 6BX</li>
     </ul>
   </div>
 </div>
