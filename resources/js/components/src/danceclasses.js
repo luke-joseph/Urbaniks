@@ -3,7 +3,7 @@ var danceclasses = {
     Monday: [
         {
           index: 0,
-          time : '15:30 - 1630',
+          time : '15:30 - 16:30',
           teacher : 'Pauline',
           location: 'Milngavie',
           address: 'WEST RUGBY CLUB, GLASGOW RD. G62 6AQ',

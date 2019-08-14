@@ -42,7 +42,7 @@
 
 </div>
 <div class="bg-black flex">
-  <p class="text-gray-400 w-11/12 mx-auto text-xs py-1">copyright 2019</p>
+  <p class="text-gray-400 w-11/12 mx-auto text-xs py-1">copyright <span class="currentYear"></span></p>
 </div>
 
 

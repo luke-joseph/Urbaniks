@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Choose from a range of street dance & modern dance lessons. Call Urbaniks Street Skool of Dance in Milngavie, Dunbartonshire on 07780 992 295">
         <title>{{$pageMeta['page_title']}}</title>
+        <link rel="shortcut icon" href="/img/logos/favicon.ico" type="favicon/ico">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         {{-- SOCIAL --}}
         <meta property="og:image" content="{{$pageMeta['fb_image']}}" />
         <meta property="og:site_name" content="Urbaniks" />

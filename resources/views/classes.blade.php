@@ -5,7 +5,7 @@
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
           <h1 class="text-3xl lg:text-5xl text-center w-full mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Our Classes</h1>
-          <p class="hidden sm:flex text-center italic text-2xl mx-auto px-2 mt-4" style="background-color: rgba(49,49,67,0.4);">Something for everyone</p>
+          <p class="hidden sm:flex text-center italic text-2xl text-gray-200 mx-auto px-2 mt-4" style="background-color: rgba(49,49,67,0.4);">Something for everyone</p>
         </div>
       </div>
    </div>
