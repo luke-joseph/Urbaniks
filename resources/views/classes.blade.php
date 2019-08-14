@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
   <div class="px-3">
-    <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/hero-images/dancers.jpg'); max-width: 100%; width: 100%;">
+    <div id="hero-image" class="bg-cover bg-center" style="background-image: url('/img/hero-images/classes.jpg'); max-width: 100%; width: 100%;">
       <div class="flex flex-col h-full">
         <div class="m-auto text-white uppercase flex flex-col">
           <h1 class="text-3xl lg:text-5xl text-center w-full mx-auto  px-2" style="background-color: rgba(0,0,0,0.4);">Our Classes</h1>
@@ -76,7 +76,7 @@
 
     <div class="flex flex-col">
       <div class="">
-      <img src="/img/icons/bboy-freeze-small.png" alt="">
+      <img src="/img/icons/bboy-freeze-small.png" alt="breakdance freeze">
       </div>
       <div class="px-4 py-6 flex flex-col bg-gray-800 rounded sm:w-1/2">
         <div class="text-white mb-4">

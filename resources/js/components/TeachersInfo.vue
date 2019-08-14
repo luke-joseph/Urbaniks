@@ -5,7 +5,7 @@
 
       <div @click="selectTeacher('PaulPauline')" class="flex flex-col md:flex-row w-1/2 md:w-auto py-4 cursor-pointer rounded-lg md:rounded-none md:rounded-t-lg"
       :class="selected == 'PaulPauline' ? 'bg-gray-300' : 'md:bg-gray-500 text-gray-400 md:text-gray-900'">
-        <img src="/img/teachers/paulandpaulineexperienced.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Paul and Pauline urbaniks">
+        <img src="/img/teachers/pandp.jpg" class="md:ml-2 h-16 w-16 rounded-full mx-auto md:mx-0 my-auto object-cover" alt="Paul and Pauline urbaniks">
         <div class="my-auto ml-2">
           <h4 class="text-lg? font-bold text-center md:text-left">Paul & Pauline</h4>
         </div>

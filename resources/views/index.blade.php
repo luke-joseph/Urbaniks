@@ -19,7 +19,7 @@
         <img src="/img/logos/udo_logo.png" alt="udo logo" class="w-full h-full object-contain">
       </div>
       <div class="w-1/3 sm:w-1/6 h-full">
-        <img src="/img/logos/euro_champions_logo.png" alt="" class="w-full h-full object-contain p-4 opacity-75?">
+        <img src="/img/logos/euro_champions_logo.png" alt="euro champions logo" class="w-full h-full object-contain p-4 opacity-75?">
       </div>
       <div class="flex w-1/3 sm:w-1/6 h-full">
         <img src="/img/logos/bbc-logo.png" alt="" class="w-full h-full object-contain p-4 opacity-75">
@@ -39,7 +39,7 @@
 
   <div class="flex flex-col mt-16 mb-24">
     <div class="w-40 mx-auto mb-4">
-      <img src="/img/teachers/paulandpaulineexperienced.jpg" alt="">
+      <img src="/img/teachers/paulandpaulineexperienced.jpg" alt="paul and pauline urbaniks">
     </div>
     <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-center uppercase text-white tracking-wide">Our Experience</h2>
 
@@ -64,7 +64,7 @@
 
   <div class="flex flex-col mt-16">
     <div class="w-32 mx-auto mb-4">
-      <img src="/img/icons/Break_dance_light.png" alt="">
+      <img src="/img/icons/Break_dance_light.png" alt="breakdance freeze">
     </div>
     <h2 class="text-2xl lg:text-3xl text-center uppercase text-white tracking-wide mb-8">Our Mission</h2>
     <p class="text-gray-200 w-5/6 sm:w-2/3 mx-auto text-lg p-4">We guide our pupils of all ages to enjoy dance and movement. We provide a supportive place of expression where students can learn the art
@@ -75,7 +75,7 @@
 
   <div class="flex flex-col mt-16">
     <div class="w-40 mx-auto mb-4">
-      <img src="/img/testimonials/Balloch-parade.jpg" alt="">
+      <img src="/img/testimonials/Balloch-parade.jpg" alt="urbaniks parade">
     </div>
     <h2 class="w-5/6 mx-auto text-2xl lg:text-3xl text-white uppercase tracking-wide text-center mb-10">What Our Pupils Say</h2>
 
