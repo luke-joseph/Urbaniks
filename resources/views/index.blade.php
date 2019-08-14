@@ -166,7 +166,7 @@
       <div class="mr-4">
         <p class="mb-0 text-2xl italic text-lightblue-1000">Ready To Learn Street Dance?</p>
       </div>
-      <a href="/registration" class="">
+      <a href="/contact" class="">
         <button class="py-2 px-4 bg-red-400 rounded-lg text-red-900 uppercase font-bold tracking-wide shadow-lg mx-auto" type="button">contact us today</button>
       </a>
 
