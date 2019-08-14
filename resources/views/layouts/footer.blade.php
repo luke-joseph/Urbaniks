@@ -26,6 +26,7 @@
       <h4 class="text-lightblue-300 uppercase text-base font-bold tracking-wider">Studio Locations</h4>
       <ul>
         <li class="text-gray-400 mt-4">Milngavie - West Rugby Club, Glasgow Rd. G62 6AQ</li>
+        <li class="text-gray-400 mt-4">Milngavie - The Scout Hall, Main St. G62 6B</li>
         <li class="text-gray-400 mt-4">Balloch - The Lennox Hall, Main St. Jamestown, G83 8AZ</li>
         <li class="text-gray-400 mt-4">Milngavie - Allander Leisure Centre, Milngavie RD. G61 3DF</li>
       </ul>
@@ -33,9 +34,9 @@
     <div class="px-2 border? border-white? md:w-1/4">
       <h4 class="text-lightblue-300 uppercase text-base font-bold tracking-wider">Opening Hours</h4>
       <ul>
-        <li class="text-gray-400 mt-4">Mon, Tues: 1530 - 2145</li>
-        <li class="text-gray-400 mt-4">Thurs, Friday: 1530 - 1830</li>
-        <li class="text-gray-400 mt-4">Sat : 0945 - 1530</li>
+        <li class="text-gray-400 mt-4">Mon, Tues: 15:30 - 21:45</li>
+        <li class="text-gray-400 mt-4">Thurs, Friday: 15:30 - 18:30</li>
+        <li class="text-gray-400 mt-4">Saturday : 09:45 - 15:30</li>
       </ul>
     </div>
  </div>
