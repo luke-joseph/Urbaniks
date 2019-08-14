@@ -23,25 +23,25 @@
         <img src="/img/urbaniks-plain-ws.png" alt="urbaniks street dance logo white" class="w-1/2">
       </div>
       <ul class="hidden lg:flex text-base mb-0 text-white justify-between flex-grow uppercase font-bold">
-        <li class="tracking-widest"><a href="/draft" class="Home text-gray-100 hover:text-lightblue-200 hover:no-underline">home</a></li>
-        <li class="tracking-widest"><a href="/draft/classes" class="Classes text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
-        <li class="tracking-widest"><a href="/draft/teachers" class="Teachers text-gray-100 hover:text-lightblue-200 hover:no-underline">teachers</a></li>
-        <li class="tracking-widest"><a href="/draft/gallery" class="Gallery text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
-        <li class="tracking-widest"><a href="/draft/achievements" class="Achievements text-gray-100 hover:text-lightblue-200 hover:no-underline">achievements</a></li>
-        <li class="tracking-widest"><a href="/draft/notice-board" class="Notices text-gray-100 hover:text-lightblue-200 hover:no-underline">notice board</a></li>
-        <li class="tracking-widest"><a href="/draft/contact" class="Contact text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>
+        <li class="tracking-widest"><a href="/" class="Home text-gray-100 hover:text-lightblue-200 hover:no-underline">home</a></li>
+        <li class="tracking-widest"><a href="/classes" class="Classes text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
+        <li class="tracking-widest"><a href="/teachers" class="Teachers text-gray-100 hover:text-lightblue-200 hover:no-underline">teachers</a></li>
+        <li class="tracking-widest"><a href="/gallery" class="Gallery text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
+        <li class="tracking-widest"><a href="/achievements" class="Achievements text-gray-100 hover:text-lightblue-200 hover:no-underline">achievements</a></li>
+        <li class="tracking-widest"><a href="/notice-board" class="Notices text-gray-100 hover:text-lightblue-200 hover:no-underline">notice board</a></li>
+        <li class="tracking-widest"><a href="/contact" class="Contact text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>
       </ul>
       <div class="lg:hidden">
         <img src="/img/dropdown.png" alt="dropdown menu" class="w-1/2 cursor-pointer" onclick="toggleNav()">
       </div>
     </div>
     <ul id="mobile-nav" class="lg:hidden hidden flex text-center flex-col text-base mb-0 text-white uppercase font-bold mt-4">
-      <li class="tracking-widest"><a href="/draft" class="Home text-gray-100 hover:text-lightblue-200 hover:no-underline">home</a></li>
-      <li class="tracking-widest"><a href="/draft/classes" class="Classes text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
-      <li class="tracking-widest"><a href="/draft/teachers" class="Teachers text-gray-100 hover:text-lightblue-200 hover:no-underline">teachers</a></li>
-      <li class="tracking-widest"><a href="/draft/gallery" class="Gallery text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
-      <li class="tracking-widest"><a href="/draft/achievements" class="Achievements text-gray-100 hover:text-lightblue-200 hover:no-underline">achievements</a></li>
-      <li class="tracking-widest"><a href="/draft/notice-board" class="Notices text-gray-100 hover:text-lightblue-200 hover:no-underline">notice board</a></li>
-      <li class="tracking-widest"><a href="/draft/contact" class="Contact text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>
+      <li class="tracking-widest"><a href="/" class="Home text-gray-100 hover:text-lightblue-200 hover:no-underline">home</a></li>
+      <li class="tracking-widest"><a href="/classes" class="Classes text-gray-100 hover:text-lightblue-200 hover:no-underline">classes</a></li>
+      <li class="tracking-widest"><a href="/teachers" class="Teachers text-gray-100 hover:text-lightblue-200 hover:no-underline">teachers</a></li>
+      <li class="tracking-widest"><a href="/gallery" class="Gallery text-gray-100 hover:text-lightblue-200 hover:no-underline">gallery</a></li>
+      <li class="tracking-widest"><a href="/achievements" class="Achievements text-gray-100 hover:text-lightblue-200 hover:no-underline">achievements</a></li>
+      <li class="tracking-widest"><a href="/notice-board" class="Notices text-gray-100 hover:text-lightblue-200 hover:no-underline">notice board</a></li>
+      <li class="tracking-widest"><a href="/contact" class="Contact text-gray-100 hover:text-lightblue-200 hover:no-underline">contact</a></li>
     </ul>
   </div>
