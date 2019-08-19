@@ -42,8 +42,12 @@
  </div>
 
 </div>
-<div class="bg-black flex">
-  <p class="text-gray-400 w-11/12 mx-auto text-xs py-1">copyright <span class="currentYear"></span></p>
+<div class="bg-gray-1000 flex flex-col?">
+  {{-- <p class="text-gray-400 w-11/12? mx-auto text-xs py-1">copyright <span class="currentYear"></span> </p> --}}
+  <div class="flex flex-col w-full text-gray-100 text-center font-bold text-center mt-2 mb-16 lg:mb-2">
+    <p class="mx-auto">website by <a class="text-lightblue-500" href="https://lukejoseph.dev"> Luke Joseph</a></p>
+    <p class="text-gray-400 w-11/12? mx-auto text-xs py-1">copyright <span class="currentYear"></span> </p>
+  </div>
 </div>
 
 
