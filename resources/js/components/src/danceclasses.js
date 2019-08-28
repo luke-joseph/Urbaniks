@@ -24,19 +24,6 @@ var danceclasses = {
         sex: 'Girls',
     },
   ],
-    Tuesday: [
-        {
-          index: 0,
-          time : '15:30 - 16:30',
-          teacher : 'Paul',
-          location: 'Milngavie',
-          address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
-          googleLocation: 'https://google.com',
-          lessonName: 'WEE SKILLZ – Boys Street',
-          info: 'Ages P2 - P4',
-          sex: 'Boys',
-      },
-  ],
   Friday: [
       {
         index: 0,
@@ -79,7 +66,7 @@ Monday: [
     Tuesday: [
         {
           index: 0,
-          time : '16:30 - 17:30',
+          time : '15:30 - 16:30',
           teacher : 'Paul',
           location: 'Milngavie',
           address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
