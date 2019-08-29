@@ -55,7 +55,7 @@
       </a>
     </li>
     <li>
-      <a href="instagram://user?username=urbaniksofficial/" class="flex ml-2">
+      <a target="_blank" href="https://www.instagram.com/urbaniksofficial/" class="flex ml-2">
         <div class="h-10 w-10 bg-blue-400 rounded">
           <img src="/img/logos/instagram.png" class="p-1 cursor-pointer" alt="facebook logo">
         </div>
