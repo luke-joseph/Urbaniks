@@ -26,7 +26,7 @@
     <time-table></time-table>
   </div>
 
-  <p class="text-center text-lightblue-900 italic font-semibold w-5/6 sm:w-1/2 mx-auto text-lg border-l-4 border-r-4 border-blue-400 bg-gray-200 rounded py-4 px-10 mb-32 mt-12">
+  <p class="text-center text-lightblue-200 italic font-semibold w-5/6 sm:w-1/2 mx-auto text-lg border-blue-400 rounded py-4 px-10 mb-32 mt-12">
   Our class slots can fill up quickly so contact us now to avoid disappointment!
   </p>
 
