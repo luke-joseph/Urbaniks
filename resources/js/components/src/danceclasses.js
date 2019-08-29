@@ -72,7 +72,7 @@ Monday: [
           address: 'ALLANDER LEISURE CENTRE, MILNGAVIE RD. G61 3DF',
           googleLocation: 'https://google.com',
           lessonName: 'JNR BOYZ – Street',
-          info: 'Ages P5 +',
+          info: 'Ages P3 - P7',
           sex: 'Boys',
       },
       {
